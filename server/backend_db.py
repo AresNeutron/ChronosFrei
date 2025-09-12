@@ -4,7 +4,7 @@ class CalendarDB:
     """
     Clase para manejar las operaciones CRUD de la base de datos de un calendario.
     """
-    def __init__(self, db_name="cronosfrei.db"):
+    def __init__(self, db_name="chronosfrei.db"):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
         self.create_table()
