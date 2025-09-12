@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "intent": "create_event",
+      "utterances": [
+        "Quiero agendar una reunión mañana a las 3 PM.",
+        "Agenda una cita para el dentista el viernes a las 10 de la mañana.",
+        "Programar trabajo de 8 a 4 de lunes a viernes."
+      ]
+    },
+    {
+      "intent": "read_events",
+      "utterances": [
+        "Qué tengo para hacer esta semana?",
+        "Cuáles son mis eventos del 23 de septiembre?",
+        "Hay alguna cita agendada para hoy?"
+      ]
+    },
+    {
+      "intent": "delete_event",
+      "utterances": [
+        "Cancela mi reunión de mañana.",
+        "Elimina mi visita al dentista.",
+        "Quiero borrar la cita del 20 de septiembre."
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "text": "mañana a las 3 PM",
+      "entity": "time_frame",
+      "type": "create_event"
+    },
+    {
+      "text": "el viernes a las 10 de la mañana",
+      "entity": "time_frame",
+      "type": "create_event"
+    },
+    {
+      "text": "del 23 de septiembre",
+      "entity": "date",
+      "type": "read_events"
+    },
+    {
+      "text": "mi visita al dentista",
+      "entity": "event_title",
+      "type": "delete_event"
+    }
+  ]
+}
