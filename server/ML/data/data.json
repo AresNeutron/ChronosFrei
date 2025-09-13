@@ -371,5 +371,335 @@
       { "start": 64, "end": 69, "label": "start_datetime" },
       { "start": 72, "end": 77, "label": "end_datetime" }
     ]
+  },
+  {
+    "text": "¿Qué tengo agendado para mañana?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 25, "end": 31, "label": "start_datetime" },
+      { "start": 25, "end": 31, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame los eventos del mes de diciembre.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 26, "end": 42, "label": "start_datetime" },
+      { "start": 26, "end": 42, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué hay en mi calendario para la próxima semana?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 34, "end": 48, "label": "start_datetime" },
+      { "start": 34, "end": 48, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Necesito saber si tengo algo programado para el 25 de diciembre.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 48, "end": 63, "label": "start_datetime" },
+      { "start": 48, "end": 63, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Enséñame las citas de hoy.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 22, "end": 25, "label": "start_datetime" },
+      { "start": 22, "end": 25, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Quiero ver las reuniones que tengo de 9 a 10 de la mañana.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 38, "end": 39, "label": "start_datetime" },
+      { "start": 42, "end": 57, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Cuáles son mis planes para el fin de semana?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 31, "end": 44, "label": "start_datetime" },
+      { "start": 31, "end": 44, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Qué eventos tengo agendados en la sala de juntas el martes.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 34, "end": 48, "label": "location" },
+      { "start": 52, "end": 58, "label": "start_datetime" },
+      { "start": 52, "end": 58, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Búscame las citas que tengo con Juan.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 32, "end": 36, "label": "title" }
+    ]
+  },
+  {
+    "text": "Quiero ver mi horario de trabajo de lunes a viernes.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 25, "end": 32, "label": "title" },
+      { "start": 36, "end": 51, "label": "recurrence_rule" }
+    ]
+  },
+  {
+    "text": "¿Qué reuniones tengo programadas para mañana en la oficina principal?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 38, "end": 44, "label": "start_datetime" },
+      { "start": 38, "end": 44, "label": "end_datetime" },
+      { "start": 48, "end": 68, "label": "location" }
+    ]
+  },
+  {
+    "text": "Busca todos los eventos con la descripción 'reunión de equipo'",
+    "intent": "read_event",
+    "entities": [
+      { "start": 43, "end": 62, "label": "description" }
+    ]
+  },
+  {
+    "text": "¿Hay algún evento recurrente este mes?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 18, "end": 28, "label": "is_recurring" },
+      { "start": 29, "end": 37, "label": "start_datetime" },
+      { "start": 29, "end": 37, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame las clases de yoga de la semana próxima.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 14, "end": 28, "label": "title" },
+      { "start": 35, "end": 49, "label": "start_datetime" },
+      { "start": 35, "end": 49, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Dime qué tengo en mi agenda para el 15 de marzo de 2026.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 36, "end": 55, "label": "start_datetime" },
+      { "start": 36, "end": 55, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Quiero ver los eventos que se repiten todos los martes.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 38, "end": 54, "label": "recurrence_rule" }
+    ]
+  },
+  {
+    "text": "¿Qué hay en mi calendario para hoy de 10 a 12 de la mañana?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 31, "end": 34, "label": "start_datetime" },
+      { "start": 38, "end": 40, "label": "start_datetime" },
+      { "start": 43, "end": 58, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Tengo alguna cita con el doctor en el mes de mayo?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 14, "end": 32, "label": "title" },
+      { "start": 36, "end": 50, "label": "start_datetime" },
+      { "start": 36, "end": 50, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame todo lo agendado para la semana del 22 al 28 de julio.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 46, "end": 48, "label": "start_datetime" },
+      { "start": 52, "end": 63, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué eventos hay en el parque la próxima semana?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 20, "end": 29, "label": "location" },
+      { "start": 33, "end": 50, "label": "start_datetime" },
+      { "start": 33, "end": 50, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Busca mi cita dental para el 12 de septiembre.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 9, "end": 20, "label": "title" },
+      { "start": 29, "end": 45, "label": "start_datetime" },
+      { "start": 29, "end": 45, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué hay en mi agenda del 1 al 5 de octubre?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 26, "end": 27, "label": "start_datetime" },
+      { "start": 31, "end": 43, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame los recordatorios que tengo para la próxima semana.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 14, "end": 27, "label": "title" },
+      { "start": 46, "end": 60, "label": "start_datetime" },
+      { "start": 46, "end": 60, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué citas tuve la semana pasada?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 5, "end": 10, "label": "title" },
+      { "start": 19, "end": 32, "label": "start_datetime" },
+      { "start": 19, "end": 32, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Dime qué tengo entre las 3 PM y las 5 PM de hoy.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 25, "end": 29, "label": "start_datetime" },
+      { "start": 36, "end": 40, "label": "end_datetime" },
+      { "start": 44, "end": 47, "label": "start_datetime" },
+      { "start": 44, "end": 47, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Hay algún evento el último viernes de este mes?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 21, "end": 47, "label": "recurrence_rule" },
+      { "start": 21, "end": 47, "label": "start_datetime" },
+      { "start": 21, "end": 47, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Busca mi horario de trabajo para el mes de julio de 2026.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 9, "end": 27, "label": "title" },
+      { "start": 43, "end": 56, "label": "start_datetime" },
+      { "start": 43, "end": 56, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué hay en mi calendario para el año 2027?",
+    "intent": "read_event",
+    "entities": [
+      { "start": 38, "end": 43, "label": "start_datetime" },
+      { "start": 38, "end": 43, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame todos los eventos agendados entre la 1 PM y las 2 PM.",
+    "intent": "read_event",
+    "entities": [
+      { "start": 47, "end": 51, "label": "start_datetime" },
+      { "start": 58, "end": 62, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Qué horas tengo libres esta semana?",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 24, "end": 35, "label": "start_datetime" },
+      { "start": 24, "end": 35, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Estoy libre mañana por la tarde?",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 13, "end": 32, "label": "start_datetime" },
+      { "start": 13, "end": 32, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Busca huecos de 30 minutos entre las 9 AM y las 5 PM de hoy.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 16, "end": 26, "label": "duration" },
+      { "start": 37, "end": 41, "label": "start_datetime" },
+      { "start": 48, "end": 52, "label": "end_datetime" },
+      { "start": 56, "end": 59, "label": "start_datetime" },
+      { "start": 56, "end": 59, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Tengo algún hueco disponible mañana?",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 30, "end": 36, "label": "start_datetime" },
+      { "start": 30, "end": 36, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Dime mi disponibilidad para el 15 de marzo de 2026.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 31, "end": 50, "label": "start_datetime" },
+      { "start": 31, "end": 50, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Quiero saber si tengo un espacio de 1 hora libre esta semana.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 36, "end": 42, "label": "duration" },
+      { "start": 49, "end": 61, "label": "start_datetime" },
+      { "start": 49, "end": 61, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Busca un hueco de al menos 15 minutos hoy por la mañana.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 18, "end": 37, "label": "duration" },
+      { "start": 38, "end": 55, "label": "start_datetime" },
+      { "start": 38, "end": 55, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Muéstrame los momentos disponibles para el próximo jueves.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 43, "end": 57, "label": "start_datetime" },
+      { "start": 43, "end": 57, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "Busca huecos de 2 horas en mi calendario para el mes de octubre.",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 16, "end": 23, "label": "duration" },
+      { "start": 56, "end": 63, "label": "start_datetime" },
+      { "start": 56, "end": 63, "label": "end_datetime" }
+    ]
+  },
+  {
+    "text": "¿Hay algún momento libre de 45 minutos en el calendario de mañana?",
+    "intent": "read_free_time",
+    "entities": [
+      { "start": 28, "end": 38, "label": "duration" },
+      { "start": 59, "end": 65, "label": "start_datetime" },
+      { "start": 59, "end": 65, "label": "end_datetime" }
+    ]
   }
 ]
