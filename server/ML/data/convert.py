@@ -3,7 +3,7 @@ import json, random
 import spacy
 from spacy.tokens import DocBin
 
-IN = "create_events.json"
+IN = "combined_training_data.json"
 OUT_TRAIN = "train.spacy"
 OUT_DEV = "dev.spacy"
 DEV_RATIO = 0.15
