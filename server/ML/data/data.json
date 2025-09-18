@@ -1,705 +1,2177 @@
 [
   {
-    "text": "quiero agendar una reunión mañana de 3 PM a 4 PM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 27, "end": 33, "label": "start_datetime" },
-      { "start": 37, "end": 41, "label": "start_datetime" },
-      { "start": 44, "end": 48, "label": "end_datetime" },
-      { "start": 7, "end": 26, "label": "title" }
-    ]
-  },
-  {
-    "text": "programa trabajo de 8 AM a 4 PM de lunes a viernes",
-    "intent": "create_event",
-    "entities": [
-      { "start": 8, "end": 16, "label": "title" },
-      { "start": 19, "end": 24, "label": "start_datetime" },
-      { "start": 26, "end": 31, "label": "end_datetime" },
-      { "start": 35, "end": 50, "label": "recurrence_rule" }
-    ]
-  },
-  {
-    "text": "agéndame una llamada con Juan, mañana de 10 AM a 11 AM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 13, "end": 29, "label": "title" },
-      { "start": 31, "end": 37, "label": "start_datetime" },
-      { "start": 38, "end": 46, "label": "start_datetime" },
-      { "start": 47, "end": 54, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agenda una sesión de yoga para hoy de 6 a 7 de la tarde en el parque",
-    "intent": "create_event",
-    "entities": [
-      { "start": 11, "end": 25, "label": "title" },
-      { "start": 31, "end": 34, "label": "start_datetime" },
-      { "start": 35, "end": 39, "label": "start_datetime" },
-      { "start": 40, "end": 55, "label": "end_datetime" },
-      { "start": 56, "end": 73, "label": "location" }
-    ]
-  },
-  {
-    "text": "quiero programar una reunión con el equipo para el 22 de diciembre de 2025 de 9 a 10 de la mañana",
-    "intent": "create_event",
-    "entities": [
-      { "start": 21, "end": 42, "label": "title" },
-      { "start": 51, "end": 74, "label": "start_datetime" },
-      { "start": 78, "end": 79, "label": "start_datetime" },
-      { "start": 82, "end": 97, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "añade al calendario una cita con el doctor para mañana de 11 AM a 12 PM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 24, "end": 42, "label": "title" },
-      { "start": 48, "end": 54, "label": "start_datetime" },
-      { "start": 58, "end": 63, "label": "start_datetime" },
-      { "start": 66, "end": 71, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agéndame una llamada telefónica para el 30 de marzo a las 15:00 hasta las 15:30",
-    "intent": "create_event",
-    "entities": [
-      { "start": 13, "end": 31, "label": "title" },
-      { "start": 37, "end": 51, "label": "start_datetime" },
-      { "start": 58, "end": 63, "label": "start_datetime" },
-      { "start": 74, "end": 79, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "reserva una hora para el gimnasio dentro de 5 días de 7 a 8 de la mañana",
-    "intent": "create_event",
-    "entities": [
-      { "start": 12, "end": 33, "label": "title" },
-      { "start": 34, "end": 50, "label": "start_datetime" },
-      { "start": 54, "end": 55, "label": "start_datetime" },
-      { "start": 58, "end": 72, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agenda una reunión con el equipo mañana de 9:00 a 10:30 en la sala de juntas",
-    "intent": "create_event",
-    "entities": [
-      { "start": 7, "end": 32, "label": "title" },
-      { "start": 32, "end": 39, "label": "start_datetime" },
-      { "start": 42, "end": 47, "label": "start_datetime" },
-      { "start": 49, "end": 55, "label": "end_datetime" },
-      { "start": 58, "end": 76, "label": "location" }
-    ]
-  },
-  {
-    "text": "programa entrenamiento en el gimnasio todos los lunes de 7:00 AM a 8:00 AM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 37, "label": "title" },
-      { "start": 38, "end": 53, "label": "recurrence_rule" },
-      { "start": 57, "end": 64, "label": "start_datetime" },
-      { "start": 67, "end": 75, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "crea un evento llamado cita médica para el 15 de marzo de 10:30 hasta 11:15",
-    "intent": "create_event",
-    "entities": [
-      { "start": 23, "end": 34, "label": "title" },
-      { "start": 44, "end": 54, "label": "start_datetime" },
-      { "start": 58, "end": 63, "label": "start_datetime" },
-      { "start": 70, "end": 75, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "añade llamada con cliente importante pasado mañana desde las 14:00 hasta las 15:30",
-    "intent": "create_event",
-    "entities": [
-      { "start": 6, "end": 36, "label": "title" },
-      { "start": 37, "end": 50, "label": "start_datetime" },
-      { "start": 61, "end": 66, "label": "start_datetime" },
-      { "start": 77, "end": 83, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "bloquea mi calendario para vacaciones del 20 al 25 de julio de 8:00 a 18:00 diariamente",
-    "intent": "create_event",
-    "entities": [
-      { "start": 27, "end": 37, "label": "title" },
-      { "start": 42, "end": 59, "label": "start_datetime" },
-      { "start": 63, "end": 67, "label": "start_datetime" },
-      { "start": 70, "end": 75, "label": "end_datetime" },
-      { "start": 76, "end": 87, "label": "recurrence_rule" }
-    ]
-  },
-  {
-    "text": "reserva tiempo para almuerzo de trabajo hoy de 12:30 PM a 13:45 PM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 20, "end": 39, "label": "title" },
-      { "start": 40, "end": 43, "label": "start_datetime" },
-      { "start": 47, "end": 55, "label": "start_datetime" },
-      { "start": 58, "end": 66, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "programa sesión de terapia cada miércoles de 16:00 a 17:00 en la clínica downtown",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 26, "label": "title" },
-      { "start": 27, "end": 41, "label": "recurrence_rule" },
-      { "start": 45, "end": 50, "label": "start_datetime" },
-      { "start": 53, "end": 58, "label": "end_datetime" },
-      { "start": 65, "end": 81, "label": "location" }
-    ]
-  },
-  {
-    "text": "crea cita dental para dentro de una semana de 9 AM a 10 AM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 5, "end": 16, "label": "title" },
-      { "start": 22, "end": 42, "label": "start_datetime" },
-      { "start": 46, "end": 50, "label": "start_datetime" },
-      { "start": 53, "end": 59, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "organiza una junta directiva el próximo jueves de las 15:30 a las 16:45 en el auditorio principal",
-    "intent": "create_event",
-    "entities": [
-      { "start": 13, "end": 28, "label": "title" },
-      { "start": 29, "end": 46, "label": "start_datetime" },
-      { "start": 54, "end": 59, "label": "start_datetime" },
-      { "start": 66, "end": 71, "label": "end_datetime" },
-      { "start": 75, "end": 98, "label": "location" }
-    ]
-  },
-  {
-    "text": "programa entrevista de trabajo para el viernes que viene a las 10:00 hasta las 11:30",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 30, "label": "title" },
-      { "start": 37, "end": 56, "label": "start_datetime" },
-      { "start": 63, "end": 68, "label": "start_datetime" },
-      { "start": 79, "end": 85, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agendar consulta con el abogado cada dos semanas los martes de 14:00 a 15:00",
-    "intent": "create_event",
-    "entities": [
-      { "start": 8, "end": 31, "label": "title" },
-      { "start": 32, "end": 59, "label": "recurrence_rule" },
-      { "start": 63, "end": 68, "label": "start_datetime" },
-      { "start": 71, "end": 78, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "planifica reunión familiar para este domingo de 13:00 horas hasta 15:30 horas en casa de mamá",
-    "intent": "create_event",
-    "entities": [
-      { "start": 10, "end": 26, "label": "title" },
-      { "start": 32, "end": 44, "label": "start_datetime" },
-      { "start": 48, "end": 53, "label": "start_datetime" },
-      { "start": 66, "end": 71, "label": "end_datetime" },
-      { "start": 81, "end": 94, "label": "location" }
-    ]
-  },
-  {
-    "text": "bloquear agenda para conferencia virtual el 18 de enero desde las 9 AM hasta las 5 PM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 21, "end": 40, "label": "title" },
-      { "start": 44, "end": 55, "label": "start_datetime" },
-      { "start": 66, "end": 70, "label": "start_datetime" },
-      { "start": 81, "end": 85, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "crear recordatorio para pagar facturas semanalmente los viernes de 18:00 a 18:15",
-    "intent": "create_event",
-    "entities": [
-      { "start": 24, "end": 38, "label": "title" },
-      { "start": 39, "end": 63, "label": "recurrence_rule" },
-      { "start": 67, "end": 72, "label": "start_datetime" },
-      { "start": 75, "end": 80, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "añadir cena romántica para el 14 de febrero de 20:00 a 22:30 en el restaurante italiano",
-    "intent": "create_event",
-    "entities": [
-      { "start": 7, "end": 21, "label": "title" },
-      { "start": 30, "end": 43, "label": "start_datetime" },
-      { "start": 47, "end": 52, "label": "start_datetime" },
-      { "start": 55, "end": 60, "label": "end_datetime" },
-      { "start": 67, "end": 88, "label": "location" }
-    ]
-  },
-  {
-    "text": "registrar clase de piano todos los miércoles y viernes de 16:30 hasta 17:30",
-    "intent": "create_event",
-    "entities": [
-      { "start": 10, "end": 24, "label": "title" },
-      { "start": 25, "end": 54, "label": "recurrence_rule" },
-      { "start": 59, "end": 63, "label": "start_datetime" },
-      { "start": 71, "end": 76, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agenda revisión de proyecto para dentro de 3 días de 11:00 AM a 12:00 PM en oficina central",
-    "intent": "create_event",
-    "entities": [
-      { "start": 7, "end": 27, "label": "title" },
-      { "start": 33, "end": 49, "label": "start_datetime" },
-      { "start": 53, "end": 61, "label": "start_datetime" },
-      { "start": 64, "end": 72, "label": "end_datetime" },
-      { "start": 76, "end": 93, "label": "location" }
-    ]
-  },
-  {
-    "text": "programar mantenimiento del coche para la próxima semana de 8:30 a 10:00",
-    "intent": "create_event",
-    "entities": [
-      { "start": 10, "end": 33, "label": "title" },
-      { "start": 42, "end": 56, "label": "start_datetime" },
-      { "start": 60, "end": 64, "label": "start_datetime" },
-      { "start": 67, "end": 72, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "coordina reunión de presupuesto el 5 de mayo desde las 8:45 hasta las 10:00 en sala de conferencias",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 31, "label": "title" },
-      { "start": 35, "end": 44, "label": "start_datetime" },
-      { "start": 55, "end": 59, "label": "start_datetime" },
-      { "start": 70, "end": 75, "label": "end_datetime" },
-      { "start": 79, "end": 101, "label": "location" }
-    ]
-  },
-  {
-    "text": "establece cita con el dentista para el mes que viene de 17:30 a 18:00",
-    "intent": "create_event",
-    "entities": [
-      { "start": 10, "end": 30, "label": "title" },
-      { "start": 39, "end": 52, "label": "start_datetime" },
-      { "start": 56, "end": 61, "label": "start_datetime" },
-      { "start": 64, "end": 72, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "programa sesión de yoga matutina diariamente de lunes a sábado de 6:30 AM a 7:30 AM",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 32, "label": "title" },
-      { "start": 33, "end": 62, "label": "recurrence_rule" },
-      { "start": 66, "end": 73, "label": "start_datetime" },
-      { "start": 76, "end": 83, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "reserva mesa para almuerzo de negocios pasado mañana a las 12:00 hasta las 14:00 en el club ejecutivo",
-    "intent": "create_event",
-    "entities": [
-      { "start": 18, "end": 38, "label": "title" },
-      { "start": 39, "end": 52, "label": "start_datetime" },
-      { "start": 59, "end": 64, "label": "start_datetime" },
-      { "start": 75, "end": 80, "label": "end_datetime" },
-      { "start": 87, "end": 103, "label": "location" }
-    ]
-  },
-  {
-    "text": "organizar taller de capacitación cada primer lunes del mes de 9:00 a 17:00",
-    "intent": "create_event",
-    "entities": [
-      { "start": 10, "end": 33, "label": "title" },
-      { "start": 33, "end": 58, "label": "recurrence_rule" },
-      { "start": 62, "end": 66, "label": "start_datetime" },
-      { "start": 69, "end": 75, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "agendar llamada de seguimiento con proveedor dentro de dos días de 15:00 horas a 15:45 horas",
-    "intent": "create_event",
-    "entities": [
-      { "start": 8, "end": 44, "label": "title" },
-      { "start": 45, "end": 63, "label": "start_datetime" },
-      { "start": 67, "end": 72, "label": "start_datetime" },
-      { "start": 81, "end": 86, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "programa revisión médica anual para el 20 de noviembre de 2025 de 10 AM a 12 PM en hospital central",
-    "intent": "create_event",
-    "entities": [
-      { "start": 9, "end": 30, "label": "title" },
-      { "start": 39, "end": 62, "label": "start_datetime" },
-      { "start": 66, "end": 71, "label": "start_datetime" },
-      { "start": 74, "end": 79, "label": "end_datetime" },
-      { "start": 83, "end": 100, "label": "location" }
-    ]
-  },
-  {
-    "text": "crear evento de cumpleaños sorpresa para mañana en la noche de 19:00 a 23:00 en casa de Juan",
-    "intent": "create_event",
-    "entities": [
-      { "start": 16, "end": 35, "label": "title" },
-      { "start": 41, "end": 59, "label": "start_datetime" },
-      { "start": 63, "end": 68, "label": "start_datetime" },
-      { "start": 71, "end": 76, "label": "end_datetime" },
-      { "start": 80, "end": 94, "label": "location" }
-    ]
-  },
-  {
-    "text": "planificar sesión de fisioterapia todos los martes y jueves de 14:30 hasta 15:30 en clínica norte",
-    "intent": "create_event",
-    "entities": [
-      { "start": 11, "end": 33, "label": "title" },
-      { "start": 34, "end": 59, "label": "recurrence_rule" },
-      { "start": 63, "end": 68, "label": "start_datetime" },
-      { "start": 75, "end": 80, "label": "end_datetime" },
-      { "start": 84, "end": 99, "label": "location" }
-    ]
-  },
-  {
-    "text": "bloquea tiempo para preparar presentación la semana entrante de 16:00 a 18:30",
-    "intent": "create_event",
-    "entities": [
-      { "start": 20, "end": 41, "label": "title" },
-      { "start": 42, "end": 60, "label": "start_datetime" },
-      { "start": 64, "end": 69, "label": "start_datetime" },
-      { "start": 72, "end": 77, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué tengo agendado para mañana?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 25, "end": 31, "label": "start_datetime" },
-      { "start": 25, "end": 31, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame los eventos del mes de diciembre.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 26, "end": 42, "label": "start_datetime" },
-      { "start": 26, "end": 42, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué hay en mi calendario para la próxima semana?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 34, "end": 48, "label": "start_datetime" },
-      { "start": 34, "end": 48, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Necesito saber si tengo algo programado para el 25 de diciembre.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 48, "end": 63, "label": "start_datetime" },
-      { "start": 48, "end": 63, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Enséñame las citas de hoy.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 22, "end": 25, "label": "start_datetime" },
-      { "start": 22, "end": 25, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Quiero ver las reuniones que tengo de 9 a 10 de la mañana.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 38, "end": 39, "label": "start_datetime" },
-      { "start": 42, "end": 57, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Cuáles son mis planes para el fin de semana?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 31, "end": 44, "label": "start_datetime" },
-      { "start": 31, "end": 44, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Qué eventos tengo agendados en la sala de juntas el martes.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 34, "end": 48, "label": "location" },
-      { "start": 52, "end": 58, "label": "start_datetime" },
-      { "start": 52, "end": 58, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Búscame las citas que tengo con Juan.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 32, "end": 36, "label": "title" }
-    ]
-  },
-  {
-    "text": "Quiero ver mi horario de trabajo de lunes a viernes.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 25, "end": 32, "label": "title" },
-      { "start": 36, "end": 51, "label": "recurrence_rule" }
-    ]
-  },
-  {
-    "text": "¿Qué reuniones tengo programadas para mañana en la oficina principal?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 38, "end": 44, "label": "start_datetime" },
-      { "start": 38, "end": 44, "label": "end_datetime" },
-      { "start": 48, "end": 68, "label": "location" }
-    ]
-  },
-  {
-    "text": "Busca todos los eventos con la descripción 'reunión de equipo'",
-    "intent": "read_event",
-    "entities": [
-      { "start": 43, "end": 62, "label": "description" }
-    ]
-  },
-  {
-    "text": "¿Hay algún evento recurrente este mes?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 18, "end": 28, "label": "is_recurring" },
-      { "start": 29, "end": 37, "label": "start_datetime" },
-      { "start": 29, "end": 37, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame las clases de yoga de la semana próxima.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 14, "end": 28, "label": "title" },
-      { "start": 35, "end": 49, "label": "start_datetime" },
-      { "start": 35, "end": 49, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Dime qué tengo en mi agenda para el 15 de marzo de 2026.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 36, "end": 55, "label": "start_datetime" },
-      { "start": 36, "end": 55, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Quiero ver los eventos que se repiten todos los martes.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 38, "end": 54, "label": "recurrence_rule" }
-    ]
-  },
-  {
-    "text": "¿Qué hay en mi calendario para hoy de 10 a 12 de la mañana?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 31, "end": 34, "label": "start_datetime" },
-      { "start": 38, "end": 40, "label": "start_datetime" },
-      { "start": 43, "end": 58, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Tengo alguna cita con el doctor en el mes de mayo?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 14, "end": 32, "label": "title" },
-      { "start": 36, "end": 50, "label": "start_datetime" },
-      { "start": 36, "end": 50, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame todo lo agendado para la semana del 22 al 28 de julio.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 46, "end": 48, "label": "start_datetime" },
-      { "start": 52, "end": 63, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué eventos hay en el parque la próxima semana?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 20, "end": 29, "label": "location" },
-      { "start": 33, "end": 50, "label": "start_datetime" },
-      { "start": 33, "end": 50, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Busca mi cita dental para el 12 de septiembre.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 9, "end": 20, "label": "title" },
-      { "start": 29, "end": 45, "label": "start_datetime" },
-      { "start": 29, "end": 45, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué hay en mi agenda del 1 al 5 de octubre?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 26, "end": 27, "label": "start_datetime" },
-      { "start": 31, "end": 43, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame los recordatorios que tengo para la próxima semana.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 14, "end": 27, "label": "title" },
-      { "start": 46, "end": 60, "label": "start_datetime" },
-      { "start": 46, "end": 60, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué citas tuve la semana pasada?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 5, "end": 10, "label": "title" },
-      { "start": 19, "end": 32, "label": "start_datetime" },
-      { "start": 19, "end": 32, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Dime qué tengo entre las 3 PM y las 5 PM de hoy.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 25, "end": 29, "label": "start_datetime" },
-      { "start": 36, "end": 40, "label": "end_datetime" },
-      { "start": 44, "end": 47, "label": "start_datetime" },
-      { "start": 44, "end": 47, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Hay algún evento el último viernes de este mes?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 21, "end": 47, "label": "recurrence_rule" },
-      { "start": 21, "end": 47, "label": "start_datetime" },
-      { "start": 21, "end": 47, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Busca mi horario de trabajo para el mes de julio de 2026.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 9, "end": 27, "label": "title" },
-      { "start": 43, "end": 56, "label": "start_datetime" },
-      { "start": 43, "end": 56, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué hay en mi calendario para el año 2027?",
-    "intent": "read_event",
-    "entities": [
-      { "start": 38, "end": 43, "label": "start_datetime" },
-      { "start": 38, "end": 43, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame todos los eventos agendados entre la 1 PM y las 2 PM.",
-    "intent": "read_event",
-    "entities": [
-      { "start": 47, "end": 51, "label": "start_datetime" },
-      { "start": 58, "end": 62, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Qué horas tengo libres esta semana?",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 24, "end": 35, "label": "start_datetime" },
-      { "start": 24, "end": 35, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Estoy libre mañana por la tarde?",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 13, "end": 32, "label": "start_datetime" },
-      { "start": 13, "end": 32, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Busca huecos de 30 minutos entre las 9 AM y las 5 PM de hoy.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 16, "end": 26, "label": "duration" },
-      { "start": 37, "end": 41, "label": "start_datetime" },
-      { "start": 48, "end": 52, "label": "end_datetime" },
-      { "start": 56, "end": 59, "label": "start_datetime" },
-      { "start": 56, "end": 59, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Tengo algún hueco disponible mañana?",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 30, "end": 36, "label": "start_datetime" },
-      { "start": 30, "end": 36, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Dime mi disponibilidad para el 15 de marzo de 2026.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 31, "end": 50, "label": "start_datetime" },
-      { "start": 31, "end": 50, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Quiero saber si tengo un espacio de 1 hora libre esta semana.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 36, "end": 42, "label": "duration" },
-      { "start": 49, "end": 61, "label": "start_datetime" },
-      { "start": 49, "end": 61, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Busca un hueco de al menos 15 minutos hoy por la mañana.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 18, "end": 37, "label": "duration" },
-      { "start": 38, "end": 55, "label": "start_datetime" },
-      { "start": 38, "end": 55, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Muéstrame los momentos disponibles para el próximo jueves.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 43, "end": 57, "label": "start_datetime" },
-      { "start": 43, "end": 57, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "Busca huecos de 2 horas en mi calendario para el mes de octubre.",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 16, "end": 23, "label": "duration" },
-      { "start": 56, "end": 63, "label": "start_datetime" },
-      { "start": 56, "end": 63, "label": "end_datetime" }
-    ]
-  },
-  {
-    "text": "¿Hay algún momento libre de 45 minutos en el calendario de mañana?",
-    "intent": "read_free_time",
-    "entities": [
-      { "start": 28, "end": 38, "label": "duration" },
-      { "start": 59, "end": 65, "label": "start_datetime" },
-      { "start": 59, "end": 65, "label": "end_datetime" }
-    ]
+    "text": "¿Qué reuniones tengo agendadas para mañana?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "label": "title"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Muéstrame los eventos que creé la semana pasada",
+    "entities": [
+      {
+        "start": 31,
+        "end": 47,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Busca eventos relacionados con el 'proyecto Alfa'",
+    "entities": [
+      {
+        "start": 35,
+        "end": 48,
+        "label": "title"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Cuándo estoy libre el próximo viernes?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca un hueco de 30 minutos en mi agenda de hoy",
+    "entities": [
+      {
+        "start": 45,
+        "end": 48,
+        "label": "start_datetime"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Tengo algún espacio libre para una llamada con Juan antes de las 5pm?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 52,
+        "label": "title"
+      },
+      {
+        "start": 53,
+        "end": 69,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Crea un recordatorio para comprar leche el sábado a las 11am.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "label": "title"
+      },
+      {
+        "start": 40,
+        "end": 60,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una cita con el dentista para el 25 de septiembre a las 10:00, dura 1 hora.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "title"
+      },
+      {
+        "start": 39,
+        "end": 70,
+        "label": "start_datetime"
+      },
+      {
+        "start": 72,
+        "end": 83,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega una clase de yoga para todos los martes a las 19:00 en el gimnasio",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "title"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "label": "start_datetime"
+      },
+      {
+        "start": 59,
+        "end": 73,
+        "label": "location"
+      },
+      {
+        "start": 30,
+        "end": 46,
+        "label": "recurrence_rule"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Cambia la hora de la reunión de equipo de 3pm a 4pm.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 38,
+        "label": "title"
+      },
+      {
+        "start": 39,
+        "end": 51,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Mueve la cita con el cliente del martes al miércoles.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Actualiza la ubicación del evento 'Presentación' a 'Sala B'.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 47,
+        "label": "title"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "label": "location"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Borra la reunión de las 10am de mañana.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 16,
+        "label": "title"
+      },
+      {
+        "start": 20,
+        "end": 38,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cancela el evento 'Revisión trimestral'",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "label": "title"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Elimina la cita con el médico de la próxima semana.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 29,
+        "label": "title"
+      },
+      {
+        "start": 33,
+        "end": 50,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "¿Está agendada la reunión Revisión mensual en Sala 1 el 20/09/2025 10:00 hasta las 11:00?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 42,
+        "label": "title"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "label": "location"
+      },
+      {
+        "start": 56,
+        "end": 72,
+        "label": "start_datetime"
+      },
+      {
+        "start": 79,
+        "end": 88,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Muéstrame los eventos llamados Taller de UX en Centro Cultural que empiezan el 2025-10-05 09:30 y terminan a las 12:00.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 43,
+        "label": "title"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "location"
+      },
+      {
+        "start": 79,
+        "end": 95,
+        "label": "start_datetime"
+      },
+      {
+        "start": 113,
+        "end": 118,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué citas de Coaching individual en Oficina Remota tengo programadas para el 01-11-2025 14:00 hasta 15:00?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 33,
+        "label": "title"
+      },
+      {
+        "start": 37,
+        "end": 51,
+        "label": "location"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "label": "start_datetime"
+      },
+      {
+        "start": 101,
+        "end": 106,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Necesito ver la sesión Estrategia Q4 en Sala de Juntas A con inicio 2025/11/10 08:30 y fin 09:45.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "label": "title"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "label": "location"
+      },
+      {
+        "start": 68,
+        "end": 84,
+        "label": "start_datetime"
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué tengo agendado bajo el título Entrevista técnica en Planta Baja el viernes 2025-12-12 16:00 y hasta las 17:30?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 53,
+        "label": "title"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "location"
+      },
+      {
+        "start": 80,
+        "end": 96,
+        "label": "start_datetime"
+      },
+      {
+        "start": 105,
+        "end": 114,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Consulta mis eventos Marketing: Campaña lanzada en Oficina Central, inicio 2026-01-08 09:00 fin 10:30.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 47,
+        "label": "title"
+      },
+      {
+        "start": 51,
+        "end": 66,
+        "label": "location"
+      },
+      {
+        "start": 75,
+        "end": 91,
+        "label": "start_datetime"
+      },
+      {
+        "start": 96,
+        "end": 101,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Hay algún evento llamado Kickoff producto en Sala Verde que comience 15/02/2026 13:00 y finalice 14:00?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 42,
+        "label": "title"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "label": "location"
+      },
+      {
+        "start": 70,
+        "end": 86,
+        "label": "start_datetime"
+      },
+      {
+        "start": 98,
+        "end": 103,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Revisa la cita Comité Ejecutivo en Edificio B programada para 2026-03-01 08:00 con término a las 09:30.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "label": "title"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "location"
+      },
+      {
+        "start": 62,
+        "end": 78,
+        "label": "start_datetime"
+      },
+      {
+        "start": 93,
+        "end": 102,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué actividades tengo bajo Networking externo en Terraza el 30-04-2026 19:00 y que acaban a las 21:00?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 46,
+        "label": "title"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "label": "location"
+      },
+      {
+        "start": 61,
+        "end": 77,
+        "label": "start_datetime"
+      },
+      {
+        "start": 97,
+        "end": 102,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Lista mis eventos Formación: Python intermedio en Aula 3 que inician 2026/05/18 10:00 y concluyen 12:30.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 46,
+        "label": "title"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "label": "location"
+      },
+      {
+        "start": 69,
+        "end": 85,
+        "label": "start_datetime"
+      },
+      {
+        "start": 98,
+        "end": 103,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué tengo con el título Revisión presupuesto en Sede Norte el 07-06-2026 11:15 hasta las 12:15?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 45,
+        "label": "title"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "location"
+      },
+      {
+        "start": 63,
+        "end": 79,
+        "label": "start_datetime"
+      },
+      {
+        "start": 86,
+        "end": 95,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Muéstrame las reuniones llamadas Seguimiento clientes en Sala B que empiezan 2026-07-09 09:00 y acaban 10:00.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 53,
+        "label": "title"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "label": "location"
+      },
+      {
+        "start": 77,
+        "end": 93,
+        "label": "start_datetime"
+      },
+      {
+        "start": 103,
+        "end": 108,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo la presentación Producto X en Auditorio Principal con inicio 01/08/2026 15:00 y cierre 16:30?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 56,
+        "label": "location"
+      },
+      {
+        "start": 68,
+        "end": 84,
+        "label": "start_datetime"
+      },
+      {
+        "start": 94,
+        "end": 99,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Quiero ver el evento llamado Café con el equipo en Cocina el 2026-09-10 10:30 hasta las 11:00.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 47,
+        "label": "title"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "label": "location"
+      },
+      {
+        "start": 61,
+        "end": 77,
+        "label": "start_datetime"
+      },
+      {
+        "start": 84,
+        "end": 93,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Consulta si existe Taller de liderazgo en Hotel Plaza que empiece 12-10-2026 08:45 y termine 13:45.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "label": "title"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "label": "location"
+      },
+      {
+        "start": 66,
+        "end": 82,
+        "label": "start_datetime"
+      },
+      {
+        "start": 93,
+        "end": 98,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Cuándo estoy libre de 09:00 a 17:00 con una duración estimada de 8 horas el próximo viernes?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "label": "start_datetime"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "end_datetime"
+      },
+      {
+        "start": 66,
+        "end": 73,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca huecos disponibles desde 14:30 hasta 16:00 para una duración de 90 minutos.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "label": "start_datetime"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "label": "end_datetime"
+      },
+      {
+        "start": 70,
+        "end": 80,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Tienes libres tramos entre 07:00 y 08:00 con duración 1 hora esta semana?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "label": "start_datetime"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "label": "end_datetime"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Encuentra espacio disponible de 12:00 a 13:30 para una duración de 90min.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "label": "start_datetime"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "label": "end_datetime"
+      },
+      {
+        "start": 67,
+        "end": 72,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Quiero saber si hay huecos libres hoy desde 18:00 hasta 20:00; necesito 2 horas.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 49,
+        "label": "start_datetime"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "label": "end_datetime"
+      },
+      {
+        "start": 72,
+        "end": 79,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Muestra intervalos disponibles entre 08:15 y 09:00 con duración 45 minutos.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 42,
+        "label": "start_datetime"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "label": "end_datetime"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Revisa mis espacios libres de 13:00 a 14:00 para una duración de 60 minutos mañana.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "label": "start_datetime"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "label": "end_datetime"
+      },
+      {
+        "start": 65,
+        "end": 75,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Hay disponibilidad entre 10:00 y 11:30 que cubra 1.5 horas el lunes?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "label": "start_datetime"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "end_datetime"
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Localiza huecos de 15:00 a 16:15 con duración 75 minutos el próximo mes.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "label": "start_datetime"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "end_datetime"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Puedo agendar algo entre 06:30 y 07:00 con duración 30 minutos esta semana?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "label": "start_datetime"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "end_datetime"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Muestra franjas libres de 21:00 a 22:30 para una duración de 90 minutos.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "label": "start_datetime"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "end_datetime"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Agenda Clase de yoga en Estudio Norte desde 2025-10-01 19:00 hasta 2025-10-01 20:00, repetición semanal los miércoles; Traer colchoneta.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "title"
+      },
+      {
+        "start": 24,
+        "end": 37,
+        "label": "location"
+      },
+      {
+        "start": 44,
+        "end": 60,
+        "label": "start_datetime"
+      },
+      {
+        "start": 67,
+        "end": 83,
+        "label": "end_datetime"
+      },
+      {
+        "start": 85,
+        "end": 117,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 119,
+        "end": 135,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade Taller de fotografía en Galería Central el 2025-11-12 10:00 hasta 2025-11-12 13:00 con recurrencia mensual el segundo jueves; Material incluido.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 26,
+        "label": "title"
+      },
+      {
+        "start": 30,
+        "end": 45,
+        "label": "location"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "label": "start_datetime"
+      },
+      {
+        "start": 72,
+        "end": 88,
+        "label": "end_datetime"
+      },
+      {
+        "start": 93,
+        "end": 130,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 132,
+        "end": 149,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea Reunión equipo ventas en Sala B para 2025-09-30 09:00 hasta 2025-09-30 10:00, repetir cada semana; Preparar informe.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 26,
+        "label": "title"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "location"
+      },
+      {
+        "start": 42,
+        "end": 58,
+        "label": "start_datetime"
+      },
+      {
+        "start": 65,
+        "end": 81,
+        "label": "end_datetime"
+      },
+      {
+        "start": 83,
+        "end": 102,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 104,
+        "end": 120,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega Clase de guitarra en Aula 5 empezando 2025-12-01 18:30 y finalizando 2025-12-01 20:00, se repite semanalmente; Traer púa.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "title"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "location"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "label": "start_datetime"
+      },
+      {
+        "start": 76,
+        "end": 92,
+        "label": "end_datetime"
+      },
+      {
+        "start": 94,
+        "end": 116,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 118,
+        "end": 127,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa Sesión de mentoring en Oficina Norte el 2026-01-15 14:00 hasta 15:00 con recurrencia quincenal; Objetivos a discutir.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "label": "location"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "label": "start_datetime"
+      },
+      {
+        "start": 72,
+        "end": 77,
+        "label": "end_datetime"
+      },
+      {
+        "start": 82,
+        "end": 103,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 105,
+        "end": 125,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Inserta Evento de networking en Terraza 2026-02-20 19:30 hasta 21:30, repetir cada mes; Confirmar catering.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "label": "location"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "label": "start_datetime"
+      },
+      {
+        "start": 63,
+        "end": 68,
+        "label": "end_datetime"
+      },
+      {
+        "start": 70,
+        "end": 86,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 88,
+        "end": 106,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea Sesión fotográfica en Estudio A el 2026-03-05 08:00 hasta 10:00, recurrente semanal los sábados; Llevar cámara extra.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "label": "title"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "label": "location"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "label": "start_datetime"
+      },
+      {
+        "start": 63,
+        "end": 68,
+        "label": "end_datetime"
+      },
+      {
+        "start": 70,
+        "end": 100,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 102,
+        "end": 121,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade Webinar: Introducción a Go en Plataforma Online, inicio 2026-04-10 16:00 fin 17:30, repetición anual; Enlace por email.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 32,
+        "label": "title"
+      },
+      {
+        "start": 36,
+        "end": 53,
+        "label": "location"
+      },
+      {
+        "start": 62,
+        "end": 78,
+        "label": "start_datetime"
+      },
+      {
+        "start": 83,
+        "end": 88,
+        "label": "end_datetime"
+      },
+      {
+        "start": 90,
+        "end": 106,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 108,
+        "end": 124,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega Clase de cocina en Cocina Comunitaria desde 2026-05-01 11:00 hasta 13:00, se repite cada martes; Ingredientes provistos.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "title"
+      },
+      {
+        "start": 26,
+        "end": 44,
+        "label": "location"
+      },
+      {
+        "start": 51,
+        "end": 67,
+        "label": "start_datetime"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "label": "end_datetime"
+      },
+      {
+        "start": 81,
+        "end": 102,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 104,
+        "end": 126,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea Noche de cine en Sala Multimedia el 2026-06-20 20:00 hasta 22:30, repetir mensual el tercer viernes; Película sorpresa.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "title"
+      },
+      {
+        "start": 22,
+        "end": 37,
+        "label": "location"
+      },
+      {
+        "start": 41,
+        "end": 57,
+        "label": "start_datetime"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "label": "end_datetime"
+      },
+      {
+        "start": 71,
+        "end": 104,
+        "label": "recurrence_rule"
+      },
+      {
+        "start": 106,
+        "end": 123,
+        "label": "description"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Por favor mueve la cita Revisión contrato desde Oficina Legal del 2025-09-22 10:00 al 2025-09-23 11:00.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 41,
+        "label": "title"
+      },
+      {
+        "start": 48,
+        "end": 61,
+        "label": "location"
+      },
+      {
+        "start": 66,
+        "end": 82,
+        "label": "start_datetime"
+      },
+      {
+        "start": 86,
+        "end": 102,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la reunión Entrega proyecto en Sala 4 del 2025-10-01 15:00 al 2025-10-01 16:30 en otra ubicación.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 34,
+        "label": "title"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "label": "location"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "label": "start_datetime"
+      },
+      {
+        "start": 69,
+        "end": 85,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Actualiza la entrevista Entrevista RRHH programada en Oficina A originalmente 2025-11-05 09:00 para que sea 2025-11-06 10:00.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "title"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "label": "location"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "label": "start_datetime"
+      },
+      {
+        "start": 108,
+        "end": 124,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Por favor modifica la cita Seguimiento cliente en Sala B del 2025-12-10 14:00 al 2025-12-10 15:00 con nueva sala.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 46,
+        "label": "title"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "label": "location"
+      },
+      {
+        "start": 61,
+        "end": 77,
+        "label": "start_datetime"
+      },
+      {
+        "start": 81,
+        "end": 97,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Mueve la sesión Fotos producto en Estudio al día 2026-01-20 08:00 cambiándola a 2026-01-21 09:30.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "label": "title"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "label": "location"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "label": "start_datetime"
+      },
+      {
+        "start": 80,
+        "end": 96,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Ajusta la reunión Reunión mensual en Sala de Juntas del 2026-02-05 11:00 para que comience 2026-02-05 12:00.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "title"
+      },
+      {
+        "start": 37,
+        "end": 51,
+        "label": "location"
+      },
+      {
+        "start": 56,
+        "end": 72,
+        "label": "start_datetime"
+      },
+      {
+        "start": 91,
+        "end": 107,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la cita Coaching exprés en Oficina Remota prevista 2026-03-12 17:00 al 2026-03-13 18:00.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "label": "title"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "label": "location"
+      },
+      {
+        "start": 58,
+        "end": 74,
+        "label": "start_datetime"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Reprograma la formación Capacitación interna en Aula 2 del 2026-04-01 09:00 al 2026-04-02 09:30.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 44,
+        "label": "title"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "label": "location"
+      },
+      {
+        "start": 59,
+        "end": 75,
+        "label": "start_datetime"
+      },
+      {
+        "start": 79,
+        "end": 95,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Move la cena Equipo en Restaurante Norte originalmente 2026-05-08 20:00 al 2026-05-09 20:30.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "label": "title"
+      },
+      {
+        "start": 23,
+        "end": 40,
+        "label": "location"
+      },
+      {
+        "start": 55,
+        "end": 71,
+        "label": "start_datetime"
+      },
+      {
+        "start": 75,
+        "end": 91,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Elimina la reunión Revisión trimestral programada 2025-09-19 10:00 hasta 11:30.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "label": "title"
+      },
+      {
+        "start": 50,
+        "end": 66,
+        "label": "start_datetime"
+      },
+      {
+        "start": 73,
+        "end": 78,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra Taller de innovación que iba a empezar 2025-10-14 14:00 y acabar 17:00.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 26,
+        "label": "title"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "label": "start_datetime"
+      },
+      {
+        "start": 71,
+        "end": 76,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Por favor elimina la cita Entrevista final prevista para 2025-11-02 09:30 hasta 10:30.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 42,
+        "label": "title"
+      },
+      {
+        "start": 57,
+        "end": 73,
+        "label": "start_datetime"
+      },
+      {
+        "start": 80,
+        "end": 85,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cancela Evento lanzamiento Producto X programado 2025-12-01 18:00 con fin 20:00.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 37,
+        "label": "title"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "label": "start_datetime"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Quita la sesión Mentoring one-to-one prevista 2026-01-10 16:00 hasta 17:00.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 36,
+        "label": "title"
+      },
+      {
+        "start": 46,
+        "end": 62,
+        "label": "start_datetime"
+      },
+      {
+        "start": 69,
+        "end": 74,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Elimina la reserva Cena de equipo programada 2026-02-14 21:00 con término 23:00.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 33,
+        "label": "title"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "label": "start_datetime"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra Taller Scrum en Sala Ágora que comenzaba 2026-03-03 09:00 y acababa 12:00.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "label": "title"
+      },
+      {
+        "start": 47,
+        "end": 63,
+        "label": "start_datetime"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Por favor elimina la actividad Hackathon prevista 2026-04-20 08:00 hasta 20:00.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 40,
+        "label": "title"
+      },
+      {
+        "start": 50,
+        "end": 66,
+        "label": "start_datetime"
+      },
+      {
+        "start": 73,
+        "end": 78,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cancela la reunión Brainstorming en Sala Creativa agendada 2026-05-05 10:00 con fin 11:30.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 32,
+        "label": "title"
+      },
+      {
+        "start": 59,
+        "end": 75,
+        "label": "start_datetime"
+      },
+      {
+        "start": 84,
+        "end": 89,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Quita la clase Meditación programada 2026-06-01 07:30 hasta 08:30.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "label": "start_datetime"
+      },
+      {
+        "start": 60,
+        "end": 65,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Oye, dime si tengo la clase de inglés esta semana",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "title"
+      },
+      {
+        "start": 38,
+        "end": 49,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Hay reunión con el equipo mañana por la mañana?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 26,
+        "label": "title"
+      },
+      {
+        "start": 27,
+        "end": 47,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Revisa si tengo cita con el abogado el miércoles",
+    "entities": [
+      {
+        "start": 36,
+        "end": 48,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo algo en el calendario este viernes?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Está prevista mi sesión de gimnasio mañana?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 36,
+        "label": "title"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué tengo agendado para el lunes que viene?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Muéstrame si hay clases de piano esta semana",
+    "entities": [
+      {
+        "start": 17,
+        "end": 32,
+        "label": "title"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo alguna cita médica hoy por la tarde?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "label": "title"
+      },
+      {
+        "start": 26,
+        "end": 42,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "Comprueba si está la reunión del proyecto el jueves próximo",
+    "entities": [
+      {
+        "start": 21,
+        "end": 41,
+        "label": "title"
+      },
+      {
+        "start": 45,
+        "end": 59,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo presentación mañana a primera hora?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "title"
+      },
+      {
+        "start": 20,
+        "end": 41,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Cuándo estoy libre mañana por la mañana?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Encuentra hueco el jueves entre 16:00 y 18:00, necesito 30 minutos",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "label": "start_datetime"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "label": "end_datetime"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Tendré tiempo libre esta tarde para 45 minutos?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "start_datetime"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca un hueco de 1 hora mañana después del mediodía",
+    "entities": [
+      {
+        "start": 25,
+        "end": 52,
+        "label": "start_datetime"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Estoy libre el viernes por la mañana dos horas?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 37,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Hay espacio para 15 minutos ahora?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "label": "start_datetime"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Necesito 90 minutos libre el lunes por la tarde",
+    "entities": [
+      {
+        "start": 29,
+        "end": 47,
+        "label": "start_datetime"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Puedes ver si tengo 30 minutos libres hoy al mediodía?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 54,
+        "label": "start_datetime"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca huecos de 3 horas el fin de semana",
+    "entities": [
+      {
+        "start": 27,
+        "end": 40,
+        "label": "start_datetime"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "label": "duration"
+      }
+    ],
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Pon una cita con el dentista el jueves por la mañana",
+    "entities": [
+      {
+        "start": 32,
+        "end": 52,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega clase de inglés todos los lunes a las 18:30",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "title"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon una llamada rápida con María mañana a las 09:00",
+    "entities": [],
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega reunión con el asesor la próxima semana por la tarde",
+    "entities": [
+      {
+        "start": 32,
+        "end": 59,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Reserva clase de yoga cada martes a las 07:00",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "title"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una sesión de fotos este sábado por la mañana",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 29,
+        "end": 54,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una videollamada con el equipo el miércoles que viene a las 14:00",
+    "entities": [],
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade cena con Laura el próximo viernes",
+    "entities": [
+      {
+        "start": 6,
+        "end": 20,
+        "label": "title"
+      },
+      {
+        "start": 24,
+        "end": 39,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "create_event"
+  },
+  {
+    "text": "Mueve mi cita con Rosemary este miércoles a la tarde",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "label": "title"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la reunión de equipo del lunes al martes por la mañana",
+    "entities": [
+      {
+        "start": 10,
+        "end": 27,
+        "label": "title"
+      },
+      {
+        "start": 41,
+        "end": 61,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Mueve la cita con el dentista que fue programada para mañana a la próxima semana",
+    "entities": [
+      {
+        "start": 54,
+        "end": 60,
+        "label": "start_datetime"
+      },
+      {
+        "start": 66,
+        "end": 80,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Reprograma mi clase de guitarra al jueves por la noche",
+    "entities": [
+      {
+        "start": 14,
+        "end": 31,
+        "label": "title"
+      },
+      {
+        "start": 35,
+        "end": 54,
+        "label": "end_datetime"
+      }
+    ],
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la cita con el banco a primera hora del viernes",
+    "entities": [],
+    "intent": "update_event"
+  },
+  {
+    "text": "Cancela mi cita con Rosemary este miércoles",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra la reunión de mañana con el proveedor",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Elimina la clase de yoga del martes que viene",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "label": "title"
+      },
+      {
+        "start": 29,
+        "end": 45,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Quita la llamada con Jorge esta tarde",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "label": "title"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cancela el taller del sábado por la mañana",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "label": "title"
+      },
+      {
+        "start": 22,
+        "end": 42,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra cita médica del lunes que viene",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "label": "title"
+      },
+      {
+        "start": 22,
+        "end": 37,
+        "label": "start_datetime"
+      }
+    ],
+    "intent": "delete_event"
   }
 ]

@@ -1,0 +1,383 @@
+[
+  {
+    "text": "Oye, dime si tengo la clase de inglés esta semana",
+    "entities_dict": {
+      "title": "clase de inglés",
+      "location": "centro de idiomas",
+      "start_datetime": "esta semana",
+      "end_datetime": "fin de semana"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Hay reunión con el equipo mañana por la mañana?",
+    "entities_dict": {
+      "title": "reunión con el equipo",
+      "location": "oficina principal",
+      "start_datetime": "mañana por la mañana",
+      "end_datetime": "12:00"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "Revisa si tengo cita con el abogado el miércoles",
+    "entities_dict": {
+      "title": "cita con abogado",
+      "location": "bufete",
+      "start_datetime": "el miércoles",
+      "end_datetime": "15:00"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo algo en el calendario este viernes?",
+    "entities_dict": {
+      "title": "evento pendiente",
+      "location": "sin ubicación",
+      "start_datetime": "este viernes",
+      "end_datetime": "tarde"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Está prevista mi sesión de gimnasio mañana?",
+    "entities_dict": {
+      "title": "sesión de gimnasio",
+      "location": "gimnasio del barrio",
+      "start_datetime": "mañana",
+      "end_datetime": "hora de salida"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Qué tengo agendado para el lunes que viene?",
+    "entities_dict": {
+      "title": "agenda del día",
+      "location": "varios lugares",
+      "start_datetime": "lunes que viene",
+      "end_datetime": "final del día"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "Muéstrame si hay clases de piano esta semana",
+    "entities_dict": {
+      "title": "clases de piano",
+      "location": "escuela musical",
+      "start_datetime": "esta semana",
+      "end_datetime": "domingo"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo alguna cita médica hoy por la tarde?",
+    "entities_dict": {
+      "title": "cita médica",
+      "location": "centro de salud",
+      "start_datetime": "hoy por la tarde",
+      "end_datetime": "noche"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "Comprueba si está la reunión del proyecto el jueves próximo",
+    "entities_dict": {
+      "title": "reunión del proyecto",
+      "location": "sala remota",
+      "start_datetime": "jueves próximo",
+      "end_datetime": "hora de cierre"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Tengo presentación mañana a primera hora?",
+    "entities_dict": {
+      "title": "presentación",
+      "location": "auditorio local",
+      "start_datetime": "mañana a primera hora",
+      "end_datetime": "09:00"
+    },
+    "intent": "read_events"
+  },
+  {
+    "text": "¿Cuándo estoy libre mañana por la mañana?",
+    "entities_dict": {
+      "start_datetime": "mañana por la mañana",
+      "end_datetime": "13:00",
+      "duration": "2 horas"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Encuentra hueco el jueves entre 16:00 y 18:00, necesito 30 minutos",
+    "entities_dict": {
+      "start_datetime": "16:00",
+      "end_datetime": "18:00",
+      "duration": "30 minutos"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Tendré tiempo libre esta tarde para 45 minutos?",
+    "entities_dict": {
+      "start_datetime": "esta tarde",
+      "end_datetime": "noche",
+      "duration": "45 minutos"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca un hueco de 1 hora mañana después del mediodía",
+    "entities_dict": {
+      "start_datetime": "mañana después del mediodía",
+      "end_datetime": "18:00",
+      "duration": "1 hora"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Estoy libre el viernes por la mañana dos horas?",
+    "entities_dict": {
+      "start_datetime": "viernes por la mañana",
+      "end_datetime": "mediodía",
+      "duration": "2 horas"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Hay espacio para 15 minutos ahora?",
+    "entities_dict": {
+      "start_datetime": "ahora",
+      "end_datetime": "20 minutos",
+      "duration": "15 minutos"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Necesito 90 minutos libre el lunes por la tarde",
+    "entities_dict": {
+      "start_datetime": "lunes por la tarde",
+      "end_datetime": "tarde avanzada",
+      "duration": "90 minutos"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "¿Puedes ver si tengo 30 minutos libres hoy al mediodía?",
+    "entities_dict": {
+      "start_datetime": "hoy al mediodía",
+      "end_datetime": "13:30",
+      "duration": "30 minutos"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Busca huecos de 3 horas el fin de semana",
+    "entities_dict": {
+      "start_datetime": "fin de semana",
+      "end_datetime": "domingo noche",
+      "duration": "3 horas"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Pon una cita con el dentista el jueves por la mañana",
+    "entities_dict": {
+      "title": "cita dentista",
+      "location": "clínica dental",
+      "start_datetime": "jueves por la mañana",
+      "end_datetime": "11:00",
+      "recurrence_rule": "sin recurrencia",
+      "description": "limpieza básica"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega clase de inglés todos los lunes a las 18:30",
+    "entities_dict": {
+      "title": "clase de inglés",
+      "location": "escuela online",
+      "start_datetime": "lunes 18:30",
+      "end_datetime": "19:30",
+      "recurrence_rule": "semanal los lunes",
+      "description": "nivel intermedio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon una llamada rápida con María mañana a las 09:00",
+    "entities_dict": {
+      "title": "llamada con María",
+      "location": "teléfono",
+      "start_datetime": "mañana 09:00",
+      "end_datetime": "09:20",
+      "recurrence_rule": "no repetir",
+      "description": "confirmar agenda"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega reunión con el asesor la próxima semana por la tarde",
+    "entities_dict": {
+      "title": "reunión con asesor",
+      "location": "cafetería",
+      "start_datetime": "próxima semana por la tarde",
+      "end_datetime": "18:00",
+      "recurrence_rule": "sin repetición",
+      "description": "hablar presupuesto"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Reserva clase de yoga cada martes a las 07:00",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "location": "sala wellness",
+      "start_datetime": "martes 07:00",
+      "end_datetime": "08:00",
+      "recurrence_rule": "repetir semanal",
+      "description": "ropa cómoda"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una sesión de fotos este sábado por la mañana",
+    "entities_dict": {
+      "title": "sesión de fotos",
+      "location": "parque central",
+      "start_datetime": "este sábado por la mañana",
+      "end_datetime": "10:30",
+      "recurrence_rule": "única",
+      "description": "ropa informal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una videollamada con el equipo el miércoles que viene a las 14:00",
+    "entities_dict": {
+      "title": "videollamada equipo",
+      "location": "enlace remoto",
+      "start_datetime": "miércoles que viene 14:00",
+      "end_datetime": "15:00",
+      "recurrence_rule": "mensual",
+      "description": "revisión semanal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade cena con Laura el próximo viernes",
+    "entities_dict": {
+      "title": "cena con Laura",
+      "location": "restaurante del barrio",
+      "start_datetime": "próximo viernes",
+      "end_datetime": "22:00",
+      "recurrence_rule": "no recurrente",
+      "description": "reservar mesa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Mueve mi cita con Rosemary este miércoles a la tarde",
+    "entities_dict": {
+      "title": "cita con Rosemary",
+      "location": "consultorio",
+      "start_datetime": "este miércoles por la tarde",
+      "end_datetime": "18:30"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la reunión de equipo del lunes al martes por la mañana",
+    "entities_dict": {
+      "title": "reunión de equipo",
+      "location": "sala pequeña",
+      "start_datetime": "lunes por la mañana",
+      "end_datetime": "martes por la mañana"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Mueve la cita con el dentista que fue programada para mañana a la próxima semana",
+    "entities_dict": {
+      "title": "cita dentista",
+      "location": "clínica nueva",
+      "start_datetime": "mañana",
+      "end_datetime": "próxima semana"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Reprograma mi clase de guitarra al jueves por la noche",
+    "entities_dict": {
+      "title": "clase de guitarra",
+      "location": "estudio 4",
+      "start_datetime": "miércoles actual",
+      "end_datetime": "jueves por la noche"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Cambia la cita con el banco a primera hora del viernes",
+    "entities_dict": {
+      "title": "cita con banco",
+      "location": "sucursal central",
+      "start_datetime": "viernes primera hora",
+      "end_datetime": "09:30"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Cancela mi cita con Rosemary este miércoles",
+    "entities_dict": {
+      "title": "cita con Rosemary",
+      "start_datetime": "este miércoles",
+      "end_datetime": "tarde"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra la reunión de mañana con el proveedor",
+    "entities_dict": {
+      "title": "reunión con proveedor",
+      "start_datetime": "mañana",
+      "end_datetime": "11:00"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Elimina la clase de yoga del martes que viene",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "start_datetime": "martes que viene",
+      "end_datetime": "08:00"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Quita la llamada con Jorge esta tarde",
+    "entities_dict": {
+      "title": "llamada con Jorge",
+      "start_datetime": "esta tarde",
+      "end_datetime": "20:00"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cancela el taller del sábado por la mañana",
+    "entities_dict": {
+      "title": "taller del sábado",
+      "start_datetime": "sábado por la mañana",
+      "end_datetime": "12:30"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Borra cita médica del lunes que viene",
+    "entities_dict": {
+      "title": "cita médica",
+      "start_datetime": "lunes que viene",
+      "end_datetime": "16:00"
+    },
+    "intent": "delete_event"
+  }
+]
