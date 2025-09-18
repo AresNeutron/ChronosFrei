@@ -1,11 +1,11 @@
 import json
 
 # Nombre del archivo
-file_name = "training_data_extended.json"
+file_name = "data.json"
 
 try:
     # Abrir y cargar los datos del archivo JSON
-    with open(file_name, 'r', encoding='utf-8') as file:
+    with open(file_name, 'r', encoding= 'utf-8') as file:
         data_list = json.load(file)
 
     # Iterar sobre cada objeto en la lista

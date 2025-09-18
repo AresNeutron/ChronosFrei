@@ -1,7 +1,7 @@
 import spacy
 
 # Cargar el modelo entrenado
-nlp = spacy.load("./models/model-last")
+nlp = spacy.load("./output/model-last")
 
 # Textos de prueba
 test_texts = [
