@@ -11,6 +11,7 @@ def convert_to_spacy_format(data):
     training_data = []
     for example in data:
         text = example["text"]
+        intent = example["intent"]
         entities = []
         for label, entity_value in example["entities_dict"].items():
             
@@ -31,7 +32,8 @@ def convert_to_spacy_format(data):
         
         spacy_format = {
             "text": text,
-            "entities": entities
+            "entities": entities,
+            "intent": intent,
         }
         training_data.append(spacy_format)
     
