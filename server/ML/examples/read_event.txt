@@ -1,0 +1,399 @@
+¿Me puedes decir qué eventos tengo para la próxima semana?
+
+¿Qué hay en mi agenda mañana por la tarde?
+
+Necesito saber los detalles de mi cita con el dentista el 25 de septiembre.
+
+¿Qué actividades hay planeadas para este fin de semana, específicamente el sábado?
+
+Dime todo lo que tengo en la agenda de la próxima semana, solo los eventos que se repiten.
+
+Recuérdame los eventos que tengo el 15 de marzo, los que son en la oficina.
+
+¿Qué dice mi calendario sobre la reunión de presentación de proyecto que está fijada para el próximo martes?
+
+Busca el evento "llamada con cliente" del 5 de enero y dime su ubicación y descripción.
+
+Quiero ver los detalles de la clase de yoga que se repite cada lunes a las 7 PM, ¿cuál es la duración y el lugar?
+
+¿Qué tengo programado para el 12 de diciembre a las 10 de la mañana?
+
+¿Cuáles son mis eventos para hoy?
+
+Muestra mi calendario para el mes de agosto.
+
+¿Puedes darme la descripción del evento "reunión de equipo" que tengo el lunes?
+
+¿A qué hora empieza y termina la conferencia del 20 de noviembre?
+
+¿Qué tengo pendiente para la reunión del viernes a las 3 PM?
+
+Dime los eventos que están en mi agenda para la semana de exámenes.
+
+¿Hay algo programado para el 31 de diciembre?
+
+Muéstrame todos los eventos recurrentes.
+
+¿Cuál es el lugar de la cita con el doctor para el 18 de octubre?
+
+¿Qué tengo en mi agenda de aquí a una semana?
+
+¿Qué eventos hay el 23 de julio?
+
+¿Puedes buscar el evento llamado "entrevista de trabajo"?
+
+¿Qué eventos tengo el 2 de febrero, los de por la mañana?
+
+¿Qué tengo agendado para la primera semana de junio?
+
+¿Cuál es la descripción de la clase de baile del miércoles a las 8 PM?
+
+¿Hay algún evento para el 29 de febrero de 2024?
+
+¿Qué citas tengo programadas para el mes de abril?
+
+Dime qué evento recurrente hay todos los viernes.
+
+¿Dónde es la cena con mis padres que programé para este sábado?
+
+¿Puedes darme todos los detalles de la reunión con Pedro, por favor?
+
+¿Qué tengo en el calendario para el próximo jueves a la hora del almuerzo?
+
+¿A qué hora tengo que ir al gimnasio el 10 de marzo?
+
+¿Qué dice el calendario sobre el cumpleaños de mi hermano en julio?
+
+¿Qué eventos están programados para los próximos 3 días?
+
+¿Me puedes decir la ubicación y la duración del evento "curso de Python"?
+
+¿Cuáles son los eventos del día de hoy que tienen una duración de 2 horas?
+
+¿Qué tengo en mi agenda el próximo fin de semana?
+
+¿Qué hay programado para el 1 de enero?
+
+¿Me puedes mostrar todos los eventos de la semana del 15 de noviembre?
+
+¿Cuál es el título y el horario de mi cita con el banco?
+
+¿Qué eventos tengo en la agenda de la semana que viene?
+
+¿Puedes encontrar el evento "entrega del proyecto" y darme la fecha y hora?
+
+¿Qué dice mi agenda sobre la consulta médica del lunes a las 9 AM?
+
+¿Qué tengo el 4 de julio?
+
+Muéstrame mi calendario para el mes en curso.
+
+¿Me puedes dar todos los detalles sobre el evento de "reunión de marketing" del día 10?
+
+¿Qué actividades tengo planeadas para la primera semana de diciembre?
+
+¿A qué hora es el evento de networking del miércoles?
+
+¿Cuáles son mis compromisos para la segunda quincena de marzo?
+
+¿Me puedes mostrar el calendario de la próxima semana?
+
+¿Qué eventos tengo para el 22 de junio, incluyendo el título y el lugar?
+
+Dime qué hay en mi agenda para el mes siguiente.
+
+¿Me puedes decir todos los eventos que se repiten cada mes?
+
+¿Dónde es la fiesta de cumpleaños del sábado que viene?
+
+¿Qué tengo planificado para la reunión con la gerencia?
+
+¿Cuáles son los eventos de esta semana?
+
+¿A qué hora es el evento de "presentación de resultados" de mañana?
+
+¿Qué hay programado para el 25 de mayo?
+
+Muéstrame la descripción y el lugar de la cita con el abogado.
+
+¿Puedes decirme la duración del evento "taller de pintura" que tengo el martes?
+
+¿Qué eventos hay en mi agenda para las próximas dos semanas?
+
+¿Qué tengo pendiente para la reunión de los viernes por la mañana?
+
+¿Qué hay en mi calendario para el 17 de abril?
+
+¿Puedes buscar el evento de "visita al museo" y darme la fecha?
+
+¿Qué tengo programado para el día de hoy después de las 5 PM?
+
+¿Cuál es el horario de la reunión con los inversores?
+
+¿Me puedes dar los detalles de la clase de cocina que tengo agendada?
+
+¿Qué hay en mi calendario para el 8 de marzo?
+
+¿Me puedes mostrar todos los eventos que son recurrentes?
+
+¿Cuál es el lugar de la reunión con el equipo de ventas?
+
+¿Qué eventos tengo en la agenda para la última semana del año?
+
+¿Puedes encontrar el evento llamado "revisión anual" y decirme cuándo es?
+
+¿Qué tengo programado para el 21 de enero, por la tarde?
+
+¿Qué dice mi calendario sobre el viaje a la playa en julio?
+
+¿Me puedes dar los detalles del evento "entrenamiento en el gimnasio"?
+
+¿Cuáles son los eventos de la próxima semana que tienen una duración de más de una hora?
+
+¿Qué tengo en mi calendario el 13 de febrero?
+
+¿Puedes mostrarme la descripción del evento "sesión de fotos"?
+
+¿Qué hay en mi agenda para los próximos 7 días?
+
+¿Cuál es la ubicación del evento "visita a cliente" que tengo el jueves?
+
+¿Me puedes dar la fecha y hora del evento "cierre de mes"?
+
+¿Qué tengo en la agenda para la primera semana de marzo?
+
+¿Puedes buscar todos los eventos de la semana del 10 de octubre?
+
+¿A qué hora es la reunión con el jefe el próximo miércoles?
+
+¿Qué hay en mi calendario para el 3 de noviembre?
+
+¿Puedes darme los detalles del evento "concierto de música"?
+
+¿Qué tengo programado para el fin de semana del 15 de julio?
+
+¿Cuál es la descripción y la duración del evento de "meditación"?
+
+¿Me puedes decir la fecha de la cita con el asesor financiero?
+
+¿Qué eventos tengo en mi calendario para el 28 de febrero?
+
+¿Puedes buscar el evento de "presentación de tesis" y darme la ubicación?
+
+¿Qué hay en mi agenda para el 19 de septiembre?
+
+¿Cuál es el título y la descripción del evento "entrevista de beca"?
+
+¿Me puedes mostrar mi calendario para la semana del 20 al 26 de agosto?
+
+¿Qué tengo agendado para el 6 de diciembre?
+
+¿Cuál es el horario de la reunión con el equipo de producto el próximo lunes?
+
+¿Me puedes dar la descripción y la ubicación del evento "clase de natación"?
+
+¿Qué hay en mi calendario para el día de hoy?
+
+¿Puedes decirme la fecha y el lugar del evento "viaje de negocios"?
+
+¿Cuáles son mis planes para el 2 de abril?
+
+¿Qué hay en mi calendario para la conferencia "Tech Summit" que dura todo el día en el Centro de Convenciones?
+
+Dime los detalles de la clase de yoga que se repite cada martes y jueves por la tarde, ¿a qué hora termina?
+
+¿Qué tengo en la agenda de la reunión de "cierre de proyecto" que es de 10 AM a 1 PM en la sala 3B?
+
+Busca el evento "Revisión Anual de Desempeño" que dura 90 minutos y dime dónde es.
+
+¿Me puedes dar la descripción y la hora de finalización del evento "Taller de Liderazgo" que tengo mañana por la tarde?
+
+¿Qué eventos se repiten cada mes en la oficina?
+
+Dime la descripción y la ubicación de la "clase de cocina" que es de 6 PM a 8 PM.
+
+Necesito saber la duración y el lugar de la "entrevista de trabajo" que está en el calendario.
+
+¿Qué tengo agendado para la "sesión de fotos" en el estudio de fotografía, incluyendo la hora de finalización?
+
+¿Cuáles son los eventos recurrentes en el gimnasio?
+
+¿Me puedes decir la descripción y la duración de la cita "revisión médica" para el próximo martes?
+
+¿Qué hay programado para la "videollamada con el cliente" que es en la oficina y termina a las 3 PM?
+
+¿Cuál es la ubicación de la "presentación de resultados" y a qué hora termina?
+
+Dime la descripción del "almuerzo de trabajo" que tengo en el restaurante "El Rincón".
+
+¿Qué tengo en mi agenda para el evento "concierto de música" en el Teatro Principal que dura 2 horas?
+
+¿Qué eventos en el calendario tienen una duración de 45 minutos?
+
+¿Cuál es el horario de finalización y el lugar del "viaje de negocios" que empieza mañana?
+
+Busca el evento "clase de natación" y dime si es recurrente y dónde es.
+
+¿Me puedes dar la descripción de la "reunión con el equipo de marketing" que termina a las 11 AM?
+
+¿Qué eventos que se repiten cada lunes tengo en mi agenda?
+
+Dime el lugar y la duración de la "revisión de código".
+
+¿Qué tengo en mi agenda para el evento "almuerzo con mis padres" que termina a las 2 PM?
+
+¿Cuál es la descripción y la ubicación de la "sesión de terapia" que dura una hora?
+
+¿Me puedes decir los detalles del evento "presentación de proyecto" en la sala de juntas, incluyendo la duración?
+
+¿Qué tengo en mi agenda para el "taller de pintura" que es en la academia de arte y dura 2 horas?
+
+¿A qué hora termina la "reunión de seguimiento" que empieza a las 10:30 AM y es en la oficina 2B?
+
+¿Qué eventos recurrentes hay todos los viernes por la tarde?
+
+Dime el lugar y la hora de finalización del "evento de networking" que empieza a las 7 PM.
+
+¿Cuál es la descripción de la "cita con el abogado" que es en su bufete?
+
+¿Qué tengo programado para la "llamada con Juan" que dura 20 minutos?
+
+¿Puedes darme la duración del "viaje a la montaña" y el lugar?
+
+¿Qué eventos tengo agendados en el gimnasio que duren una hora?
+
+Dime la descripción de la "reunión de planificación" que se repite cada dos semanas.
+
+¿A qué hora termina la "fiesta de cumpleaños" que es en mi casa?
+
+¿Me puedes decir los detalles del evento "viaje de negocios" que es recurrente cada trimestre?
+
+¿Qué eventos hay en mi calendario que duren 90 minutos?
+
+¿Cuál es el lugar de la "reunión de ventas" y a qué hora finaliza?
+
+Dime la descripción del "evento de voluntariado" que se realiza en el parque.
+
+¿Qué hay en mi agenda para la "clase de baile" que se repite cada martes y jueves?
+
+¿Cuál es la duración de la "revisión anual" que es en la sala principal?
+
+¿Me puedes dar la descripción de la "reunión con el director" que termina a las 11 AM?
+
+¿Qué eventos recurrentes hay en la sala de conferencias?
+
+Dime el lugar y la duración del "curso de Python".
+
+¿A qué hora termina la "sesión de entrenamiento" que es en el gimnasio y dura una hora?
+
+¿Cuál es la descripción de la "cita con el asesor financiero" que es en su oficina?
+
+¿Qué tengo en mi agenda para la "presentación de tesis" que es en la universidad y dura 3 horas?
+
+¿Puedes darme la duración del "taller de arte" y la hora de finalización?
+
+¿Qué hay en mi calendario para la "revisión anual" que es recurrente y termina a las 5 PM?
+
+Dime el lugar y la descripción de la "clase de historia" que se repite cada martes.
+
+¿Cuál es la hora de finalización del "viaje de fin de semana" que dura 3 días?
+
+¿Qué tengo agendado para la "reunión de equipo" que es en la oficina y termina a las 2 PM?
+
+¿Me puedes decir la descripción y la duración de la "revisión de presupuesto" que es de 10 a 11:30 AM?
+
+¿Qué hay en mi calendario para el "almuerzo de trabajo" en el restaurante "La Taberna" que termina a la 1:30 PM?
+
+¿Cuál es la ubicación de la "llamada de seguimiento" y a qué hora termina?
+
+Dime la duración y el lugar de la "reunión de producto" que es en la sala 5.
+
+¿Qué eventos tengo en la agenda que duren 30 minutos?
+
+¿Me puedes decir los detalles de la "cita con el banco" en la sucursal del centro que termina a las 11 AM?
+
+¿Qué hay en mi agenda para el evento "taller de escritura creativa" que es en el centro cultural?
+
+¿Cuál es la descripción de la "reunión de desarrollo" que dura 90 minutos?
+
+¿Me puedes dar los detalles de la "cena de empresa" en el restaurante "El Gran Sabroso"?
+
+¿Qué eventos recurrentes hay en mi calendario que duren 2 horas?
+
+Dime la ubicación y la duración de la "reunión de estrategia" que es en la sala de juntas.
+
+¿Qué hay en mi calendario para la "revisión de documentos" que es en la oficina principal?
+
+¿Me puedes decir si el evento "clase de música" es recurrente y a qué hora finaliza?
+
+¿Cuál es la descripción del "almuerzo con la familia" que es en el parque?
+
+¿Qué tengo agendado para el "viaje en familia" que dura una semana?
+
+Dime la duración del "curso de idiomas" que se repite todos los viernes.
+
+¿Qué tengo en mi agenda para el "evento de voluntariado ambiental" que es en el bosque y dura 4 horas?
+
+¿Cuál es la ubicación y la descripción de la "reunión de estrategia de ventas"?
+
+¿Me puedes decir si la "revisión anual" es recurrente y a qué hora termina?
+
+¿Qué eventos hay en mi calendario que duren más de 2 horas?
+
+¿Cuál es el lugar y la hora de finalización de la "sesión de terapia"?
+
+Dime la descripción de la "cita de negocios" que es en el Hotel Hilton.
+
+¿Qué tengo programado para la "clase de natación" que dura una hora y media y es en la piscina?
+
+¿Me puedes dar la duración y la ubicación de la "reunión de presupuesto" que es en la oficina?
+
+¿Qué eventos hay en mi agenda que se repitan cada mes?
+
+¿Cuál es la descripción de la "revisión de avances" que es en la sala de reuniones pequeña?
+
+¿Me puedes dar los detalles del "taller de fotografía" que se repite cada dos semanas?
+
+¿Qué hay en mi calendario para la "reunión de ventas" que dura 90 minutos?
+
+¿Cuál es la hora de finalización y la duración del "curso de Python avanzado"?
+
+Dime el lugar y la descripción del "evento de networking" que dura 2 horas.
+
+¿Qué eventos tengo en mi agenda que duren menos de una hora?
+
+¿Cuál es la ubicación de la "clase de yoga" que se repite?
+
+¿Me puedes dar la descripción y la duración del "viaje a la playa" que es en la Playa del Sol?
+
+¿Qué tengo agendado para la "llamada rápida" que dura 15 minutos?
+
+¿Cuál es la hora de finalización del "almuerzo de trabajo" que es en el centro?
+
+Dime la descripción del "evento de fin de semana" que es en la cabaña.
+
+¿Me puedes decir si la "cita con el abogado" es recurrente y dónde es?
+
+¿Qué hay en mi calendario para la "reunión de desarrollo" que es en la sala 2?
+
+¿Cuál es la duración del "taller de escritura" y a qué hora finaliza?
+
+Dime la descripción del "evento de networking" que es en el Hotel Hilton.
+
+¿Qué eventos que se repiten cada trimestre tengo en la agenda?
+
+¿Cuál es la hora de finalización del "viaje de negocios" a Barcelona?
+
+¿Me puedes dar los detalles de la "reunión de seguimiento de proyecto" que dura 30 minutos?
+
+¿Qué hay en mi agenda para el "taller de fotografía" que dura 3 horas y es en el estudio?
+
+Dime el lugar y la duración de la "revisión de la semana" que se repite cada lunes.
+
+¿Cuál es la descripción del "brunch de año nuevo" que dura dos horas?
+
+¿Qué eventos hay en mi calendario que duran 90 minutos?
+
+¿Me puedes dar los detalles de la "clase de historia" que es en el centro cultural?
+
+¿Qué tengo agendado para el "viaje de fin de semana" que dura 4 días?
