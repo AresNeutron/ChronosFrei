@@ -1,0 +1,2831 @@
+[
+    {
+    "text": "¿Me puedes decir qué eventos tengo para la próxima semana?",
+    "entities_dict": {
+      "start_datetime": "próxima semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda mañana por la tarde?",
+    "entities_dict": {
+      "start_datetime": "mañana por la tarde"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Necesito saber los detalles de mi cita con el dentista el 25 de septiembre.",
+    "entities_dict": {
+      "title": "cita con el dentista",
+      "start_datetime": "25 de septiembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué actividades hay planeadas para este fin de semana, específicamente el sábado?",
+    "entities_dict": {
+      "start_datetime": ["fin de semana", "sábado"]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime todo lo que tengo en la agenda de la próxima semana, solo los eventos que se repiten.",
+    "entities_dict": {
+      "start_datetime": "próxima semana",
+      "is_recurring_filter": "se repiten"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Recuérdame los eventos que tengo el 15 de marzo, los que son en la oficina.",
+    "entities_dict": {
+      "start_datetime": "15 de marzo",
+      "location": "la oficina"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué dice mi calendario sobre la reunión de presentación de proyecto que está fijada para el próximo martes?",
+    "entities_dict": {
+      "title": "reunión de presentación de proyecto",
+      "start_datetime": "próximo martes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Busca el evento llamada con cliente del 5 de enero y dime su ubicación y descripción.",
+    "entities_dict": {
+      "title": "llamada con cliente",
+      "start_datetime": "5 de enero"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Quiero ver los detalles de la clase de yoga que se repite cada lunes a las 7 PM, ¿cuál es la duración y el lugar?",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "start_datetime": "7 PM",
+      "recurrence_rule": "cada lunes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo programado para el 12 de diciembre a las 10 de la mañana?",
+    "entities_dict": {
+      "start_datetime": [
+        "12 de diciembre",
+        "10 de la mañana"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuáles son mis eventos para hoy?",
+    "entities_dict": {
+      "start_datetime": "hoy"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Muestra mi calendario para el mes de agosto.",
+    "entities_dict": {
+      "start_datetime": "mes de agosto"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes darme la descripción del evento reunión de equipo que tengo el lunes?",
+    "entities_dict": {
+      "title": "reunión de equipo",
+      "start_datetime": "lunes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora empieza y termina la conferencia del 20 de noviembre?",
+    "entities_dict": {
+      "title": "conferencia",
+      "start_datetime": "20 de noviembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo pendiente para la reunión del viernes a las 3 PM?",
+    "entities_dict": {
+      "title": "reunión",
+      "start_datetime": [
+        "viernes",
+        "3 PM"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime los eventos que están en mi agenda para la semana de exámenes.",
+    "entities_dict": {
+      "start_datetime": "semana de exámenes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Hay algo programado para el 31 de diciembre?",
+    "entities_dict": {
+      "start_datetime": "31 de diciembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Muéstrame todos los eventos recurrentes.",
+    "entities_dict": {
+      "is_recurring_filter": "eventos recurrentes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es el lugar de la cita con el doctor para el 18 de octubre?",
+    "entities_dict": {
+      "title": "cita con el doctor",
+      "start_datetime": "18 de octubre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda de aquí a una semana?",
+    "entities_dict": {
+      "start_datetime": "una semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay el 23 de julio?",
+    "entities_dict": {
+      "start_datetime": "23 de julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes buscar el evento llamado entrevista de trabajo?",
+    "entities_dict": {
+      "title": "entrevista de trabajo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo el 2 de febrero, los de por la mañana?",
+    "entities_dict": {
+      "start_datetime": [
+        "2 de febrero",
+        "por la mañana"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para la primera semana de junio?",
+    "entities_dict": {
+      "start_datetime": "primera semana de junio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción de la clase de baile del miércoles a las 8 PM?",
+    "entities_dict": {
+      "title": "clase de baile",
+      "start_datetime": ["miércoles", "8 PM"]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Hay algún evento para el 29 de febrero de 2024?",
+    "entities_dict": {
+      "start_datetime": "29 de febrero de 2024"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué citas tengo programadas para el mes de abril?",
+    "entities_dict": {
+      "start_datetime": "mes de abril"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime qué evento recurrente hay todos los viernes.",
+    "entities_dict": {
+      "recurrence_rule": "todos los viernes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Dónde es la cena con mis padres que programé para este sábado?",
+    "entities_dict": {
+      "title": "cena con mis padres",
+      "start_datetime": "sábado"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes darme todos los detalles de la reunión con Pedro, por favor?",
+    "entities_dict": {
+      "title": "reunión con Pedro"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en el calendario para el próximo jueves a la hora del almuerzo?",
+    "entities_dict": {
+      "start_datetime": [
+        "próximo jueves",
+        "hora del almuerzo"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora tengo que ir al gimnasio el 10 de marzo?",
+    "entities_dict": {
+      "title": "ir al gimnasio",
+      "start_datetime": "10 de marzo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué dice el calendario sobre el cumpleaños de mi hermano en julio?",
+    "entities_dict": {
+      "title": "cumpleaños de mi hermano",
+      "start_datetime": "julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos están programados para los próximos 3 días?",
+    "entities_dict": {
+      "start_datetime": "próximos 3 días"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir la ubicación y la duración del evento curso de Python?",
+    "entities_dict": {
+      "title": "curso de Python"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuáles son los eventos del día de hoy que tienen una duración de 2 horas?",
+    "entities_dict": {
+      "start_datetime": "día de hoy",
+      "duration": "2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda el próximo fin de semana?",
+    "entities_dict": {
+      "start_datetime": "próximo fin de semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay programado para el 1 de enero?",
+    "entities_dict": {
+      "start_datetime": "1 de enero"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes mostrar todos los eventos de la semana del 15 de noviembre?",
+    "entities_dict": {
+      "start_datetime": "semana del 15 de noviembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es el título y el horario de mi cita con el banco?",
+    "entities_dict": {
+      "title": "cita con el banco"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo en la agenda de la semana que viene?",
+    "entities_dict": {
+      "start_datetime": "semana que viene"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes encontrar el evento entrega del proyecto y darme la fecha y hora?",
+    "entities_dict": {
+      "title": "entrega del proyecto"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué dice mi agenda sobre la consulta médica del lunes a las 9 AM?",
+    "entities_dict": {
+      "title": "consulta médica",
+      "start_datetime": [
+        "lunes",
+        "9 AM"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo el 4 de julio?",
+    "entities_dict": {
+      "start_datetime": "4 de julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Muéstrame mi calendario para el mes en curso.",
+    "entities_dict": {
+      "start_datetime": "mes en curso"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar todos los detalles sobre el evento de reunión de marketing del día 10?",
+    "entities_dict": {
+      "title": "reunión de marketing",
+      "start_datetime": "día 10"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué actividades tengo planeadas para la primera semana de diciembre?",
+    "entities_dict": {
+      "start_datetime": "primera semana de diciembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora es el evento de networking del miércoles?",
+    "entities_dict": {
+      "title": "evento de networking",
+      "start_datetime": "miércoles"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuáles son mis compromisos para la segunda quincena de marzo?",
+    "entities_dict": {
+      "start_datetime": "segunda quincena de marzo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes mostrar el calendario de la próxima semana?",
+    "entities_dict": {
+      "start_datetime": "próxima semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo para el 22 de junio?",
+    "entities_dict": {
+      "start_datetime": "22 de junio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime si ya tengo algún Terraludo esta semana.",
+    "entities_dict": {
+        "title": "Terraludo",
+      "start_datetime": "esta semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime qué hay en mi agenda para el mes siguiente.",
+    "entities_dict": {
+      "start_datetime": "mes siguiente"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir todos los eventos que se repiten cada mes?",
+    "entities_dict": {
+      "recurrence_rule": "cada mes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Dónde es la fiesta de cumpleaños del sábado que viene?",
+    "entities_dict": {
+      "title": "fiesta de cumpleaños",
+      "start_datetime": "sábado que viene"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo planificado para la reunión con la gerencia?",
+    "entities_dict": {
+      "title": "reunión con la gerencia"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora es el evento de presentación de resultados de mañana?",
+    "entities_dict": {
+      "title": "presentación de resultados",
+      "start_datetime": "mañana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay programado para el 25 de mayo?",
+    "entities_dict": {
+      "start_datetime": "25 de mayo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime si tengo algo en la Cigale",
+    "entities_dict": {
+      "location": "la Cigale"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes decirme la duración del evento taller de pintura que tengo el martes?",
+    "entities_dict": {
+      "title": "taller de pintura",
+      "start_datetime": "martes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay en mi agenda para las próximas dos semanas?",
+    "entities_dict": {
+      "start_datetime": "próximas dos semanas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo pendiente para la reunión de los viernes por la mañana?",
+    "entities_dict": {
+      "title": "la reunión",
+      "start_datetime": [
+        "viernes",
+        "por la mañana"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para el 17 de abril?",
+    "entities_dict": {
+      "start_datetime": "17 de abril"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes buscar el evento de visita al museo y darme la fecha?",
+    "entities_dict": {
+      "location": "museo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo programado para el día de hoy después de las 5 PM?",
+    "entities_dict": {
+      "start_datetime": [
+        "hoy",
+        "después de las 5 PM"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Busca eventos en la universidad.",
+    "entities_dict": {
+      "location": "universidad"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles de la clase de cocina en casa de María.",
+    "entities_dict": {
+      "title": "clase de cocina",
+      "location": "casa de María"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para el 8 de marzo?",
+    "entities_dict": {
+      "start_datetime": "8 de marzo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes mostrar todos los eventos que son recurrentes?",
+    "entities_dict": {
+      "is_recurring_filter": "eventos recurrentes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es el lugar de la reunión con el equipo de ventas?",
+    "entities_dict": {
+      "title": "reunión con el equipo de ventas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo en la agenda para la última semana del año?",
+    "entities_dict": {
+      "start_datetime": "última semana del año"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo programado para el 21 de enero, por la tarde?",
+    "entities_dict": {
+      "start_datetime": [
+        "21 de enero",
+        "tarde"
+      ]
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué dice mi calendario sobre el viaje a la playa en julio?",
+    "entities_dict": {
+      "title": "viaje a la playa",
+      "start_datetime": "julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles del evento entrenamiento en el gimnasio?",
+    "entities_dict": {
+      "title": "entrenamiento",
+       "location": "gimnasio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuáles son los eventos de la próxima semana que tienen una duración de más de una hora?",
+    "entities_dict": {
+      "start_datetime": "próxima semana",
+      "duration": "más de una hora"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes mostrarme la descripción del evento sesión de fotos?",
+    "entities_dict": {
+      "title": "sesión de fotos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda para los próximos 7 días?",
+    "entities_dict": {
+      "start_datetime": "próximos 7 días"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la ubicación del evento visita a cliente que tengo el jueves?",
+    "entities_dict": {
+      "title": "visita a cliente",
+      "start_datetime": "jueves"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en la agenda para la primera semana de marzo?",
+    "entities_dict": {
+      "start_datetime": "primera semana de marzo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes buscar todos los eventos de la semana del 10 de octubre?",
+    "entities_dict": {
+      "start_datetime": "semana del 10 de octubre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo programado para el fin de semana del 15 de julio?",
+    "entities_dict": {
+      "start_datetime": "fin de semana del 15 de julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción y la duración del evento de meditación?",
+    "entities_dict": {
+      "title": "meditación"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir la fecha de la cita con el asesor financiero?",
+    "entities_dict": {
+      "title": "cita con el asesor financiero"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo en el cine?",
+    "entities_dict": {
+      "location": "cine"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Puedes buscar el evento de presentación de tesis y darme la ubicación?",
+    "entities_dict": {
+      "title": "presentación de tesis"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para la conferencia Tech Summit que dura todo el día en el Centro de Convenciones?",
+    "entities_dict": {
+      "title": "Tech Summit",
+      "duration": "todo el día",
+      "location": "Centro de Convenciones"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime los detalles de la clase de yoga que se repite cada martes y jueves por la tarde.",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "recurrence_rule": "cada martes y jueves",
+      "start_datetime": "por la tarde"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en la agenda de la reunión de cierre de proyecto que es de 10 AM a 1 PM en la sala 3B?",
+    "entities_dict": {
+      "title": "reunión de cierre de proyecto",
+      "start_datetime": "10 AM",
+      "end_datetime": "1 PM",
+      "location": "sala 3B"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Busca el evento Revisión Anual de Desempeño que dura 90 minutos y dime dónde es.",
+    "entities_dict": {
+      "title": "Revisión Anual de Desempeño",
+      "duration": "90 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos se repiten todos los meses en la oficina?",
+    "entities_dict": {
+      "recurrence_rule": "todos los meses",
+      "location": "oficina"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción y la ubicación de la clase de cocina que es de 6 PM a 8 PM.",
+    "entities_dict": {
+      "title": "clase de cocina",
+      "start_datetime": "6 PM",
+      "end_datetime": "8 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para la sesión de fotos en el estudio de fotografía?",
+    "entities_dict": {
+      "title": "sesión de fotos",
+      "location": "estudio de fotografía"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuáles son los eventos recurrentes en el gimnasio?",
+    "entities_dict": {
+      "is_recurring_filter": "eventos recurrentes",
+      "location": "gimnasio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir la descripción y la duración de la cita de revisión médica para el próximo martes?",
+    "entities_dict": {
+      "title": "cita de revisión médica",
+      "start_datetime": "próximo martes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay programado para la videollamada con el cliente que es en la oficina y termina a las 3 PM?",
+    "entities_dict": {
+      "title": "videollamada con el cliente",
+      "location": "oficina",
+      "end_datetime": "3 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción del almuerzo de trabajo que tengo en el restaurante El Rincón.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "El Rincón"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda para el evento concierto de música en el Teatro Principal que dura 2 horas?",
+    "entities_dict": {
+      "title": "concierto de música",
+      "location": "Teatro Principal",
+      "duration": "2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos en el calendario tardan 45 minutos?",
+    "entities_dict": {
+      "duration": "45 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar la descripción de la reunión con el equipo de marketing que termina a las 11 AM?",
+    "entities_dict": {
+      "title": "reunión con el equipo de marketing",
+      "end_datetime": "11 AM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos que se repiten cada lunes tengo en mi agenda?",
+    "entities_dict": {
+      "recurrence_rule": "cada lunes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda para el evento almuerzo con mis padres que termina a las 2 PM?",
+    "entities_dict": {
+      "title": "almuerzo con mis padres",
+      "end_datetime": "2 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción y la ubicación de la sesión de terapia que toma una hora?",
+    "entities_dict": {
+      "title": "sesión de terapia",
+      "duration": "una hora"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir los detalles del evento presentación de proyecto en la sala de juntas?",
+    "entities_dict": {
+      "title": "presentación de proyecto",
+      "location": "sala de juntas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda para el taller de pintura que es en la academia de arte y tarda 2 horas?",
+    "entities_dict": {
+      "title": "taller de pintura",
+      "location": "academia de arte",
+      "duration": "2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora empieza la reunión de seguimiento que termina a las 10:30 AM y es en la oficina 2B?",
+    "entities_dict": {
+      "title": "reunión de seguimiento",
+      "end_datetime": "10:30 AM",
+      "location": "oficina 2B"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos recurrentes hay todos los viernes por la tarde?",
+    "entities_dict": {
+      "recurrence_rule": "todos los viernes",
+      "start_datetime": "por la tarde"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción de la cita con el abogado que es en su bufete?",
+    "entities_dict": {
+      "title": "cita con el abogado",
+      "location": "bufete"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo agendados en el gimnasio que duren una hora?",
+    "entities_dict": {
+      "location": "gimnasio",
+      "duration": "una hora"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción de la reunión de planificación que se repite cada dos semanas.",
+    "entities_dict": {
+      "title": "reunión de planificación",
+      "recurrence_rule": "cada dos semanas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora termina la fiesta de cumpleaños que es en mi casa?",
+    "entities_dict": {
+      "title": "fiesta de cumpleaños",
+      "location": "mi casa"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir los detalles del evento viaje de negocios que es recurrente cada trimestre?",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "recurrence_rule": "cada trimestre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay en mi calendario que sean de 90 minutos?",
+    "entities_dict": {
+      "duration": "90 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción del evento de voluntariado que se realiza en el parque.",
+    "entities_dict": {
+      "title": "evento de voluntariado",
+      "location": "parque"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda para la clase de baile que se repite cada martes y jueves?",
+    "entities_dict": {
+      "title": "clase de baile",
+      "recurrence_rule": "cada martes y jueves"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la duración de la revisión anual que es en la sala principal?",
+    "entities_dict": {
+      "title": "revisión anual",
+      "location": "sala principal"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar la descripción de la reunión con el director que termina a las 11 AM?",
+    "entities_dict": {
+      "title": "reunión con el director",
+      "end_datetime": "11 AM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos recurrentes hay en la sala de conferencias?",
+    "entities_dict": {
+      "is_recurring_filter": "eventos recurrentes",
+      "location": "sala de conferencias"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora termina la sesión de entrenamiento que es en el gimnasio y es de una hora?",
+    "entities_dict": {
+      "title": "sesión de entrenamiento",
+      "location": "gimnasio",
+      "duration": "una hora"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción de la cita con el asesor financiero que es en su oficina?",
+    "entities_dict": {
+      "title": "cita con el asesor financiero",
+      "location": "oficina"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda para la presentación de tesis que es en la universidad y dura 3 horas?",
+    "entities_dict": {
+      "title": "presentación de tesis",
+      "location": "universidad",
+      "duration": "3 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para la revisión anual que es recurrente y termina a las 5 PM?",
+    "entities_dict": {
+      "title": "revisión anual",
+      "is_recurring_filter": "recurrente",
+      "end_datetime": "5 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime el lugar y la descripción de la clase de historia que se repite cada martes.",
+    "entities_dict": {
+      "title": "clase de historia",
+      "recurrence_rule": "cada martes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la hora de finalización del viaje de fin de semana que dura 3 días?",
+    "entities_dict": {
+      "title": "viaje de fin de semana",
+      "duration": "3 días"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para la reunión de equipo que es en la oficina y finaliza a las 2 PM?",
+    "entities_dict": {
+      "title": "reunión de equipo",
+      "location": "oficina",
+      "end_datetime": "2 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir la descripción y la duración de la revisión de presupuesto que es de 10 AM a 11:30 AM?",
+    "entities_dict": {
+      "title": "revisión de presupuesto",
+      "start_datetime": "10 AM",
+      "end_datetime": "11:30 AM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para el almuerzo de trabajo en el restaurante La Taberna que finaliza a la 1:30 PM?",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "La Taberna",
+      "end_datetime": "1:30 PM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la duración y el lugar de la reunión de producto que es en la sala 5.",
+    "entities_dict": {
+      "title": "reunión de producto",
+      "location": "sala 5"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo en la agenda que demoren 30 minutos?",
+    "entities_dict": {
+      "duration": "30 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes decir los detalles de la cita con el banco en la sucursal del centro que se acaba a las 11 AM?",
+    "entities_dict": {
+      "title": "cita con el banco",
+      "location": "sucursal del centro",
+      "end_datetime": "11 AM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda para el evento taller de escritura creativa que es en el centro cultural?",
+    "entities_dict": {
+      "title": "taller de escritura creativa",
+      "location": "centro cultural"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción de la reunión de desarrollo que demora 90 minutos?",
+    "entities_dict": {
+      "title": "reunión de desarrollo",
+      "duration": "90 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles de la cena de empresa en el restaurante El Gran Sabroso?",
+    "entities_dict": {
+      "title": "cena de empresa",
+      "location": "El Gran Sabroso"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos recurrentes hay en mi calendario que tarden 2 horas?",
+    "entities_dict": {
+      "is_recurring_filter": "eventos recurrentes",
+      "duration": "2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la ubicación y la duración de la reunión de estrategia que es en la sala de juntas.",
+    "entities_dict": {
+      "title": "reunión de estrategia",
+      "location": "sala de juntas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción del almuerzo con la familia que es en el parque?",
+    "entities_dict": {
+      "title": "almuerzo con la familia",
+      "location": "parque"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para el viaje en familia que dura una semana?",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "duration": "una semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la duración del curso de idiomas que se repite todos los viernes.",
+    "entities_dict": {
+      "title": "curso de idiomas",
+      "recurrence_rule": "todos los viernes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo en mi agenda para el evento de voluntariado ambiental que es en el bosque y dura 4 horas?",
+    "entities_dict": {
+      "title": "evento de voluntariado ambiental",
+      "location": "bosque",
+      "duration": "4 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay en mi calendario que duren más de 2 horas?",
+    "entities_dict": {
+      "duration": "más de 2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo programado para la clase de natación que dura una hora y media en la piscina?",
+    "entities_dict": {
+      "title": "clase de natación",
+      "duration": "una hora y media",
+      "location": "piscina"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar la duración y la ubicación de la reunión de presupuesto que es en la oficina?",
+    "entities_dict": {
+      "title": "reunión de presupuesto",
+      "location": "oficina"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay en mi agenda que se repitan cada mes?",
+    "entities_dict": {
+      "recurrence_rule": "cada mes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción de la revisión de avances que es en la sala de reuniones pequeña?",
+    "entities_dict": {
+      "title": "revisión de avances",
+      "location": "sala de reuniones pequeña"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles del taller de fotografía que se vuelve a repetir cada dos semanas?",
+    "entities_dict": {
+      "title": "taller de fotografía",
+      "recurrence_rule": "cada dos semanas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para la reunión de ventas que demora 90 minutos?",
+    "entities_dict": {
+      "title": "reunión de ventas",
+      "duration": "90 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la hora de finalización y la duración del curso de Python avanzado?",
+    "entities_dict": {
+      "title": "curso de Python avanzado"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime el lugar y la descripción del evento de networking que dura 2 horas.",
+    "entities_dict": {
+      "title": "evento de networking",
+      "duration": "2 horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos tengo en mi agenda que duren menos de una hora?",
+    "entities_dict": {
+      "duration": "menos de una hora"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la ubicación de la clase de yoga que se repite?",
+    "entities_dict": {
+      "title": "clase de yoga"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar la descripción y la duración del viaje a la playa que es en la Playa del Sol?",
+    "entities_dict": {
+      "title": "viaje a la playa",
+      "location": "Playa del Sol"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para la llamada rápida que toma 15 minutos?",
+    "entities_dict": {
+      "title": "llamada rápida",
+      "duration": "15 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la hora de finalización del almuerzo de trabajo que es en el centro?",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "centro"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción del evento de fin de semana que es en la cabaña.",
+    "entities_dict": {
+      "title": "evento de fin de semana",
+      "location": "cabaña"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi calendario para la reunión de desarrollo que es en la sala 2?",
+    "entities_dict": {
+      "title": "reunión de desarrollo",
+      "location": "sala 2"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime la descripción del evento de networking que es en el Hotel Hilton.",
+    "entities_dict": {
+      "title": "evento de networking",
+      "location": "Hotel Hilton"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos que se repiten cada trimestre tengo en la agenda?",
+    "entities_dict": {
+      "recurrence_rule": "cada trimestre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la hora de finalización del viaje de negocios a Barcelona?",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "location": "Barcelona"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles de la reunión de seguimiento de proyecto que dura 30 minutos?",
+    "entities_dict": {
+      "title": "reunión de seguimiento de proyecto",
+      "duration": "30 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda para el taller de fotografía que tarda 3 horas y es en el estudio?",
+    "entities_dict": {
+      "title": "taller de fotografía",
+      "duration": "3 horas",
+      "location": "estudio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Dime el lugar y la duración de la revisión de la semana que es recurrente todos los lunes.",
+    "entities_dict": {
+      "title": "revisión de la semana",
+      "recurrence_rule": "todos los lunes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuál es la descripción del brunch de año nuevo que dura dos horas?",
+    "entities_dict": {
+      "title": "brunch de año nuevo",
+      "duration": "dos horas"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué eventos hay en mi calendario que duran 90 minutos?",
+    "entities_dict": {
+      "duration": "90 minutos"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Me puedes dar los detalles de la clase de historia que es en el centro cultural?",
+    "entities_dict": {
+      "title": "clase de historia",
+      "location": "centro cultural"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para el viaje de fin de semana que dura 4 días?",
+    "entities_dict": {
+      "title": "viaje de fin de semana",
+      "duration": "4 días"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea un evento llamado Reunión de equipo para el martes que viene de 10 a 11 de la mañana en la sala de conferencias.",
+    "entities_dict": {
+      "title": "Reunión de equipo",
+      "start_datetime": [
+        "martes que viene",
+        "10"
+      ],
+      "end_datetime": "11 de la mañana",
+      "location": "sala de conferencias"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero agendar una cita con el dentista para dentro de tres días a las 5 PM.",
+    "entities_dict": {
+      "title": "cita con el dentista",
+      "start_datetime": [
+        "tres días",
+        "5 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una videollamada de media hora con el cliente para el próximo lunes a las 9:30 AM.",
+    "entities_dict": {
+      "title": "videollamada con el cliente",
+      "duration": "media hora",
+      "start_datetime": [
+        "próximo lunes",
+        "9:30 AM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade una clase de yoga que se repita todos los jueves desde las 7 PM hasta las 9, con una duración de una hora.",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "recurrence_rule": "todos los jueves",
+      "start_datetime": "7 PM",
+      "end_datetime": "9",
+      "duration": "una hora"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario el cumpleaños de mi hermano, que es el 15 de septiembre.",
+    "entities_dict": {
+      "title": "cumpleaños de mi hermano",
+      "start_datetime": "15 de septiembre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo una Entrevista de trabajo para mañana a las 3 PM hasta las 6 en la oficina de Recursos Humanos.",
+    "entities_dict": {
+      "title": "Entrevista de trabajo",
+      "start_datetime": [
+        "mañana",
+        "3 PM"
+      ],
+      "end_datetime": "6",
+      "location": "oficina de Recursos Humanos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agenda una reunión de revisión de presupuesto para el 25 de octubre, que empiece a las 11:00 AM y termine a las 12:30 PM.",
+    "entities_dict": {
+      "title": "reunión de revisión de presupuesto",
+      "start_datetime": [
+        "25 de octubre",
+        "11:00 AM"
+      ],
+      "end_datetime": "12:30 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento recurrente, la clase de natación, cada miércoles a las 8 AM en el polideportivo municipal.",
+    "entities_dict": {
+      "title": "clase de natación",
+      "recurrence_rule": "cada miércoles",
+      "start_datetime": "8 AM",
+      "location": "polideportivo municipal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero hacer ejercicio de una hora, para dentro de 4 días.",
+    "entities_dict": {
+      "title": "hacer ejercicio",
+      "duration": "una hora",
+      "start_datetime": "4 días"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi agenda el vuelo a Madrid para el 12 de noviembre a las 6 de la mañana.",
+    "entities_dict": {
+      "title": "vuelo a Madrid",
+      "start_datetime": [
+        "12 de noviembre",
+        "6 de la mañana"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega a mi calendario cita con el abogado para el 3 de abril a las 10:00 AM, la descripción es revisar contrato.",
+    "entities_dict": {
+      "title": "cita con el abogado",
+      "start_datetime": [
+        "3 de abril",
+        "10:00 AM"
+      ],
+      "description": "revisar contrato"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa el evento cena con María para este sábado por la noche a las 9 PM.",
+    "entities_dict": {
+      "title": "cena con María",
+      "start_datetime": [
+        "este sábado por la noche",
+        "9 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una reunión de presentación de resultados para el 15 de marzo, que sea en la sala de juntas durante una hora.",
+    "entities_dict": {
+      "title": "reunión de presentación de resultados",
+      "duration": "una hora",
+      "start_datetime": "15 de marzo",
+      "location": "sala de juntas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito una reunión con el equipo de marketing el próximo viernes a las 11:00 AM.",
+    "entities_dict": {
+      "title": "reunión con el equipo de marketing",
+      "start_datetime": [
+        "próximo viernes",
+        "11:00 AM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el evento curso de pintura al calendario, que es todos los martes en la academia de arte.",
+    "entities_dict": {
+      "title": "curso de pintura",
+      "recurrence_rule": "todos los martes",
+      "location": "academia de arte"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero planificar un viaje a la playa el 2 de julio, que dure hasta el 5 de julio.",
+    "entities_dict": {
+      "title": "viaje a la playa",
+      "start_datetime": "2 de julio",
+      "end_datetime": "5 de julio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una llamada el 10 de diciembre durante 20 minutos.",
+    "entities_dict": {
+      "title": "llamada",
+      "start_datetime": "10 de diciembre",
+      "duration": "20 minutos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una Revisión anual de rendimiento para el 29 de febrero de 2024 a las 2:00 PM.",
+    "entities_dict": {
+      "title": "Revisión anual de rendimiento",
+      "start_datetime": [
+        "29 de febrero de 2024",
+        "2:00 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento recurrente de 30 minutos, meditación, cada mañana a las 7 AM.",
+    "entities_dict": {
+      "title": "meditación",
+      "duration": "30 minutos",
+      "recurrence_rule": "cada mañana",
+      "start_datetime": "7 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un Taller de fotografía para la próxima semana, de 10 a 12 del mediodía",
+    "entities_dict": {
+      "title": "Taller de fotografía",
+      "start_datetime": [
+        "próxima semana",
+        "10"
+      ],
+      "end_datetime": "12 del mediodía"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero agendar una cita con el doctor para el 5 de enero, la duración es de 45 minutos.",
+    "entities_dict": {
+      "title": "cita con el doctor",
+      "start_datetime": "5 de enero",
+      "duration": "45 minutos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una reunión para dentro de una semana a las 4 PM, en la oficina 2B.",
+    "entities_dict": {
+      "title": "reunión",
+      "start_datetime": [
+        "una semana",
+        "4 PM"
+      ],
+      "location": "oficina 2B"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito programar un evento de visita al cliente el jueves por la mañana, de 9 a 11.",
+    "entities_dict": {
+      "title": "visita al cliente",
+      "start_datetime": [
+        "jueves por la mañana",
+        "9"
+      ],
+      "end_datetime": "11"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un concierto de música para este fin de semana, el sábado a las 8 PM.",
+    "entities_dict": {
+      "title": "concierto de música",
+      "start_datetime": [
+        "este fin de semana",
+        "sábado",
+        "8 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una videollamada con el equipo de producto para hoy en una hora.",
+    "entities_dict": {
+      "title": "videollamada con el equipo de producto",
+      "start_datetime": ["hoy", "en una hora"]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento en el calendario para el 18 de octubre, un almuerzo con la familia.",
+    "entities_dict": {
+      "title": "almuerzo con la familia",
+      "start_datetime": "18 de octubre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega una cita para el próximo lunes a las 10:30 AM, con el título presentación de proyecto.",
+    "entities_dict": {
+      "title": "presentación de proyecto",
+      "start_datetime": [
+        "próximo lunes",
+        "10:30 AM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento que se repita, el cierre de contabilidad, el primer viernes de cada mes.",
+    "entities_dict": {
+      "title": "cierre de contabilidad",
+      "recurrence_rule": ["el primer viernes", "cada mes"]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un viaje de negocios para el 22 de junio al 25 de junio.",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "start_datetime": "22 de junio",
+      "end_datetime": "25 de junio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento para el 13 de febrero, la descripción es reunión con inversores.",
+    "entities_dict": {
+      "start_datetime": "13 de febrero",
+      "description": "reunión con inversores"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento de 2 horas para el martes a las 10:00 AM, la ubicación es el gimnasio.",
+    "entities_dict": {
+      "duration": "2 horas",
+      "start_datetime": [
+        "martes",
+        "10:00 AM"
+      ],
+      "location": "gimnasio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito agendar una reunión para pasado mañana, de 3 PM a 4 PM.",
+    "entities_dict": {
+      "title": "reunión",
+      "start_datetime": [
+        "pasado mañana",
+        "3 PM"
+      ],
+      "end_datetime": "4 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento llamado Taller de liderazgo para el 10 de marzo a las 9:00 AM, la duración es de todo el día.",
+    "entities_dict": {
+      "title": "Taller de liderazgo",
+      "start_datetime": [
+        "10 de marzo",
+        "9:00 AM"
+      ],
+      "duration": "todo el día"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega a mi calendario el evento sesión de fotos el próximo viernes a las 11:00 AM.",
+    "entities_dict": {
+      "title": "sesión de fotos",
+      "start_datetime": [
+        "próximo viernes",
+        "11:00 AM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento que será dentro de un mes, la fiesta de cumpleaños de Ana.",
+    "entities_dict": {
+      "start_datetime": "dentro de un mes",
+      "title": "fiesta de cumpleaños de Ana"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento visita al museo que será el próximo sábado, con una duración de 3 horas.",
+    "entities_dict": {
+      "title": "visita al museo",
+      "start_datetime": "próximo sábado",
+      "duration": "3 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento recurrente entrenamiento en el gimnasio cada lunes, miércoles y viernes.",
+    "entities_dict": {
+      "title": "entrenamiento",
+      "recurrence_rule": "cada lunes, miércoles y viernes",
+      "location": "gimnasio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito una reunión con el director de ventas que será el 21 de enero, que empiece a las 10:00 AM.",
+    "entities_dict": {
+      "title": "reunión con el director de ventas",
+      "start_datetime": [
+        "21 de enero",
+        "10:00 AM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon el viaje de fin de semana en el calendario, del 15 al 17 de julio.",
+    "entities_dict": {
+      "title": "viaje de fin de semana",
+      "start_datetime": "15 de julio",
+      "end_datetime": "17 de julio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento de una hora para mañana, la descripción es tarea de matemáticas.",
+    "entities_dict": {
+      "duration": "una hora",
+      "start_datetime": "mañana",
+      "description": "tarea de matemáticas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agenda un almuerzo de trabajo para el 28 de junio a la 1:00 PM.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "start_datetime": [
+        "28 de junio",
+        "1:00 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo una clase de baile, todos los martes por la tarde en el estudio de danza.",
+    "entities_dict": {
+      "title": "clase de baile",
+      "recurrence_rule": "todos los martes",
+      "start_datetime": "por la tarde",
+      "location": "estudio de danza"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una reunión de networking que comience el 3 de noviembre a las 6:30 PM y finalice el 6 de noviembre",
+    "entities_dict": {
+      "title": "reunión de networking",
+      "start_datetime": [
+        "3 de noviembre",
+        "6:30 PM"
+      ],
+      "end_datetime": "6 de noviembre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una reunión con el equipo de diseño que comenzará 14 de diciembre, desde las 10 para terminar a las 11 AM.",
+    "entities_dict": {
+      "title": "reunión con el equipo de diseño",
+      "start_datetime": [
+        "14 de diciembre",
+        "10"
+      ],
+      "end_datetime": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un viaje de vacaciones para el 15 de agosto, con una duración de una semana.",
+    "entities_dict": {
+      "title": "viaje de vacaciones",
+      "start_datetime": "15 de agosto",
+      "duration": "una semana"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento que se repita cada mes el día 25, llamado revisión de clientes.",
+    "entities_dict": {
+      "title": "revisión de clientes",
+      "recurrence_rule": ["cada mes", "día 25"]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario la sesión de terapia para el próximo lunes a las 5 PM.",
+    "entities_dict": {
+      "title": "sesión de terapia",
+      "start_datetime": [
+        "próximo lunes",
+        "5 PM"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un almuerzo con mis padres para este domingo al mediodía.",
+    "entities_dict": {
+      "title": "almuerzo con mis padres",
+      "start_datetime": [
+        "este domingo",
+        "mediodía"
+      ]
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento recurrente de 45 minutos, lectura, cada tarde a las 6 PM.",
+    "entities_dict": {
+      "title": "lectura",
+      "duration": "45 minutos",
+      "recurrence_rule": "cada tarde",
+      "start_datetime": "6 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento de revisión de documentos para pasado mañana, de 9 a 10:30 AM.",
+    "entities_dict": {
+      "title": "revisión de documentos",
+      "start_datetime": [
+        "pasado mañana",
+        "9 AM"
+      ],
+      "end_datetime": "10:30 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento recurrente caminata todos los domingos por la mañana.",
+    "entities_dict": {
+      "title": "caminata",
+      "recurrence_rule": "todos los domingos",
+      "start_datetime": "por la mañana"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento de viaje en familia para el 15 de julio, con una duración de dos semanas.",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "start_datetime": "15 de julio",
+      "duration": "dos semanas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento de una hora para el 12 de diciembre a las 2 PM en la sala de reuniones 3.",
+    "entities_dict": {
+      "duration": "una hora",
+      "start_datetime": [
+        "12 de diciembre",
+        "2 PM"
+      ],
+      "location": "sala de reuniones 3"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega una sesión de entrenamiento cada martes y jueves en la tarde.",
+    "entities_dict": {
+      "title": "sesión de entrenamiento",
+      "recurrence_rule": "cada martes y jueves",
+      "start_datetime": "en la tarde"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento de voluntariado para el 5 de abril, de 9 AM a 1 PM.",
+    "entities_dict": {
+      "title": "evento de voluntariado",
+      "start_datetime": [
+        "5 de abril",
+        "9 AM"
+      ],
+      "end_datetime": "1 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el evento curso de idiomas al calendario, que es todos los viernes a las 6 PM.",
+    "entities_dict": {
+      "title": "curso de idiomas",
+      "recurrence_rule": "todos los viernes",
+      "start_datetime": "6 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero planificar un viaje a la montaña del 25 al 27 de marzo.",
+    "entities_dict": {
+      "title": "viaje a la montaña",
+      "start_datetime": "25 de marzo",
+      "end_datetime": "27 de marzo"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo una reunión para el 14 de febrero a las 8 PM en el restaurante La Rosa.",
+    "entities_dict": {
+      "title": "reunión",
+      "start_datetime": [
+        "14 de febrero",
+        "8 PM"
+      ],
+      "location": "restaurante La Rosa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega un evento de visita al cliente para el próximo jueves, de 10 a 11 AM.",
+    "entities_dict": {
+      "title": "visita al cliente",
+      "start_datetime": [
+        "próximo jueves",
+        "10 AM"
+      ],
+      "end_datetime": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo una reunión de planificación cada lunes a las 9 AM.",
+    "entities_dict": {
+      "title": "reunión de planificación",
+      "recurrence_rule": "cada lunes",
+      "start_datetime": "9 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Preparar presentación de 30 minutos para dentro de dos días.",
+    "entities_dict": {
+      "duration": "30 minutos",
+      "start_datetime": "dos días",
+      "title": "Preparar presentación"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito crear una reunión de estrategia para el 5 de enero.",
+    "entities_dict": {
+      "title": "reunión de estrategia",
+      "start_datetime": "5 de enero"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento viaje de fin de semana del 23 al 25 de septiembre.",
+    "entities_dict": {
+      "title": "viaje de fin de semana",
+      "start_datetime": "23 de septiembre",
+      "end_datetime": "25 de septiembre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo una reunión de proyecto para el próximo martes, de 11 a 12 PM.",
+    "entities_dict": {
+      "title": "reunión de proyecto",
+      "start_datetime": [
+        "próximo martes",
+        "11 PM"
+      ],
+      "end_datetime": "12 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa una reunión con el equipo en la sala de conferencias de 10 AM a 12 PM, tenemos que discutir el plan de lanzamiento del producto.",
+    "entities_dict": {
+      "title": "reunión con el equipo",
+      "location": "sala de conferencias",
+      "start_datetime": "10 AM",
+      "end_datetime": "12 PM",
+      "description": "discutir el plan de lanzamiento del producto"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon un evento repetitivo en el calendario, una clase de yoga, cada lunes y miércoles a las 7 PM, dura una hora, en el gimnasio de la oficina.",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "recurrence_rule": "cada lunes y miércoles",
+      "start_datetime": "7 PM",
+      "duration": "una hora",
+      "location": "gimnasio de la oficina"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un taller de liderazgo que dure todo el día en el Hotel Hilton y que será el 25 de octubre, estrategias de gestión de personal.",
+    "entities_dict": {
+      "title": "taller de liderazgo",
+      "duration": "todo el día",
+      "location": "Hotel Hilton",
+      "start_datetime": "25 de octubre",
+      "description": "estrategias de gestión de personal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero agendar la revisión anual en la sala 5 que empieza a las 2 PM y termina a las 3:30 PM.",
+    "entities_dict": {
+      "title": "revisión anual",
+      "location": "sala 5",
+      "start_datetime": "2 PM",
+      "end_datetime": "3:30 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Añade un encuentro usual para la revisión de código cada martes por la mañana, en la sala de reuniones pequeña.",
+    "entities_dict": {
+      "title": "revisión de código",
+      "recurrence_rule": "cada martes",
+      "start_datetime": "por la mañana",
+      "location": "sala de reuniones pequeña"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi agenda un viaje de negocios a Madrid, desde el 12 hasta el 15 de noviembre.",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "location": "Madrid",
+      "start_datetime": "12",
+      "end_datetime": "15 de noviembre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la llamada con el cliente que dura media hora, a las 10 AM en el número de la oficina.",
+    "entities_dict": {
+      "title": "llamada con el cliente",
+      "duration": "media hora",
+      "start_datetime": "10 AM",
+      "location": "número de la oficina"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo un almuerzo de trabajo en el restaurante La Taberna, se acaba a las 2 PM.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "restaurante La Taberna",
+      "end_datetime": "2 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "apunta: voy a meditar cada día entre semana a las 7 AM durante 30 minutos en casa.",
+    "entities_dict": {
+      "title": "meditar",
+      "recurrence_rule": "cada día entre semana",
+      "start_datetime": "7 AM",
+      "duration": "30 minutos",
+      "location": "casa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la cita con el dentista que dura una hora y media, en la clínica del centro, para el 25 de septiembre.",
+    "entities_dict": {
+      "title": "cita con el dentista",
+      "duration": "una hora y media",
+      "location": "clínica del centro",
+      "start_datetime": "25 de septiembre"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión de presupuesto que es de 10 AM a 12 PM, el lugar es la oficina principal.",
+    "entities_dict": {
+      "title": "reunión de presupuesto",
+      "start_datetime": "10 AM",
+      "end_datetime": "12 PM",
+      "location": "oficina principal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento para el taller de fotografía que dure 3 horas, la ubicación es el estudio de arte.",
+    "entities_dict": {
+      "title": "taller de fotografía",
+      "duration": "3 horas",
+      "location": "estudio de arte"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea una cita con el abogado en su bufete a las 11 AM, con una duración de 45 minutos.",
+    "entities_dict": {
+      "title": "cita con el abogado",
+      "location": "bufete",
+      "start_datetime": "11 AM",
+      "duration": "45 minutos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito un evento llamado presentación de proyecto, la localización es la sala de juntas, que termine a las 11 AM.",
+    "entities_dict": {
+      "title": "presentación de proyecto",
+      "location": "sala de juntas",
+      "end_datetime": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la revisión médica, la duración es 45 minutos, el sitio es la Clínica San Juan.",
+    "entities_dict": {
+      "title": "revisión médica",
+      "duration": "45 minutos",
+      "location": "Clínica San Juan"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario el viaje de fin de semana a la cabaña, desde el próximo viernes al domingo.",
+    "entities_dict": {
+      "title": "viaje de fin de semana",
+      "location": "cabaña",
+      "start_datetime": "próximo viernes",
+      "end_datetime": "próximo domingo"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento recurrente, título caminata, que dura una hora, todos los sábados por la noche en el parque.",
+    "entities_dict": {
+      "title": "caminata",
+      "duration": "una hora",
+      "recurrence_rule": "todos los sábados",
+      "start_datetime": "por la noche",
+      "location": "parque"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la sesión de terapia en la oficina del terapeuta, que termina a las 6 PM.",
+    "entities_dict": {
+      "title": "sesión de terapia",
+      "location": "oficina del terapeuta",
+      "end_datetime": "6 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento de voluntariado en el bosque municipal, que dure 4 horas.",
+    "entities_dict": {
+      "title": "evento de voluntariado",
+      "location": "bosque municipal",
+      "duration": "4 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo algo repetitivo, la clase de natación, todos los martes y jueves en la piscina del polideportivo.",
+    "entities_dict": {
+      "title": "clase de natación",
+      "recurrence_rule": "todos los martes y jueves",
+      "location": "piscina del polideportivo"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento, el viaje en familia que dura una semana, a partir del 15 de julio.",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "duration": "una semana",
+      "start_datetime": "15 de julio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la reunión de ventas que dura 90 minutos, se ubica en el restaurante El Sabor.",
+    "entities_dict": {
+      "title": "reunión de ventas",
+      "duration": "90 minutos",
+      "location": "restaurante El Sabor"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Guarda algo que se repite, el almuerzo con la familia, cada domingo a la 1 PM en casa.",
+    "entities_dict": {
+      "title": "almuerzo con la familia",
+      "recurrence_rule": "cada domingo",
+      "start_datetime": "1 PM",
+      "location": "casa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la clase de baile que es de 7 PM a 8:30 PM en el estudio de danza Danzarte.",
+    "entities_dict": {
+      "title": "clase de baile",
+      "start_datetime": "7 PM",
+      "end_datetime": "8:30 PM",
+      "location": "estudio de danza Danzarte"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito un evento para la presentación de tesis en la Universidad Complutense, que finaliza a la 1 PM.",
+    "entities_dict": {
+      "title": "presentación de tesis",
+      "location": "Universidad Complutense",
+      "end_datetime": "1 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento de networking que dura 2 horas en el Hotel Las Rosas, con la descripción oportunidades de negocio.",
+    "entities_dict": {
+      "title": "networking",
+      "duration": "2 horas",
+      "location": "Hotel Las Rosas",
+      "description": "oportunidades de negocio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la cita con el asesor financiero en su oficina del centro, que dure 45 minutos.",
+    "entities_dict": {
+      "title": "cita con el asesor financiero",
+      "location": "oficina del centro",
+      "duration": "45 minutos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento de revisión de documentos en la oficina principal, con una duración de una hora.",
+    "entities_dict": {
+      "title": "revisión de documentos",
+      "location": "oficina principal",
+      "duration": "una hora"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento usual, la reunión con el equipo de producto, cada dos semanas en la sala de reuniones 2.",
+    "entities_dict": {
+      "title": "reunión con el equipo de producto",
+      "recurrence_rule": "cada dos semanas",
+      "location": "sala de reuniones 2"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon la reunión de seguimiento en la agenda, que dure 30 minutos y sea en la oficina 3B.",
+    "entities_dict": {
+      "title": "reunión de seguimiento",
+      "duration": "30 minutos",
+      "location": "oficina 3B"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento para el taller de pintura que es de 10 AM a 1 PM en la academia de arte.",
+    "entities_dict": {
+      "title": "taller de pintura",
+      "start_datetime": "10 AM",
+      "end_datetime": "1 PM",
+      "location": "academia de arte"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la sesión de entrenamiento, cada lunes, miércoles y viernes por la mañana en el gimnasio.",
+    "entities_dict": {
+      "title": "sesión de entrenamiento",
+      "recurrence_rule": "cada lunes, miércoles y viernes",
+      "start_datetime": "por la mañana",
+      "location": "gimnasio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión con el director, ubicación la sala de conferencias, con una descripción de revisar plan de expansión.",
+    "entities_dict": {
+      "title": "reunión con el director",
+      "location": "sala de conferencias",
+      "description": "revisar plan de expansión"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la reunión de estrategia que finaliza hoy a las 3 PM, con la descripción nuevas estrategias de mercado.",
+    "entities_dict": {
+      "title": "reunión de estrategia",
+      "end_datetime": [
+        "hoy",
+        "3 PM"
+      ],
+      "description": "nuevas estrategias de mercado"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la revisión de la semana que dura una hora en la sala de reuniones pequeña.",
+    "entities_dict": {
+      "title": "revisión de la semana",
+      "duration": "una hora",
+      "location": "sala de reuniones pequeña"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo algo rutinario, el club de lectura, el último viernes de cada mes en la biblioteca central.",
+    "entities_dict": {
+      "title": "club de lectura",
+      "recurrence_rule": "el último viernes de cada mes",
+      "location": "biblioteca central"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la reunión de ventas, sede la oficina, que termine a las 5 PM.",
+    "entities_dict": {
+      "title": "reunión de ventas",
+      "location": "oficina",
+      "end_datetime": "5 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión de producto en la sala de conferencias 1, se trata de discutir nuevas funcionalidades.",
+    "entities_dict": {
+      "title": "reunión de producto",
+      "location": "sala de conferencias 1",
+      "description": "discutir nuevas funcionalidades"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi agenda un viaje en familia a las montañas, que empiece el 15 de julio y termine el 20 de julio.",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "location": "las montañas",
+      "start_datetime": "15 de julio",
+      "end_datetime": "20 de julio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la cita con el abogado en su bufete, que finalice a las 11:30 AM.",
+    "entities_dict": {
+      "title": "cita con el abogado",
+      "location": "bufete",
+      "end_datetime": "11:30 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el evento de networking que dura 2 horas, sede el Centro de Convenciones, el asunto es encontrar nuevos contactos.",
+    "entities_dict": {
+      "title": "networking",
+      "duration": "2 horas",
+      "location": "Centro de Convenciones",
+      "description": "encontrar nuevos contactos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento rutinario, la reunión de proyecto, cada miércoles a las 10 AM.",
+    "entities_dict": {
+      "title": "reunión de proyecto",
+      "recurrence_rule": "cada miércoles",
+      "start_datetime": "10 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito un evento para el concierto de música en el Teatro Principal, que dure 3 horas.",
+    "entities_dict": {
+      "title": "concierto de música",
+      "location": "Teatro Principal",
+      "duration": "3 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario la revisión médica en el Hospital General, que se acabe a las 11 AM.",
+    "entities_dict": {
+      "title": "revisión médica",
+      "location": "Hospital General",
+      "end_datetime": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea un evento para la revisión anual en la sala de reuniones, que dure 2 horas.",
+    "entities_dict": {
+      "title": "revisión anual",
+      "location": "sala de reuniones",
+      "duration": "2 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el almuerzo que dura 45 minutos en el restaurante El Buen Sazón.",
+    "entities_dict": {
+      "title": "almuerzo",
+      "duration": "45 minutos",
+      "location": "restaurante El Buen Sazón"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión de equipo en la sala de conferencias, que termine a las 3 PM.",
+    "entities_dict": {
+      "title": "reunión de equipo",
+      "location": "sala de conferencias",
+      "end_datetime": "3 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo la clase de baile, cada jueves a las 7 PM, con una descripción ensayo de coreografía.",
+    "entities_dict": {
+      "title": "clase de baile",
+      "recurrence_rule": "cada jueves",
+      "start_datetime": "7 PM",
+      "description": "ensayo de coreografía"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi agenda el taller de pintura en la academia de arte, con duración de 3 horas.",
+    "entities_dict": {
+      "title": "taller de pintura",
+      "location": "academia de arte",
+      "duration": "3 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la revisión de presupuesto que dura una hora, en la oficina del CEO.",
+    "entities_dict": {
+      "title": "revisión de presupuesto",
+      "duration": "una hora",
+      "location": "la oficina del CEO"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el viaje de negocios a Barcelona, con una duración de 3 días.",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "location": "Barcelona",
+      "duration": "3 días"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión con el jefe en la sala 5, con la descripción discutir el plan de crecimiento.",
+    "entities_dict": {
+      "title": "reunión con el jefe",
+      "location": "sala 5",
+      "description": "discutir el plan de crecimiento"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo la clase de canto, todos los miércoles por la mañana en la facultad de economía.",
+    "entities_dict": {
+      "title": "clase de canto",
+      "recurrence_rule": "todos los miércoles",
+      "start_datetime": "por la mañana",
+      "location": "facultad de economía"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la llamada de seguimiento que dure 20 minutos, con la descripción llamada con Juan.",
+    "entities_dict": {
+      "title": "llamada de seguimiento",
+      "duration": "20 minutos",
+      "description": "llamada con Juan"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon el evento de voluntariado en la agenda, que dura 4 horas y es en el parque de la ciudad.",
+    "entities_dict": {
+      "title": "voluntariado",
+      "duration": "4 horas",
+      "location": "parque de la ciudad"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la cita con el doctor en la Clínica del Norte, que termine a las 10 AM.",
+    "entities_dict": {
+      "title": "cita con el doctor",
+      "location": "Clínica del Norte",
+      "end_datetime": "10 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa un evento para la clase de historia que es en el Centro Cultural, y que dura 90 minutos.",
+    "entities_dict": {
+      "title": "clase de historia",
+      "location": "el Centro Cultural",
+      "duration": "90 minutos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero una revisión semanal, cada lunes y viernes a las 9 AM en la oficina.",
+    "entities_dict": {
+      "title": "revisión semanal",
+      "recurrence_rule": "cada lunes y viernes",
+      "start_datetime": "9 AM",
+      "location": "oficina"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea el almuerzo con mis padres en el restaurante El Mirador, que termine a las 2 PM.",
+    "entities_dict": {
+      "title": "almuerzo con mis padres",
+      "location": "restaurante El Mirador",
+      "end_datetime": "2 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la reunión de marketing en la oficina, que dure una hora y media.",
+    "entities_dict": {
+      "title": "reunión de marketing",
+      "location": "oficina",
+      "duration": "una hora y media"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa el evento de networking en el centro de convenciones, que termine a las 9 PM.",
+    "entities_dict": {
+      "title": "evento de networking",
+      "location": "centro de convenciones",
+      "end_datetime": "9 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Guarda un taller de escritura, cada miércoles y jueves en el centro de artes.",
+    "entities_dict": {
+      "title": "taller de escritura",
+      "recurrence_rule": "cada miércoles y jueves",
+      "location": "centro de artes"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario la reunión de desarrollo que dura 2 horas, en la sala de reuniones 3.",
+    "entities_dict": {
+      "title": "reunión de desarrollo",
+      "duration": "2 horas",
+      "location": "sala de reuniones 3"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la llamada con el cliente que dura 45 minutos, con motivo de revisar contratos.",
+    "entities_dict": {
+      "title": "llamada con el cliente",
+      "duration": "45 minutos",
+      "description": "revisar contratos"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el viaje en familia a París, que dura 10 días.",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "location": "París",
+      "duration": "10 días"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la cita con el banco en la sucursal del centro, que termine a las 11 AM.",
+    "entities_dict": {
+      "title": "cita con el banco",
+      "location": "sucursal del centro",
+      "end_datetime": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Asigna una sesión de entrenamiento, cada martes y jueves por la tarde en el gimnasio.",
+    "entities_dict": {
+      "title": "sesión de entrenamiento",
+      "recurrence_rule": "cada martes y jueves",
+      "start_datetime": "por la tarde",
+      "location": "gimnasio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la revisión de código que dura 2 horas y es en la sala de reuniones.",
+    "entities_dict": {
+      "title": "revisión de código",
+      "duration": "2 horas",
+      "location": "sala de reuniones"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el almuerzo de trabajo en la cafetería de la oficina, con una descripción de discutir proyecto.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "cafetería de la oficina",
+      "description": "discutir proyecto"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa el taller de cocina que es de 6 PM a 8 PM en el estudio de cocina.",
+    "entities_dict": {
+      "title": "taller de cocina",
+      "start_datetime": "6 PM",
+      "end_datetime": "8 PM",
+      "location": "estudio de cocina"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega una clase de yoga, cada miércoles a las 7 AM, en casa.",
+    "entities_dict": {
+      "title": "clase de yoga",
+      "recurrence_rule": "cada miércoles",
+      "start_datetime": "7 AM",
+      "location": "casa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la presentación de proyecto que dura una hora en el auditorio.",
+    "entities_dict": {
+      "title": "presentación de proyecto",
+      "duration": "una hora",
+      "location": "auditorio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el evento de networking que dura 3 horas en el salón principal.",
+    "entities_dict": {
+      "title": "networking",
+      "duration": "3 horas",
+      "location": "salón principal"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión con el director de ventas en la oficina, que termine a las 4 PM.",
+    "entities_dict": {
+      "title": "reunión con el director de ventas",
+      "location": "oficina",
+      "end_datetime": "4 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito un evento para la revisión de documentos que es de 10 AM a 11 AM, tenemos que revisar contratos de clientes.",
+    "entities_dict": {
+      "title": "revisión de documentos",
+      "start_datetime": "10 AM",
+      "end_datetime": "11 AM",
+      "description": "revisar contratos de clientes"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario la revisión anual en la sala de juntas 2, con una duración de una hora y media.",
+    "entities_dict": {
+      "title": "revisión anual",
+      "location": "sala de juntas 2",
+      "duration": "una hora y media"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la sesión de fotos que dura 90 minutos en el parque de la ciudad.",
+    "entities_dict": {
+      "title": "sesión de fotos",
+      "duration": "90 minutos",
+      "location": "parque de la ciudad"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon una caminata, cada domingo por la mañana en la playa.",
+    "entities_dict": {
+      "title": "caminata",
+      "recurrence_rule": "cada domingo",
+      "start_datetime": "por la mañana",
+      "location": "la playa"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la reunión con el equipo de producto en la sala de reuniones 1, que termine a las 11:30 AM.",
+    "entities_dict": {
+      "title": "reunión con el equipo de producto",
+      "location": "sala de reuniones 1",
+      "end_datetime": "11:30 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Quiero un evento para el concierto de música que dura 2 horas en el auditorio de la ciudad.",
+    "entities_dict": {
+      "title": "concierto de música",
+      "duration": "2 horas",
+      "location": "auditorio de la ciudad"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la reunión de ventas que dura 45 minutos, con la descripción discutir nuevas estrategias de mercado.",
+    "entities_dict": {
+      "title": "reunión de ventas",
+      "duration": "45 minutos",
+      "description": "discutir nuevas estrategias de mercado"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega el viaje de negocios que dura 5 días a la ciudad de Barcelona.",
+    "entities_dict": {
+      "title": "viaje de negocios",
+      "duration": "5 días",
+      "location": "ciudad de Barcelona"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa la revisión de la semana en la oficina, con una duración de una hora.",
+    "entities_dict": {
+      "title": "revisión de la semana",
+      "location": "la oficina",
+      "duration": "una hora"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo cierre de contabilidad el último viernes de cada mes en la oficina de contabilidad.",
+    "entities_dict": {
+      "title": "cierre de contabilidad",
+      "recurrence_rule": "el último viernes de cada mes",
+      "location": "oficina de contabilidad"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi calendario el almuerzo de trabajo en el restaurante El Puerto, que termine a las 2 PM.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "location": "restaurante El Puerto",
+      "end_datetime": "2 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la reunión con el jefe que dura 30 minutos y es en su despacho.",
+    "entities_dict": {
+      "title": "reunión con el jefe",
+      "duration": "30 minutos",
+      "location": "su despacho"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la llamada de seguimiento que dura 15 minutos, con la descripción seguimiento con cliente.",
+    "entities_dict": {
+      "title": "llamada de seguimiento",
+      "duration": "15 minutos",
+      "description": "seguimiento con cliente"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Programa el evento de voluntariado que dura 3 horas y es en el refugio de animales.",
+    "entities_dict": {
+      "title": "voluntariado",
+      "duration": "3 horas",
+      "location": "refugio de animales"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Tengo taller de liderazgo cada martes y jueves en el auditorio.",
+    "entities_dict": {
+      "title": "taller de liderazgo",
+      "recurrence_rule": "cada martes y jueves",
+      "location": "el auditorio"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Pon en mi agenda el viaje en familia que dura una semana, al mar Caribe.",
+    "entities_dict": {
+      "title": "viaje en familia",
+      "duration": "una semana",
+      "location": "mar Caribe"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Crea la reunión de ventas que dura 45 minutos, con la descripción presentación de resultados.",
+    "entities_dict": {
+      "title": "reunión de ventas",
+      "duration": "45 minutos",
+      "description": "presentación de resultados"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega la reunión de proyecto en la sala 3, con una duración de una hora y media.",
+    "entities_dict": {
+      "title": "reunión de proyecto",
+      "location": "la sala 3",
+      "duration": "una hora y media"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Agrega una revisión anual, cada enero en la oficina central.",
+    "entities_dict": {
+      "title": "revisión anual",
+      "recurrence_rule": "cada enero",
+      "location": "la oficina central"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Necesito el evento de networking que dura 2 horas y es en el salón de eventos",
+    "entities_dict": {
+      "title": "networking",
+      "duration": "2 horas",
+      "location": "salón de eventos"
+    },
+    "intent": "create_event"
+  }
+]
