@@ -7,7 +7,8 @@ class Event(BaseModel):
     end_datetime: str
     description: Optional[str] = None
     location: Optional[str] = None
-    is_recurring: Optional[bool] = False
+    duration: Optional[str] = None
+    is_recurring_filter: Optional[str] = None
     recurrence_rule: Optional[str] = None
 
 class EventUpdate(BaseModel):
