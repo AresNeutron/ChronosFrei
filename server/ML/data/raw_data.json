@@ -3525,5 +3525,2022 @@
             "duration": "20 minutos"
         },
         "intent": "read_free_time"
+    },
+    {
+        "text": "Actualiza la reunión de equipo de mañana, la nueva hora es a las 11:30 AM.",
+        "entities_dict": {
+            "title": "reunión de equipo",
+            "start_datetime": "mañana",
+            "start_datetime_new": [
+                "11:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Quiero cambiar mi cita con el dentista del 25 de septiembre a las 3 PM en la clínica del centro.",
+        "entities_dict": {
+            "title": "cita con el dentista",
+            "start_datetime": "25 de septiembre",
+            "start_datetime_new": [
+                "3 PM"
+            ],
+            "location_new": "la clínica del centro"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento Presentación de proyecto de la semana que viene, ahora será de 10 AM a 12 PM.",
+        "entities_dict": {
+            "title": "Presentación de proyecto",
+            "start_datetime": "la semana que viene",
+            "start_datetime_new": [
+                "10 AM"
+            ],
+            "end_datetime_new": [
+                "12 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cámbia el horario de mi clase de yoga, ahora se repite los viernes a las 6 PM.",
+        "entities_dict": {
+            "title": "clase de yoga",
+            "recurrence_rule_new": "viernes",
+            "start_datetime_new": [
+                "6 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el cumpleaños de mi hermano del próximo mes, el nuevo título es Fiesta de cumpleaños de Juan.",
+        "entities_dict": {
+            "title": "cumpleaños de mi hermano",
+            "start_datetime": "próximo mes",
+            "title_new": "Fiesta de cumpleaños de Juan"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La entrevista de trabajo de hoy ahora es a las 4:30 PM y la ubicación es la oficina nueva.",
+        "entities_dict": {
+            "title": "entrevista de trabajo",
+            "start_datetime": "hoy",
+            "start_datetime_new": [
+                "4:30 PM"
+            ],
+            "location_new": "oficina nueva"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Necesito cambiar el evento revisión de presupuesto para que empiece a las 10:00 AM y dure dos horas.",
+        "entities_dict": {
+            "title": "revisión de presupuesto",
+            "start_datetime_new": [
+                "10:00 AM"
+            ],
+            "duration_new": "dos horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la reunión llamada con cliente de mañana, ahora se llamará Llamada con Inversor y la descripción es discutir nuevas oportunidades.",
+        "entities_dict": {
+            "title": "llamada con cliente",
+            "start_datetime": "mañana",
+            "title_new": "Llamada con Inversor",
+            "description_new": "discutir nuevas oportunidades"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la clase de natación, ahora será en la piscina olímpica y no se repetirá.",
+        "entities_dict": {
+            "title": "clase de natación",
+            "location_new": "la piscina olímpica",
+            "is_recurring_filter_new": "no se repetirá"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El vuelo a Madrid del 12 de noviembre ahora es a las 8 AM.",
+        "entities_dict": {
+            "title": "vuelo a Madrid",
+            "start_datetime": [
+                "12 de noviembre"
+            ],
+            "start_datetime_new": [
+                "8 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la cita con el abogado de la semana que viene, el nuevo horario es el lunes a las 11 AM.",
+        "entities_dict": {
+            "title": "cita con el abogado",
+            "start_datetime": "la semana que viene",
+            "start_datetime_new": [
+                "lunes",
+                "11 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento cena con María de este sábado, ahora será en el restaurante El sabor.",
+        "entities_dict": {
+            "title": "cena con María",
+            "start_datetime": "este sábado",
+            "location_new": "restaurante El sabor"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión presentación de resultados del 15 de marzo ahora es en la sala 4B.",
+        "entities_dict": {
+            "title": "presentación de resultados",
+            "start_datetime": "15 de marzo",
+            "location_new": "sala 4B"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la reunión con el equipo de marketing, el nuevo horario es de 1 PM a 2 PM.",
+        "entities_dict": {
+            "title": "reunión con el equipo de marketing",
+            "start_datetime_new": [
+                "1 PM"
+            ],
+            "end_datetime_new": [
+                "2 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento curso de pintura, ahora la duración es de 90 minutos.",
+        "entities_dict": {
+            "title": "curso de pintura",
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica mi viaje a la playa, ahora la fecha de inicio es el 5 de julio.",
+        "entities_dict": {
+            "title": "viaje a la playa",
+            "start_datetime_new": [
+                "5 de julio"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La llamada del 10 de diciembre ahora es de 30 minutos.",
+        "entities_dict": {
+            "title": "la llamada",
+            "start_datetime": "10 de diciembre",
+            "duration_new": "30 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el evento revisión anual, el nuevo título es Revisión anual 2026 y el nuevo horario es el 28 de febrero de 2026 a las 3 PM.",
+        "entities_dict": {
+            "title": "revisión anual",
+            "title_new": "Revisión anual 2026",
+            "start_datetime_new": [
+                "28 de febrero de 2026",
+                "3 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento meditación, ahora se repetirá solo los martes y jueves.",
+        "entities_dict": {
+            "title": "meditación",
+            "recurrence_rule_new": "martes y jueves"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El Taller de fotografía de la próxima semana ahora durará 3 horas.",
+        "entities_dict": {
+            "title": "Taller de fotografía",
+            "start_datetime": "próxima semana",
+            "duration_new": "3 horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el doctor del 5 de enero ahora será en la clínica del centro.",
+        "entities_dict": {
+            "title": "cita con el doctor",
+            "start_datetime": "5 de enero",
+            "location_new": "clínica del centro"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la reunión de la semana que viene, la nueva descripción es preparar estrategia de lanzamiento.",
+        "entities_dict": {
+            "title": "la reunión",
+            "start_datetime": "semana que viene",
+            "description_new": "preparar estrategia de lanzamiento"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el evento visita al cliente, ahora es el jueves a las 11 AM y la duración es de 90 minutos.",
+        "entities_dict": {
+            "title": "visita al cliente",
+            "start_datetime_new": [
+                "jueves",
+                "11 AM"
+            ],
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El concierto de música de este fin de semana ahora es el sábado a las 7 PM.",
+        "entities_dict": {
+            "title": "concierto de música",
+            "start_datetime": "este fin de semana",
+            "start_datetime_new": [
+                "sábado",
+                "7 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la reunión con el equipo de producto, ahora es en 45 minutos.",
+        "entities_dict": {
+            "title": "reunión con el equipo de producto",
+            "duration_new": "45 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento almuerzo con la familia ahora es en el restaurante El Rincón.",
+        "entities_dict": {
+            "title": "almuerzo con la familia",
+            "location_new": "restaurante El Rincón"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la cita presentación de proyecto, el nuevo horario es a las 11 AM.",
+        "entities_dict": {
+            "title": "presentación de proyecto",
+            "start_datetime_new": [
+                "11 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El cierre de contabilidad ahora se repetirá el último viernes de cada mes.",
+        "entities_dict": {
+            "title": "cierre de contabilidad",
+            "recurrence_rule_new": "último viernes de cada mes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el viaje de negocios, la nueva fecha de inicio es el 23 de junio y la de finalización el 26 de junio.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "start_datetime_new": [
+                "23 de junio"
+            ],
+            "end_datetime_new": [
+                "26 de junio"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento del 13 de febrero, el nuevo título es Reunión con directores y la descripción es discutir el plan de crecimiento.",
+        "entities_dict": {
+            "start_datetime": "13 de febrero",
+            "title_new": "Reunión con directores",
+            "description_new": "discutir el plan de crecimiento"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de Revisión anual ahora es el 29 de febrero de 2026 y la nueva ubicación es la sala 5.",
+        "entities_dict": {
+            "title": "Revisión anual",
+            "start_datetime_new": [
+                "29 de febrero de 2026"
+            ],
+            "location_new": "la sala 5"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de baile se repetirá ahora cada lunes y miércoles.",
+        "entities_dict": {
+            "title": "clase de baile",
+            "recurrence_rule_new": "lunes y miércoles"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento reunión con el jefe ahora es mañana a las 11:30 AM.",
+        "entities_dict": {
+            "title": "reunión con el jefe",
+            "start_datetime_new": [
+                "mañana",
+                "11:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de equipo de hoy en una hora ahora es de 90 minutos.",
+        "entities_dict": {
+            "title": "reunión de equipo",
+            "start_datetime": ["hoy", "en una hora"],
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento Taller de fotografía, el nuevo horario es de 9 AM a 12 AM.",
+        "entities_dict": {
+            "title": "Taller de fotografía",
+            "start_datetime_new": [
+                "9 AM"
+            ],
+            "end_datetime_new": [
+                "12 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento revisión de presupuesto ahora es a las 10:30 AM.",
+        "entities_dict": {
+            "title": "revisión de presupuesto",
+            "start_datetime_new": [
+                "10:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la reunión presentación de resultados, el nuevo lugar es la oficina principal.",
+        "entities_dict": {
+            "title": "presentación de resultados",
+            "location_new": "oficina principal"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El almuerzo de trabajo de la semana que viene ahora es en el restaurante La Esquina.",
+        "entities_dict": {
+            "title": "almuerzo de trabajo",
+            "start_datetime": "la semana que viene",
+            "location_new": "restaurante La Esquina"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento de visita al cliente, ahora será de 10 AM a 12 PM.",
+        "entities_dict": {
+            "title": "visita al cliente",
+            "start_datetime_new": [
+                "10 AM"
+            ],
+            "end_datetime_new": [
+                "12 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cena con amigos de la semana que viene ahora es a las 9:30 PM.",
+        "entities_dict": {
+            "title": "cena con amigos",
+            "start_datetime": "semana que viene",
+            "start_datetime_new": [
+                "9:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el curso de pintura, el nuevo horario es de 4 PM a 6 PM.",
+        "entities_dict": {
+            "title": "curso de pintura",
+            "start_datetime_new": [
+                "4 PM"
+            ],
+            "end_datetime_new": [
+                "6 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La llamada con Juan de mañana ahora es a las 4 PM.",
+        "entities_dict": {
+            "title": "llamada con Juan",
+            "start_datetime": "mañana",
+            "start_datetime_new": [
+                "4 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento viaje de negocios, el nuevo tema es viaje a la feria de tecnología.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "description_new": "viaje a la feria de tecnología"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La sesión de terapia de hoy ahora es a las 6 PM.",
+        "entities_dict": {
+            "title": "sesión de terapia",
+            "start_datetime": "hoy",
+            "start_datetime_new": [
+                "6 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento reunión con los inversores ahora se llama Presentación de resultados financieros.",
+        "entities_dict": {
+            "title": "reunión con los inversores",
+            "title_new": "Presentación de resultados financieros"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la cita del 22 de mayo, el nuevo título es Taller de escritura creativa.",
+        "entities_dict": {
+            "start_datetime": "22 de mayo",
+            "title_new": "Taller de escritura creativa"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento visita al museo, ahora la duración es de 4 horas.",
+        "entities_dict": {
+            "title": "visita al museo",
+            "duration_new": "4 horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión con el equipo de desarrollo ahora es a las 10:30 AM en la sala de reuniones 2.",
+        "entities_dict": {
+            "title": "reunión con el equipo de desarrollo",
+            "start_datetime_new": [
+                "10:30 AM"
+            ],
+            "location_new": "la sala de reuniones 2"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento reunión de seguimiento de hoy, ahora es de 30 minutos.",
+        "entities_dict": {
+            "title": "reunión de seguimiento",
+            "start_datetime": "hoy",
+            "duration_new": "30 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de natación del próximo martes ahora es a las 7 AM.",
+        "entities_dict": {
+            "title": "clase de natación",
+            "start_datetime": "próximo martes",
+            "start_datetime_new": [
+                "7 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+     {
+        "text": "Actualiza el almuerzo con la familia de este domingo, ahora es a la 1:30 PM.",
+        "entities_dict": {
+            "title": "almuerzo con la familia",
+            "start_datetime": "este domingo",
+            "start_datetime_new": [
+                "1:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje de negocios ahora es recurrente cada trimestre.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "is_recurring_filter_new": "recurrente",
+            "recurrence_rule_new": "cada trimestre"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la reunión estrategia de ventas, ahora es mañana a las 11 AM.",
+        "entities_dict": {
+            "title": "estrategia de ventas",
+            "start_datetime_new": [
+                "mañana",
+                "11 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el banco ahora es a las 10:30 AM y la descripción es revisar hipoteca.",
+        "entities_dict": {
+            "title": "cita con el banco",
+            "start_datetime_new": [
+                "10:30 AM"
+            ],
+            "description_new": "revisar hipoteca"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento reunión de producto, la nueva fecha es pasado mañana.",
+        "entities_dict": {
+            "title": "reunión de producto",
+            "start_datetime_new": [
+                "pasado mañana"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento entrenamiento en el gimnasio ahora es de 90 minutos.",
+        "entities_dict": {
+            "title": "entrenamiento",
+            "location": "gimnasio",
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el viaje de vacaciones, el nuevo título es Vacaciones en la playa y la ubicación es Playa del Sol.",
+        "entities_dict": {
+            "title": "viaje de vacaciones",
+            "title_new": "Vacaciones en la playa",
+            "location_new": "Playa del Sol"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la cita consulta con el abogado, el nuevo horario es el lunes a las 9 AM.",
+        "entities_dict": {
+            "title": "consulta con el abogado",
+            "start_datetime_new": [
+                "lunes",
+                "9 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de revisión de documentos ahora es a las 10:00 AM y el nuevo asunto es revisar contratos de clientes.",
+        "entities_dict": {
+            "title": "reunión de revisión de documentos",
+            "start_datetime_new": [
+                "10:00 AM"
+            ],
+            "description_new": "revisar contratos de clientes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento caminata ahora se repite solo los sábados.",
+        "entities_dict": {
+            "title": "caminata",
+            "recurrence_rule_new": "sábados"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el almuerzo de trabajo de la próxima semana, ahora se termina a la 1:30 PM.",
+        "entities_dict": {
+            "title": "almuerzo de trabajo",
+            "start_datetime": "próxima semana",
+            "end_datetime_new": [
+                "1:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión con el director ahora es en 2 horas y dura 1 hora.",
+        "entities_dict": {
+            "title": "reunión con el director",
+            "start_datetime_new": [
+                "en 2 horas"
+            ],
+            "duration_new": "1 hora"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la cita de la sesión de fotos de mañana, ahora se acaba a las 10:30 AM.",
+        "entities_dict": {
+            "title": "sesión de fotos",
+            "start_datetime": "mañana",
+            "end_datetime_new": [
+                "10:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento curso de idiomas ahora se repite cada dos semanas.",
+        "entities_dict": {
+            "title": "curso de idiomas",
+            "recurrence_rule_new": "dos semanas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la presentación de tesis, el nuevo título es Defensa de tesis y va a ser en la Universidad.",
+        "entities_dict": {
+            "title": "presentación de tesis",
+            "title_new": "Defensa de tesis",
+            "location_new": "Universidad"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento entrevista de beca ahora finaliza a las 2 PM y dura 45 minutos.",
+        "entities_dict": {
+            "title": "entrevista de beca",
+            "end_datetime_new": [
+                "2 PM"
+            ],
+            "duration_new": "45 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la cita con el asesor, el nuevo horario es a las 3:30 PM.",
+        "entities_dict": {
+            "title": "cita con el asesor",
+            "start_datetime_new": [
+                "3:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento fiesta de cumpleaños ahora es a las 9 PM.",
+        "entities_dict": {
+            "title": "fiesta de cumpleaños",
+            "start_datetime_new": [
+                "9 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la reunión revisión de la semana, la nueva ubicación es la sala de reuniones pequeña.",
+        "entities_dict": {
+            "title": "revisión de la semana",
+            "location_new": "sala de reuniones pequeña"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento de networking ahora dura 2 horas.",
+        "entities_dict": {
+            "title": "evento de networking",
+            "duration_new": "2 horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la reunión de planificación, ahora se repite cada dos lunes.",
+        "entities_dict": {
+            "title": "reunión de planificación",
+            "recurrence_rule_new": "cada dos lunes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el evento preparar presentación de hoy, ahora durará una hora.",
+        "entities_dict": {
+            "title": "preparar presentación",
+            "start_datetime": "hoy",
+            "duration_new": "una hora"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de yoga ahora se repite todos los días.",
+        "entities_dict": {
+            "title": "clase de yoga",
+            "recurrence_rule_new": "todos los días"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje a la montaña ahora dura hasta el 28 de marzo.",
+        "entities_dict": {
+            "title": "viaje a la montaña",
+            "end_datetime_new": [
+                "28 de marzo"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el almuerzo de hoy, la nueva hora de finalización es la 1:30 PM.",
+        "entities_dict": {
+            "title": "almuerzo",
+            "start_datetime": "hoy",
+            "end_datetime_new": [
+                "1:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el evento entrenamiento, la nueva descripción es entrenamiento de fuerza.",
+        "entities_dict": {
+            "title": "entrenamiento",
+            "description_new": "entrenamiento de fuerza"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento de voluntariado, ahora es de 10 AM a 2 PM.",
+        "entities_dict": {
+            "title": "evento de voluntariado",
+            "start_datetime_new": [
+                "10 AM"
+            ],
+            "end_datetime_new": [
+                "2 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de baile ahora es en el estudio de danza Danzarte.",
+        "entities_dict": {
+            "title": "clase de baile",
+            "location_new": "el estudio de danza Danzarte"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la reunión de la semana, ahora se llama Revisión de avances.",
+        "entities_dict": {
+            "title": "reunión de la semana",
+            "title_new": "Revisión de avances"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento escapada de fin de semana ahora dura hasta el domingo.",
+        "entities_dict": {
+            "title": "escapada de fin de semana",
+            "end_datetime_new": "el domingo"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La llamada con Juan ahora dura 20 minutos y la nueva hora es a las 4 PM.",
+        "entities_dict": {
+            "title": "llamada con Juan",
+            "duration_new": "20 minutos",
+            "start_datetime_new": [
+                "4 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje de negocios ahora es a la ciudad de Barcelona.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "location_new": "ciudad de Barcelona"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el taller de liderazgo, el nuevo horario es de 9 AM a 1 PM.",
+        "entities_dict": {
+            "title": "taller de liderazgo",
+            "start_datetime_new": [
+                "9 AM"
+            ],
+            "end_datetime_new": [
+                "1 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la reunión de seguimiento, el nuevo título es Reunión de seguimiento de proyecto y ahora se localiza en la sala de reuniones 3.",
+        "entities_dict": {
+            "title": "reunión de seguimiento",
+            "title_new": "Reunión de seguimiento de proyecto",
+            "location_new": "sala de reuniones 3"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de presupuesto de mañana ahora es a las 10:30 AM.",
+        "entities_dict": {
+            "title": "reunión de presupuesto",
+            "start_datetime": "mañana",
+            "start_datetime_new": [
+                "10:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el evento de música, el nuevo lugar es el Teatro Principal.",
+        "entities_dict": {
+            "title": "evento de música",
+            "location_new": "Teatro Principal"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento de voluntariado ahora se llama Jornada de voluntariado ambiental.",
+        "entities_dict": {
+            "title": "evento de voluntariado",
+            "title_new": "Jornada de voluntariado ambiental"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza la revisión anual, la nueva duración es de 90 minutos.",
+        "entities_dict": {
+            "title": "revisión anual",
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El curso de Python ahora se llama Curso de Python avanzado.",
+        "entities_dict": {
+            "title": "curso de Python",
+            "title_new": "Curso de Python avanzado"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el evento reunión de ventas, ahora será la próxima semana.",
+        "entities_dict": {
+            "title": "reunión de ventas",
+            "start_datetime_new": "próxima semana"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la revisión de documentos, el nuevo horario es de 10 AM a 11 AM.",
+        "entities_dict": {
+            "title": "revisión de documentos",
+            "start_datetime_new": [
+                "10 AM"
+            ],
+            "end_datetime_new": [
+                "11 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento almuerzo de trabajo de hoy ahora es en el restaurante La Taberna.",
+        "entities_dict": {
+            "title": "almuerzo de trabajo",
+            "start_datetime": "hoy",
+            "location_new": "restaurante La Taberna"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Actualiza el evento de networking, ahora será en el Hotel Hilton.",
+        "entities_dict": {
+            "title": "evento de networking",
+            "location_new": "Hotel Hilton"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia el brunch de año nuevo, la nueva hora de inicio es a las 11 AM.",
+        "entities_dict": {
+            "title": "brunch de año nuevo",
+            "start_datetime_new": "11 AM"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de historia ahora se repite cada martes.",
+        "entities_dict": {
+            "title": "clase de historia",
+            "recurrence_rule_new": "cada martes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica el viaje de fin de semana, ahora durará 4 días.",
+        "entities_dict": {
+            "title": "viaje de fin de semana",
+            "duration_new": "4 días"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión estrategia de ventas ahora es en la sala 5 y el tema nuevo es discutir nuevas estrategias de mercado.",
+        "entities_dict": {
+            "title": "estrategia de ventas",
+            "location_new": "la sala 5",
+            "description_new": "discutir nuevas estrategias de mercado"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Modifica la reunión de equipo, ahora durará una hora y media.",
+        "entities_dict": {
+            "title": "reunión de equipo",
+            "duration_new": "una hora y media"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el dentista ahora terminará a las 5 PM.",
+        "entities_dict": {
+            "title": "cita con el dentista",
+            "end_datetime_new": [
+                "5 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Cambia la clase de yoga, ahora se repetirá cada jueves y sábado.",
+        "entities_dict": {
+            "title": "clase de yoga",
+            "recurrence_rule_new": "jueves y sábado"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje de negocios ahora durará 5 días.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "duration_new": "5 días"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión cierre de proyecto ahora finalizará a las 1 PM.",
+        "entities_dict": {
+            "title": "cierre de proyecto",
+            "end_datetime_new": [
+                "1 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La revisión de código ahora es en la sala 4.",
+        "entities_dict": {
+            "title": "revisión de código",
+            "location_new": "la sala 4"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Voy a cambiar mi rutina de meditación a los miércoles y domingos.",
+        "entities_dict": {
+            "title": "meditación",
+            "recurrence_rule_new": "miércoles y domingos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La llamada con el cliente ahora dura 45 minutos.",
+        "entities_dict": {
+            "title": "llamada con el cliente",
+            "duration_new": "45 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el abogado ahora terminará a las 11:30 AM.",
+        "entities_dict": {
+            "title": "cita con el abogado",
+            "end_datetime_new": [
+                "11:30 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de natación ahora es en la piscina olímpica.",
+        "entities_dict": {
+            "title": "clase de natación",
+            "location_new": "piscina olímpica"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento entrenamiento ahora se repite los lunes, miércoles y viernes.",
+        "entities_dict": {
+            "title": "entrenamiento",
+            "recurrence_rule_new": "lunes, miércoles y viernes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La sesión de fotos ahora durará 2 horas.",
+        "entities_dict": {
+            "title": "sesión de fotos",
+            "duration_new": "2 horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El concierto de música ahora termina a las 10 PM.",
+        "entities_dict": {
+            "title": "concierto de música",
+            "end_datetime_new": [
+                "10 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de revisión de presupuesto ahora ocurre en la oficina principal.",
+        "entities_dict": {
+            "title": "revisión de presupuesto",
+            "location_new": "oficina principal"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento revisión anual ahora se repite cada trimestre.",
+        "entities_dict": {
+            "title": "revisión anual",
+            "is_recurring_filter_new": "se repite",
+            "recurrence_rule_new": "cada trimestre"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El almuerzo de trabajo ahora dura 90 minutos.",
+        "entities_dict": {
+            "title": "almuerzo de trabajo",
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La videollamada con el cliente ahora termina a las 3:30 PM.",
+        "entities_dict": {
+            "title": "videollamada con el cliente",
+            "end_datetime_new": [
+                "3:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La presentación de resultados ahora es en la sala de conferencias 2.",
+        "entities_dict": {
+            "title": "presentación de resultados",
+            "location_new": "sala de conferencias 2"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento revisión de la semana ahora se repite los lunes por la mañana.",
+        "entities_dict": {
+            "title": "revisión de la semana",
+            "recurrence_rule_new": "lunes",
+            "start_datetime_new": "por la mañana"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La visita al cliente ahora dura una hora.",
+        "entities_dict": {
+            "title": "visita al cliente",
+            "duration_new": "una hora"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El taller de cocina ahora finaliza a las 8:30 PM.",
+        "entities_dict": {
+            "title": "taller de cocina",
+            "end_datetime_new": [
+                "8:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión estrategia de ventas ahora es en la sala de conferencias 1.",
+        "entities_dict": {
+            "title": "estrategia de ventas",
+            "location_new": "sala de conferencias 1"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de desarrollo ahora durará 2 horas.",
+        "entities_dict": {
+            "title": "reunión de desarrollo",
+            "duration_new": "2 horas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento de networking ahora termina a las 9 PM.",
+        "entities_dict": {
+            "title": "evento de networking",
+            "end_datetime_new": [
+                "9 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de baile ahora se repite los martes y jueves por la tarde.",
+        "entities_dict": {
+            "title": "clase de baile",
+            "recurrence_rule_new": "martes y jueves",
+            "start_datetime_new": "por la tarde"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el banco ahora es en la sucursal del centro.",
+        "entities_dict": {
+            "title": "cita con el banco",
+            "location_new": "sucursal del centro"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La revisión médica ahora dura 45 minutos.",
+        "entities_dict": {
+            "title": "revisión médica",
+            "duration_new": "45 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje de negocios ahora termina el 26 de junio.",
+        "entities_dict": {
+            "title": "viaje de negocios",
+            "end_datetime_new": [
+                "26 de junio"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La revisión anual de rendimiento ahora es en la sala de juntas.",
+        "entities_dict": {
+            "title": "revisión anual de rendimiento",
+            "location_new": "sala de juntas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El curso de Python ahora se repetirá cada dos semanas.",
+        "entities_dict": {
+            "title": "curso de Python",
+            "recurrence_rule_new": "cada dos semanas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión con el director ahora dura 30 minutos.",
+        "entities_dict": {
+            "title": "reunión con el director",
+            "duration_new": "30 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El almuerzo con la familia ahora termina a la 1:30 PM.",
+        "entities_dict": {
+            "title": "almuerzo con la familia",
+            "end_datetime_new": [
+                "1:30 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje a la playa ahora es en la Playa del Sol.",
+        "entities_dict": {
+            "title": "viaje a la playa",
+            "location_new": "Playa del Sol"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La sesión de terapia ahora durará 45 minutos.",
+        "entities_dict": {
+            "title": "sesión de terapia",
+            "duration_new": "45 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento de voluntariado ahora termina a las 2 PM.",
+        "entities_dict": {
+            "title": "evento de voluntariado",
+            "end_datetime_new": [
+                "2 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La llamada de seguimiento ahora es en la oficina 3B.",
+        "entities_dict": {
+            "title": "llamada de seguimiento",
+            "location_new": "oficina 3B"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El taller de pintura ahora se repetirá cada mes.",
+        "entities_dict": {
+            "title": "taller de pintura",
+            "recurrence_rule_new": "cada mes"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de producto ahora dura una hora.",
+        "entities_dict": {
+            "title": "reunión de producto",
+            "duration_new": "una hora"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El concierto de música ahora termina a las 11 PM.",
+        "entities_dict": {
+            "title": "concierto de música",
+            "end_datetime_new": [
+                "11 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El almuerzo de trabajo ahora es en el restaurante El Rincón.",
+        "entities_dict": {
+            "title": "almuerzo de trabajo",
+            "location_new": "restaurante El Rincón"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La clase de historia ahora durará 90 minutos.",
+        "entities_dict": {
+            "title": "clase de historia",
+            "duration_new": "90 minutos"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El evento de networking ahora se repite semanalmente.",
+        "entities_dict": {
+            "title": "evento de networking",
+            "recurrence_rule_new": "semanalmente"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La cita con el abogado ahora finaliza a las 11 AM.",
+        "entities_dict": {
+            "title": "cita con el abogado",
+            "end_datetime_new": [
+                "11 AM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La revisión de documentos ahora es en la oficina principal.",
+        "entities_dict": {
+            "title": "revisión de documentos",
+            "location_new": "oficina principal"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La revisión de avances ahora dura una hora.",
+        "entities_dict": {
+            "title": "revisión de avances",
+            "duration_new": "una hora"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión de ventas ahora es en la sala de operaciones 4.",
+        "entities_dict": {
+            "title": "reunión de ventas",
+            "location_new": "sala de operaciones 4"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El viaje en familia ahora durará 10 días.",
+        "entities_dict": {
+            "title": "viaje en familia",
+            "duration_new": "10 días"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "El curso de idiomas ahora se repite cada dos semanas.",
+        "entities_dict": {
+            "title": "curso de idiomas",
+            "recurrence_rule_new": "cada dos semanas"
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "La reunión con el jefe ahora termina a las 4 PM.",
+        "entities_dict": {
+            "title": "reunión con el jefe",
+            "end_datetime_new": [
+                "4 PM"
+            ]
+        },
+        "intent": "update_event"
+    },
+    {
+        "text": "Elimina mi reunión con el equipo que tengo mañana.",
+        "entities_dict": {
+            "title": "reunión con el equipo",
+            "start_datetime": "mañana"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la cita con el dentista que está programada para el 25 de septiembre.",
+        "entities_dict": {
+            "title": "cita con el dentista",
+            "start_datetime": "25 de septiembre"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela el evento Presentación de proyecto que termina el próximo lunes.",
+        "entities_dict": {
+            "title": "Presentación de proyecto",
+            "end_datetime": "próximo lunes"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Quiero eliminar la clase de yoga que se repite todos los jueves.",
+        "entities_dict": {
+            "title": "clase de yoga",
+            "is_recurring_filter": "jueves"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la reunión de estrategia de ventas.",
+        "entities_dict": {
+            "title": "reunión de estrategia de ventas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la llamada rápida de 30 minutos.",
+        "entities_dict": {
+            "title": "llamada rápida",
+            "duration": "30 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la reunión revisión de seguimiento.",
+        "entities_dict": {
+            "title": "reunión de revisión de seguimiento"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra el taller de cocina.",
+        "entities_dict": {
+            "title": "taller de cocina"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela el evento recurrente de lectura.",
+        "entities_dict": {
+            "title": "lectura",
+            "is_recurring_filter": "recurrente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina el viaje de fin de semana del 8 de marzo.",
+        "entities_dict": {
+            "title": "viaje de fin de semana",
+            "start_datetime": "8 de marzo"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la Clase de historia.",
+        "entities_dict": {
+            "title": "Clase de historia"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela mi estudio que finaliza en 5 días.",
+        "entities_dict": {
+            "end_datetime": "en 5 días"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la Consulta con el asesor financiero.",
+        "entities_dict": {
+            "title": "Consulta con el asesor financiero"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la entrevista de beca del 1 de octubre.",
+        "entities_dict": {
+            "title": "entrevista de beca",
+            "start_datetime": "1 de octubre"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina el evento recurrente de caminata.",
+        "entities_dict": {
+            "title": "caminata",
+            "is_recurring_filter": "recurrente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la reunión con el equipo de ventas.",
+        "entities_dict": {
+            "title": "reunión con el equipo de ventas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela el brunch de año nuevo.",
+        "entities_dict": {
+            "title": "brunch de año nuevo"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la revisión médica del 1 de julio.",
+        "entities_dict": {
+            "title": "revisión médica",
+            "start_datetime": "1 de julio"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la cita con el dentista de la semana que viene.",
+        "entities_dict": {
+            "title": "cita con el dentista",
+            "start_datetime": "la semana que viene"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela el almuerzo de hoy.",
+        "entities_dict": {
+            "title": "almuerzo",
+            "start_datetime": "hoy"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina el evento Clase de yoga que acaba mañana.",
+        "entities_dict": {
+            "title": "Clase de yoga",
+            "end_datetime": "mañana"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la reunión del 14 de febrero.",
+        "entities_dict": {
+            "title": "la reunión",
+            "start_datetime": "14 de febrero"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la llamada de seguimiento.",
+        "entities_dict": {
+            "title": "llamada de seguimiento"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la fiesta de cumpleaños.",
+        "entities_dict": {
+            "title": "fiesta de cumpleaños"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la visita al cliente.",
+        "entities_dict": {
+            "title": "visita al cliente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la cita con el asesor.",
+        "entities_dict": {
+            "title": "cita con el asesor"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la preparar examen de hoy.",
+        "entities_dict": {
+            "title": "preparar examen",
+            "start_datetime": "hoy"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la reunión de proyecto.",
+        "entities_dict": {
+            "title": "reunión de proyecto"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la defensa de tesis que es en la Universidad.",
+        "entities_dict": {
+            "title": "defensa de tesis",
+            "location": "la Universidad"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra el evento recurrente que dura una hora.",
+        "entities_dict": {
+            "is_recurring_filter": "recurrente",
+            "duration": "una hora"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la cita con el asesor financiero que es en el centro.",
+        "entities_dict": {
+            "title": "cita con el asesor financiero",
+            "location": "centro"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina el taller de arte de 2 horas.",
+        "entities_dict": {
+            "title": "taller de arte",
+            "duration": "2 horas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los eventos que terminan a las 5 PM.",
+        "entities_dict": {
+            "end_datetime": [
+                "5 PM"
+            ]
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todo lo que tengo en la universidad para este mes.",
+        "entities_dict": {
+            "location": "la universidad",
+            "start_datetime": "este mes"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los eventos recurrentes de la próxima semana.",
+        "entities_dict": {
+            "is_recurring_filter": "recurrentes",
+            "start_datetime": "próxima semana"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra de mi calendario todas las reuniones de dos horas.",
+        "entities_dict": {
+            "title": "reuniones",
+            "duration": "dos horas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todos los eventos que son en la oficina y terminan antes del mediodía.",
+        "entities_dict": {
+            "location": "la oficina",
+            "end_datetime": "antes del mediodía"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra la clase de yoga que se repite cada lunes y la que dura una hora.",
+        "entities_dict": {
+            "title": "clase de yoga",
+            "recurrence_rule": "cada lunes",
+            "duration": "una hora"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los eventos en la sala de conferencias que duren más de 90 minutos.",
+        "entities_dict": {
+            "location": "sala de conferencias",
+            "duration": "más de 90 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todas las citas que son en el consultorio del doctor y terminan por la tarde.",
+        "entities_dict": {
+            "title": "citas",
+            "location": "consultorio del doctor",
+            "end_datetime": "por la tarde"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra los eventos recurrentes que duran 30 minutos.",
+        "entities_dict": {
+            "is_recurring_filter": "recurrentes",
+            "duration": "30 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los eventos en la sala de reuniones pequeña que se repiten.",
+        "entities_dict": {
+            "location": "sala de reuniones pequeña",
+            "is_recurring_filter": "se repiten"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todos los viajes de negocios que terminan el viernes.",
+        "entities_dict": {
+            "title": "viajes de negocios",
+            "end_datetime": "viernes"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todas las reuniones que son en la oficina principal y duran una hora.",
+        "entities_dict": {
+            "title": "reuniones",
+            "location": "la oficina principal",
+            "duration": "una hora"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela los eventos que se repiten cada dos semanas.",
+        "entities_dict": {
+            "recurrence_rule": "cada dos semanas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina de mi calendario todos los talleres que son en el estudio de arte.",
+        "entities_dict": {
+            "title": "talleres",
+            "location": "estudio de arte"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todas las citas que terminan a las 11:30 AM.",
+        "entities_dict": {
+            "title": "citas",
+            "end_datetime": [
+                "11:30 AM"
+            ]
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la clase de natación que es en la piscina olímpica.",
+        "entities_dict": {
+            "title": "clase de natación",
+            "location": "piscina olímpica"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todas las reuniones de revisión que se repiten.",
+        "entities_dict": {
+            "title": "reuniones de revisión",
+            "is_recurring_filter": "se repiten"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los eventos en el gimnasio que duran una hora y media.",
+        "entities_dict": {
+            "location": "el gimnasio",
+            "duration": "una hora y media"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra de mi agenda todos los eventos recurrentes que son en casa.",
+        "entities_dict": {
+            "is_recurring_filter": "recurrentes",
+            "location": "casa"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todas las citas en el consultorio del terapeuta.",
+        "entities_dict": {
+            "title": "citas",
+            "location": "consultorio del terapeuta"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todas las reuniones de proyecto que duran 90 minutos.",
+        "entities_dict": {
+            "title": "reuniones de proyecto",
+            "duration": "90 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los eventos que se repiten mensualmente.",
+        "entities_dict": {
+            "is_recurring_filter": "se repiten",
+            "recurrence_rule": "mensualmente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la sesión de fotos que dura 2 horas.",
+        "entities_dict": {
+            "title": "sesión de fotos",
+            "duration": "2 horas"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela los eventos de networking en el Hotel Hilton.",
+        "entities_dict": {
+            "title": "eventos de networking",
+            "location": "Hotel Hilton"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los almuerzos de trabajo que duran una hora.",
+        "entities_dict": {
+            "title": "almuerzos de trabajo",
+            "duration": "una hora"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todas las reuniones que terminan a las 4 PM.",
+        "entities_dict": {
+            "title": "reuniones",
+            "end_datetime": [
+                "4 PM"
+            ]
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra de mi calendario el evento recurrente clase de baile.",
+        "entities_dict": {
+            "is_recurring_filter": "recurrente",
+            "title": "clase de baile"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todas las citas en el bufete de abogados.",
+        "entities_dict": {
+            "title": "citas",
+            "location": "bufete de abogados"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la revisión anual que dura 60 minutos.",
+        "entities_dict": {
+            "title": "revisión anual",
+            "duration": "60 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los eventos que se repiten los fines de semana.",
+        "entities_dict": {
+            "is_recurring_filter": "se repiten",
+            "recurrence_rule": "fines de semana"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todas las reuniones que duran más de 30 minutos.",
+        "entities_dict": {
+            "title": "reuniones",
+            "duration": "más de 30 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina de mi agenda los eventos de voluntariado que son en el parque.",
+        "entities_dict": {
+            "title": "eventos de voluntariado",
+            "location": "el parque"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra los eventos que finalizan a la 1 PM.",
+        "entities_dict": {
+            "end_datetime": [
+                "1 PM"
+            ]
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la reunión con el jefe que es en su despacho.",
+        "entities_dict": {
+            "title": "reunión con el jefe",
+            "location": "su despacho"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todos los eventos que se repiten cada trimestre.",
+        "entities_dict": {
+            "is_recurring_filter": "se repiten",
+            "recurrence_rule": "cada trimestre"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todas las reuniones que son en la sala 3.",
+        "entities_dict": {
+            "title": "reuniones",
+            "location": "4sala 3"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los eventos que duran una hora y media.",
+        "entities_dict": {
+            "duration": "una hora y media"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la revisión de código que se repite cada martes.",
+        "entities_dict": {
+            "title": "revisión de código",
+            "recurrence_rule": "se repite cada martes"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todas las citas en el hospital privado.",
+        "entities_dict": {
+            "title": "citas",
+            "location": "hospital privado"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los viajes que duran más de 3 días.",
+        "entities_dict": {
+            "title": "viajes",
+            "duration": "más de 3 días"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina los eventos en el restaurante El Rincón.",
+        "entities_dict": {
+            "location": "restaurante El Rincón"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todas las reuniones que terminan a las 10:30 AM.",
+        "entities_dict": {
+            "title": "reuniones",
+            "end_datetime": [
+                "10:30 AM"
+            ]
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela el evento recurrente de meditación.",
+        "entities_dict": {
+            "title": "meditación",
+            "is_recurring_filter": "recurrente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina todas las llamadas que duran menos de 20 minutos.",
+        "entities_dict": {
+            "title": "llamadas",
+            "duration": "menos de 20 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra los eventos que se repiten anualmente.",
+        "entities_dict": {
+            "is_recurring_filter": "se repiten",
+            "recurrence_rule": "anualmente"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela la reunión con el director que es en la sala de conferencias.",
+        "entities_dict": {
+            "title": "reunión con el director",
+            "location": "sala de conferencias"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Elimina la clase de historia que dura 15 minutos.",
+        "entities_dict": {
+            "title": "clase de historia",
+            "duration": "15 minutos"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Borra todos los talleres que terminan por la tarde.",
+        "entities_dict": {
+            "title": "talleres",
+            "end_datetime": "por la tarde"
+        },
+        "intent": "delete_event"
+    },
+    {
+        "text": "Cancela todos los eventos en mi calendario que son en casa y se repiten.",
+        "entities_dict": {
+            "location": "en casa",
+            "is_recurring_filter": "se repiten"
+        },
+        "intent": "delete_event"
     }
 ]
