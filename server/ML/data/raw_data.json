@@ -2827,5 +2827,703 @@
       "location": "salón de eventos"
     },
     "intent": "create_event"
-  }
+  },
+  {
+        "text": "¿Tengo un hueco en mi agenda el miércoles para ir a comer con un amigo?",
+        "entities_dict": {
+            "start_datetime": "miércoles"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un espacio de 2 horas en mi calendario para la próxima semana?",
+        "entities_dict": {
+            "duration": "2 horas",
+            "start_datetime": "próxima semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "Busca un hueco de una hora para una cita con el médico, para la semana que viene.",
+        "entities_dict": {
+            "duration": "una hora",
+            "start_datetime": "semana que viene"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo tiempo libre para el 15 de marzo?",
+        "entities_dict": {
+            "start_datetime": "15 de marzo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible el viernes por la tarde?",
+        "entities_dict": {
+            "start_datetime": "viernes por la tarde"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo tengo 30 minutos libres para una llamada rápida con mi equipo?",
+        "entities_dict": {
+            "duration": "30 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un espacio de 90 minutos en mi agenda para ir al gimnasio?",
+        "entities_dict": {
+            "duration": "90 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo libre el próximo sábado por la noche?",
+        "entities_dict": {
+            "start_datetime": [
+                "próximo sábado",
+                "por la noche"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "Busca cualquier momento de 3 horas que tenga libre la semana que viene.",
+        "entities_dict": {
+            "duration": "3 horas",
+            "start_datetime": "la semana que viene"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo tiempo para una reunión con el cliente el martes después del mediodía?",
+        "entities_dict": {
+            "start_datetime": [
+                "martes",
+                "después del mediodía"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible el 22 de junio para un café?",
+        "entities_dict": {
+            "start_datetime": "22 de junio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy libre en la primera semana de agosto?",
+        "entities_dict": {
+            "start_datetime": "primera semana de agosto"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo dos horas libres en mi agenda de hoy?",
+        "entities_dict": {
+            "duration": "dos horas",
+            "start_datetime": "hoy"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "Búscame un hueco de una hora para el proyecto 'Júpiter'.",
+        "entities_dict": {
+            "duration": "una hora"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo tengo libre para el dentista la semana que viene?",
+        "entities_dict": {
+            "start_datetime": "la semana que viene"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un espacio de 45 minutos para una videollamada mañana?",
+        "entities_dict": {
+            "duration": "45 minutos",
+            "start_datetime": "mañana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la tarde libre el próximo jueves?",
+        "entities_dict": {
+            "start_datetime": [
+                "próximo jueves",
+                "la tarde"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo estoy libre para un almuerzo con María esta semana?",
+        "entities_dict": {
+            "start_datetime": "esta semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo 3 horas libres el fin de semana?",
+        "entities_dict": {
+            "duration": "3 horas",
+            "start_datetime": "fin de semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "Busca un hueco de media hora para una llamada con la oficina.",
+        "entities_dict": {
+            "duration": "media hora"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible el 5 de julio para la fiesta de cumpleaños de Pedro?",
+        "entities_dict": {
+            "start_datetime": "5 de julio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo tengo libre para ir al cine esta semana?",
+        "entities_dict": {
+            "start_datetime": "esta semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún momento de una hora y media para hacer la compra?",
+        "entities_dict": {
+            "duration": "una hora y media"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué día de la semana que viene tengo un hueco de 2 horas para el médico?",
+        "entities_dict": {
+            "start_datetime": "la semana que viene",
+            "duration": "2 horas"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo estoy libre para un viaje de fin de semana en septiembre?",
+        "entities_dict": {
+            "start_datetime": [
+                "fin de semana",
+                "septiembre"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda despejada el 10 de octubre por la mañana?",
+        "entities_dict": {
+            "start_datetime": [
+                "10 de octubre",
+                "por la mañana"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún espacio de 20 minutos para una llamada de seguimiento el miércoles?",
+        "entities_dict": {
+            "duration": "20 minutos",
+            "start_datetime": "miércoles"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy libre en noviembre para un taller?",
+        "entities_dict": {
+            "start_datetime": "noviembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo un par de horas libres la próxima semana para una cita?",
+        "entities_dict": {
+            "duration": "un par de horas",
+            "start_datetime": "la próxima semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "Búscame un hueco para una hora en la primera quincena de marzo.",
+        "entities_dict": {
+            "duration": "una hora",
+            "start_datetime": "primera quincena de marzo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy libre el 25 de mayo para un evento?",
+        "entities_dict": {
+            "start_datetime": "25 de mayo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué día de la semana tengo libre para hacer ejercicio?",
+        "entities_dict": {
+            "start_datetime": "semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo disponibilidad el 12 de diciembre para una videollamada?",
+        "entities_dict": {
+            "start_datetime": "12 de diciembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo tengo un hueco este mes en la agenda para la consulta?",
+        "entities_dict": {
+            "start_datetime": "este mes"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy libre el 18 de abril para un almuerzo de trabajo?",
+        "entities_dict": {
+            "start_datetime": "18 de abril"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún momento libre de 4 horas en mi calendario para un viaje?",
+        "entities_dict": {
+            "duration": "4 horas"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda despejada para el 2 de enero por la tarde?",
+        "entities_dict": {
+            "start_datetime": [
+                "2 de enero",
+                "por la tarde"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo puedo programar una reunión con el equipo de ventas esta quincena?",
+        "entities_dict": {
+            "start_datetime": "esta quincena"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy disponible para un curso la próxima semana?",
+        "entities_dict": {
+            "start_datetime": "la próxima semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún momento de 30 minutos libre entre las 2 PM y las 5 PM de mañana?",
+        "entities_dict": {
+            "duration": "30 minutos",
+            "start_datetime": [
+                "mañana",
+                "2 PM"
+            ],
+            "end_datetime": "5 PM"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo un hueco para hacer un trabajo pendiente el miércoles?",
+        "entities_dict": {
+            "start_datetime": "el miércoles"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy libre el 19 de septiembre para una cena?",
+        "entities_dict": {
+            "start_datetime": "19 de septiembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay tiempo este jueves para el Terraludo?",
+        "entities_dict": {
+            "start_datetime": "este jueves"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo 15 minutos libres el viernes para tomar un helado?",
+        "entities_dict": {
+            "start_datetime": "el viernes",
+            "duration": "15 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún momento de una hora libre la próxima semana para una cita con el banco?",
+        "entities_dict": {
+            "duration": "una hora",
+            "start_datetime": "la próxima semana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo disponibilidad para un taller de pintura el sábado?",
+        "entities_dict": {
+            "start_datetime": "el sábado"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo tengo tiempo libre pasado mañana para una reunión con el jefe?",
+        "entities_dict": {
+            "start_datetime": "pasado mañana"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible para una entrevista de trabajo el 1 de octubre?",
+        "entities_dict": {
+            "start_datetime": "1 de octubre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre en la última semana de noviembre?",
+        "entities_dict": {
+            "start_datetime": "la última semana de noviembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 45 minutos para una sesión de lectura?",
+        "entities_dict": {
+            "duration": "45 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo un espacio de una hora para la sesión de fotos el viernes?",
+        "entities_dict": {
+            "duration": "una hora",
+            "start_datetime": "viernes"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy libre para una visita al museo el 28 de junio?",
+        "entities_dict": {
+            "start_datetime": "28 de junio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo puedo programar una clase de yoga de 90 minutos?",
+        "entities_dict": {
+            "duration": "90 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libres en diciembre para ir de compras?",
+        "entities_dict": {
+            "start_datetime": "diciembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 30 minutos el martes para una llamada de seguimiento?",
+        "entities_dict": {
+            "duration": "30 minutos",
+            "start_datetime": "martes"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo tiempo para ver una película el sábado?",
+        "entities_dict": {
+            "start_datetime": "sábado"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy disponible en la primera semana de enero para una reunión?",
+        "entities_dict": {
+            "start_datetime": "la primera semana de enero"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un hueco de 2 horas para un proyecto en solitario?",
+        "entities_dict": {
+            "duration": "2 horas"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy libre el 14 de febrero para una cena?",
+        "entities_dict": {
+            "start_datetime": "14 de febrero"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo en este mes puedo programar un viaje de negocios a Madrid?",
+        "entities_dict": {
+            "start_datetime": "este mes"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre la semana del 20 de marzo?",
+        "entities_dict": {
+            "start_datetime": "la semana del 20 de marzo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún espacio de 10 minutos para una llamada rápida?",
+        "entities_dict": {
+            "duration": "10 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre para el 7 de julio por la noche?",
+        "entities_dict": {
+            "start_datetime": [
+                "7 de julio",
+                "por la noche"
+            ]
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy libre en la segunda mitad de agosto?",
+        "entities_dict": {
+            "start_datetime": "la segunda mitad de agosto"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 2 horas para un taller de fotografía?",
+        "entities_dict": {
+            "duration": "2 horas"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible para la reunión con el equipo de marketing el 1 de mayo?",
+        "entities_dict": {
+            "start_datetime": "1 de mayo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre en la primera semana de junio para un viaje?",
+        "entities_dict": {
+            "start_datetime": "la primera semana de junio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de una hora para hacer deporte?",
+        "entities_dict": {
+            "duration": "una hora"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda despejada para el 23 de octubre?",
+        "entities_dict": {
+            "start_datetime": "23 de octubre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre en noviembre para planear unas vacaciones?",
+        "entities_dict": {
+            "start_datetime": "noviembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un hueco de media hora para una llamada personal?",
+        "entities_dict": {
+            "duration": "media hora"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre en octubre para la reunión con los inversores?",
+        "entities_dict": {
+            "start_datetime": "octubre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿En qué momento de marzo puedo programar un curso de desarrollo?",
+        "entities_dict": {
+            "start_datetime": "marzo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible el 13 de septiembre para una presentación?",
+        "entities_dict": {
+            "start_datetime": "13 de septiembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libres en la semana que viene para la oficina?",
+        "entities_dict": {
+            "start_datetime": "la semana que viene"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 20 minutos para un descanso?",
+        "entities_dict": {
+            "duration": "20 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre el 29 de febrero de 2024?",
+        "entities_dict": {
+            "start_datetime": "29 de febrero de 2024"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo tiempo en la próxima quincena para una videollamada con la familia?",
+        "entities_dict": {
+            "start_datetime": "próxima quincena"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días de julio tengo libre para una sesión de fotos?",
+        "entities_dict": {
+            "start_datetime": "julio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de una hora y media para un almuerzo?",
+        "entities_dict": {
+            "duration": "una hora y media"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Estoy disponible el 5 de marzo para una entrevista de trabajo?",
+        "entities_dict": {
+            "start_datetime": "5 de marzo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay espacio en el mes que viene para la consulta con el terapeuta?",
+        "entities_dict": {
+            "start_datetime": "mes que viene"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días estoy libre en la primera semana de abril?",
+        "entities_dict": {
+            "start_datetime": "la primera semana de abril"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 3 horas para ir a la playa?",
+        "entities_dict": {
+            "duration": "3 horas"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre para una reunión de networking dentro de tres días?",
+        "entities_dict": {
+            "start_datetime": "dentro de tres días"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo estoy libre para una cita con el banco este lunes?",
+        "entities_dict": {
+            "start_datetime": "este lunes"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre en la segunda quincena de julio?",
+        "entities_dict": {
+            "start_datetime": "la segunda quincena de julio"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 45 minutos para leer un libro?",
+        "entities_dict": {
+            "duration": "45 minutos"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre para el 1 de diciembre?",
+        "entities_dict": {
+            "start_datetime": "1 de diciembre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Cuándo estoy disponible el domingo para una clase de baile?",
+        "entities_dict": {
+            "start_datetime": "el domingo"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay un hueco de una hora para un paseo en el parque?",
+        "entities_dict": {
+            "duration": "una hora"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Tengo la agenda libre para el 15 de agosto?",
+        "entities_dict": {
+            "start_datetime": "15 de agosto"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Qué días tengo libre en la primera semana de octubre?",
+        "entities_dict": {
+            "start_datetime": "la primera semana de octubre"
+        },
+        "intent": "read_free_time"
+    },
+    {
+        "text": "¿Hay algún hueco de 20 minutos para una llamada de teléfono?",
+        "entities_dict": {
+            "duration": "20 minutos"
+        },
+        "intent": "read_free_time"
+    }
 ]

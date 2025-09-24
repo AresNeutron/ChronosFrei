@@ -32,7 +32,8 @@
     ],
     "textcat":[
       "create_event",
-      "read_event"
+      "read_event",
+      "read_free_time"
     ]
   },
   "pipeline":[
@@ -49,31 +50,41 @@
 
   ],
   "performance":{
-    "ents_f":0.8736842105,
-    "ents_p":0.8924731183,
-    "ents_r":0.8556701031,
+    "ents_f":0.8582375479,
+    "ents_p":0.875,
+    "ents_r":0.8421052632,
     "ents_per_type":{
-      "start_datetime":{
-        "p":0.875,
-        "r":0.8484848485,
-        "f":0.8615384615
-      },
       "title":{
-        "p":0.8387096774,
-        "r":0.8387096774,
-        "f":0.8387096774
+        "p":0.9411764706,
+        "r":0.9696969697,
+        "f":0.9552238806
       },
-      "end_datetime":{
-        "p":1.0,
-        "r":0.7272727273,
-        "f":0.8421052632
+      "start_datetime":{
+        "p":0.8108108108,
+        "r":0.7317073171,
+        "f":0.7692307692
       },
       "location":{
+        "p":0.75,
+        "r":0.75,
+        "f":0.75
+      },
+      "recurrence_rule":{
+        "p":0.75,
+        "r":0.5,
+        "f":0.6
+      },
+      "end_datetime":{
+        "p":0.9,
+        "r":0.9,
+        "f":0.9
+      },
+      "duration":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "duration":{
+      "description":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -82,41 +93,36 @@
         "p":1.0,
         "r":1.0,
         "f":1.0
-      },
-      "recurrence_rule":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "description":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
       }
     },
-    "cats_score":0.9753753754,
+    "cats_score":1.0,
     "cats_score_desc":"macro F",
-    "cats_micro_p":0.9756097561,
-    "cats_micro_r":0.9756097561,
-    "cats_micro_f":0.9756097561,
-    "cats_macro_p":0.9782608696,
-    "cats_macro_r":0.9736842105,
-    "cats_macro_f":0.9753753754,
+    "cats_micro_p":1.0,
+    "cats_micro_r":1.0,
+    "cats_micro_f":1.0,
+    "cats_macro_p":1.0,
+    "cats_macro_r":1.0,
+    "cats_macro_f":1.0,
     "cats_macro_auc":1.0,
     "cats_f_per_type":{
       "create_event":{
         "p":1.0,
-        "r":0.9473684211,
-        "f":0.972972973
+        "r":1.0,
+        "f":1.0
       },
       "read_event":{
-        "p":0.9565217391,
+        "p":1.0,
         "r":1.0,
-        "f":0.9777777778
+        "f":1.0
+      },
+      "read_free_time":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       }
     },
-    "tok2vec_loss":528.5344737921,
-    "ner_loss":61.5740585327,
-    "textcat_loss":0.0011888882
+    "tok2vec_loss":386.3459778544,
+    "ner_loss":51.3394203186,
+    "textcat_loss":0.0132312988
   }
 }

@@ -32,7 +32,8 @@
     ],
     "textcat":[
       "create_event",
-      "read_event"
+      "read_event",
+      "read_free_time"
     ]
   },
   "pipeline":[
@@ -49,74 +50,79 @@
 
   ],
   "performance":{
-    "ents_f":0.829015544,
-    "ents_p":0.8333333333,
-    "ents_r":0.824742268,
+    "ents_f":0.8275862069,
+    "ents_p":0.84375,
+    "ents_r":0.8120300752,
     "ents_per_type":{
-      "start_datetime":{
-        "p":0.7647058824,
-        "r":0.7878787879,
-        "f":0.776119403
-      },
       "title":{
-        "p":0.8125,
-        "r":0.8387096774,
-        "f":0.8253968254
+        "p":0.8823529412,
+        "r":0.9090909091,
+        "f":0.8955223881
       },
-      "end_datetime":{
+      "recurrence_rule":{
         "p":1.0,
-        "r":0.6363636364,
-        "f":0.7777777778
+        "r":0.8333333333,
+        "f":0.9090909091
       },
       "location":{
-        "p":0.9090909091,
-        "r":1.0,
-        "f":0.9523809524
+        "p":0.6666666667,
+        "r":0.7,
+        "f":0.6829268293
+      },
+      "end_datetime":{
+        "p":0.8181818182,
+        "r":0.9,
+        "f":0.8571428571
+      },
+      "start_datetime":{
+        "p":0.8,
+        "r":0.6829268293,
+        "f":0.7368421053
       },
       "duration":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
+      "description":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
       "is_recurring_filter":{
         "p":1.0,
         "r":1.0,
         "f":1.0
-      },
-      "recurrence_rule":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "description":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
       }
     },
-    "cats_score":0.9753753754,
+    "cats_score":1.0,
     "cats_score_desc":"macro F",
-    "cats_micro_p":0.9756097561,
-    "cats_micro_r":0.9756097561,
-    "cats_micro_f":0.9756097561,
-    "cats_macro_p":0.9782608696,
-    "cats_macro_r":0.9736842105,
-    "cats_macro_f":0.9753753754,
+    "cats_micro_p":1.0,
+    "cats_micro_r":1.0,
+    "cats_micro_f":1.0,
+    "cats_macro_p":1.0,
+    "cats_macro_r":1.0,
+    "cats_macro_f":1.0,
     "cats_macro_auc":1.0,
     "cats_f_per_type":{
       "create_event":{
         "p":1.0,
-        "r":0.9473684211,
-        "f":0.972972973
+        "r":1.0,
+        "f":1.0
       },
       "read_event":{
-        "p":0.9565217391,
+        "p":1.0,
         "r":1.0,
-        "f":0.9777777778
+        "f":1.0
+      },
+      "read_free_time":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       }
     },
-    "tok2vec_loss":93.0030645056,
-    "ner_loss":8.6894922256,
-    "textcat_loss":0.0004694257
+    "tok2vec_loss":273.1656299932,
+    "ner_loss":26.5232105255,
+    "textcat_loss":0.0034831998
   }
 }

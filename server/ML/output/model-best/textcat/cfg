@@ -1,7 +1,8 @@
 {
   "labels":[
     "create_event",
-    "read_event"
+    "read_event",
+    "read_free_time"
   ],
   "threshold":0.0,
   "positive_label":null
