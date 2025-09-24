@@ -197,3 +197,203 @@ La "clase de historia" ahora se repite cada martes.
 Modifica el "viaje de fin de semana", ahora durará 4 días.
 
 La reunión "estrategia de ventas" ahora es en la sala 5 y la descripción es "discutir nuevas estrategias de mercado".   
+
+Modifica la reunión de equipo, ahora durará una hora y media.
+
+La cita con el dentista ahora terminará a las 5 PM.
+
+Actualiza el "Taller de liderazgo", la nueva ubicación es el Hotel Hilton.
+
+Cambia la clase de yoga, ahora se repetirá cada martes y jueves.
+
+El viaje de negocios ahora durará 5 días.
+
+La reunión "cierre de proyecto" ahora finalizará a las 1 PM.
+
+La "revisión de código" ahora es en la sala 4.
+
+El evento "meditación" ahora se repetirá solo los martes y jueves.
+
+La "llamada con el cliente" ahora dura 45 minutos.
+
+La cita con el abogado ahora terminará a las 11:30 AM.
+
+La "clase de natación" ahora es en la piscina olímpica.
+
+El evento "entrenamiento" ahora se repite los lunes, miércoles y viernes.
+
+La "sesión de fotos" ahora durará 2 horas.
+
+El "concierto de música" ahora termina a las 10 PM.
+
+La reunión de "revisión de presupuesto" ahora es en la oficina principal.
+
+El evento "revisión anual" ahora se repite cada trimestre.
+
+El "almuerzo de trabajo" ahora dura 90 minutos.
+
+La "videollamada con el cliente" ahora termina a las 3:30 PM.
+
+La "presentación de resultados" ahora es en la sala de conferencias 2.
+
+El evento "revisión de la semana" ahora se repite los lunes por la mañana.
+
+La "visita al cliente" ahora dura una hora.
+
+El "taller de cocina" ahora finaliza a las 8:30 PM.
+
+La reunión "estrategia de ventas" ahora es en la sala de reuniones 1.
+
+La "reunión de desarrollo" ahora durará 2 horas.
+
+El "evento de networking" ahora termina a las 9 PM.
+
+La "clase de baile" ahora se repite los martes y jueves por la tarde.
+
+La "cita con el banco" ahora es en la sucursal del centro.
+
+La "revisión médica" ahora dura 45 minutos.
+
+El "viaje de negocios" ahora termina el 26 de junio.
+
+La "revisión anual de rendimiento" ahora es en la sala de juntas.
+
+El "curso de Python" ahora se repetirá cada dos semanas.
+
+La "reunión con el director" ahora dura 30 minutos.
+
+El "almuerzo con la familia" ahora termina a la 1:30 PM.
+
+El "viaje a la playa" ahora es en la Playa del Sol.
+
+La "sesión de terapia" ahora durará 45 minutos.
+
+El "evento de voluntariado" ahora termina a las 2 PM.
+
+La "llamada de seguimiento" ahora es en la oficina 3B.
+
+El "taller de pintura" ahora se repetirá cada mes.
+
+La "reunión de producto" ahora dura una hora.
+
+El "concierto de música" ahora termina a las 11 PM.
+
+El "almuerzo de trabajo" ahora es en el restaurante "El Rincón".
+
+La "clase de historia" ahora durará 90 minutos.
+
+El "evento de networking" ahora se repite semanalmente.
+
+La "cita con el abogado" ahora finaliza a las 11 AM.
+
+La "revisión de documentos" ahora es en la oficina principal.
+
+La "revisión de avances" ahora dura una hora.
+
+La "reunión de ventas" ahora es en la sala de reuniones 4.
+
+El "viaje en familia" ahora durará 10 días.
+
+El "curso de idiomas" ahora se repite cada dos semanas.
+
+La "reunión con el jefe" ahora termina a las 4 PM.
+
+La "fiesta de cumpleaños" ahora es en el salón de eventos.
+
+La "presentación de tesis" ahora durará 2 horas.
+
+El "taller de escritura" ahora es en el Centro Cultural.
+
+El "evento social" ahora termina a las 10 PM.
+
+La "llamada rápida" ahora dura 10 minutos.
+
+La "clase de baile" ahora es en el estudio de danza.
+
+El "entrenamiento de fuerza" ahora se repite los martes y jueves.
+
+El "viaje de fin de semana" ahora termina el domingo.
+
+La "reunión de planificación" ahora es en la sala de conferencias 1.
+
+El "brunch de año nuevo" ahora durará 3 horas.
+
+La "cita con el asesor" ahora se repite cada mes.
+
+El "almuerzo con amigos" ahora finaliza a las 2 PM.
+
+La "clase de yoga" ahora es en el estudio del centro.
+
+La "revisión del proyecto" ahora dura 90 minutos.
+
+La "reunión de marketing" ahora termina a las 11:30 AM.
+
+La "videollamada" ahora es en la sala de reuniones virtual.
+
+La "presentación del proyecto" ahora dura 2 horas.
+
+El "curso de inglés" ahora se repite tres veces por semana.
+
+La "cita con el dentista" ahora es en la Clínica Central.
+
+El "almuerzo" ahora termina a la 1:30 PM.
+
+La "reunión con el equipo de producto" ahora dura una hora y media.
+
+La "clase de natación" ahora se repetirá solo los sábados.
+
+La "revisión de código" ahora finaliza a las 11 AM.
+
+El "evento de networking" ahora es en el auditorio de la empresa.
+
+El "taller de pintura" ahora dura 2 horas.
+
+La "reunión con el jefe" ahora se repite cada dos semanas.
+
+El "viaje de negocios" ahora es a la ciudad de Lisboa.
+
+La "revisión anual" ahora durará 90 minutos.
+
+La "sesión de terapia" ahora es en el consultorio de la calle Mayor.
+
+La "reunión de seguimiento" ahora termina a las 4 PM.
+
+La "clase de historia" ahora dura una hora.
+
+El "evento de voluntariado" ahora se repite una vez al mes.
+
+El "almuerzo de trabajo" ahora es en el restaurante "El Puerto".
+
+La "llamada de seguimiento" ahora dura 20 minutos.
+
+La "revisión de documentos" ahora finaliza a las 10:30 AM.
+
+La "reunión de ventas" ahora es en la sala de juntas.
+
+El "viaje en familia" ahora termina el 22 de julio.
+
+El "curso de idiomas" ahora es en la academia de idiomas.
+
+El "evento de networking" ahora se repite cada martes.
+
+La "cita con el abogado" ahora dura 30 minutos.
+
+La "revisión médica" ahora es en el hospital privado.
+
+El "almuerzo" ahora durará una hora.
+
+El "evento de fin de semana" ahora se repite cada mes.
+
+La "clase de baile" ahora termina a las 9 PM.
+
+El "viaje a la montaña" ahora dura 4 días.
+
+La "reunión de planificación" ahora es en el salón principal.
+
+La "revisión de la semana" ahora dura 20 minutos.
+
+La "reunión con el equipo de diseño" ahora es en la sala de reuniones 3.
+
+La "cita con el cliente" ahora finaliza a las 11:45 AM.
+
+El "evento recurrente" ahora se repite dos veces a la semana.
