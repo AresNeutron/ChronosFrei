@@ -5306,5 +5306,730 @@
       "is_recurring_filter": "se repiten"
     },
     "intent": "delete_event"
+  },
+  {
+    "text": "programa una reunión con el equipo mañana de 10 AM a 11 AM",
+    "entities_dict": {
+      "title": "reunión con el equipo",
+      "start_rel_date": "mañana",
+      "start_abs_time": "10 AM",
+      "end_abs_time": "11 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿qué tengo agendado para el viernes?",
+    "entities_dict": {
+      "start_rel_date": "viernes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "agenda una cita con el doctor para la próxima semana de 9 AM a 10 AM",
+    "entities_dict": {
+      "title": "cita con el doctor",
+      "start_rel_date": "próxima semana",
+      "start_abs_time": "9 AM",
+      "end_abs_time": "10 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "muéstrame los eventos de hoy",
+    "entities_dict": {
+      "start_rel_date": "hoy"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿A qué hora tengo la conferencia el día 15?",
+    "entities_dict": {
+      "title": "la conferencia",
+      "start_abs_date": "día quince"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea un recordatorio de cumpleaños para el 29 de febrero de 2028.",
+    "entities_dict": {
+      "title": "recordatorio de cumpleaños",
+      "start_abs_date": "29 de febrero de 2028"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra la cita con el banco que programé para pasado mañana.",
+    "entities_dict": {
+      "title": "cita con el banco",
+      "start_rel_date": "pasado mañana"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Modifica la reunión de la oficina para las 3:30 PM.",
+    "entities_dict": {
+      "title": "reunión de la oficina",
+      "start_abs_time_new": "3:30 PM"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Tengo libre el fin de semana que viene?",
+    "entities_dict": {
+      "start_rel_date": "fin de semana que viene"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Agrega una hora de gimnasio para dentro de dos semanas a las 6 en punto.",
+    "entities_dict": {
+      "title": "hora de gimnasio",
+      "duration": "una hora",
+      "start_rel_date": "dentro de dos semanas",
+      "start_abs_time": "6 en punto"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Qué actividad hay planeada para el 1 de enero?",
+    "entities_dict": {
+      "start_abs_date": "1 de enero"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Cambia la reunión de equipo del lunes a la hora del almuerzo.",
+    "entities_dict": {
+      "title": "reunión de equipo",
+      "start_rel_date": "lunes",
+      "start_rel_time_new": "hora del almuerzo"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Elimina el evento de 'paseo con el perro' de las 7:15 de la mañana.",
+    "entities_dict": {
+      "title": "paseo con el perro",
+      "start_abs_time": "7:15 de la mañana"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Muestra mis citas para el mes de diciembre.",
+    "entities_dict": {
+      "title": "citas",
+      "start_abs_date": "mes de diciembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Qué citas tengo para la semana siguiente?",
+    "entities_dict": {
+      "title": "citas",
+      "start_rel_date": "semana siguiente"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Añade una cena a las 8 menos cuarto de la noche con mis padres.",
+    "entities_dict": {
+      "title": "cena con mis padres",
+      "start_abs_time": "8 menos cuarto de la noche"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Tengo algún hueco entre las 15:00 y las 16:30 de hoy?",
+    "entities_dict": {
+      "start_abs_time": "15:00",
+      "end_abs_time": "16:30",
+      "start_rel_date": "hoy"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Mueve la clase de piano del miércoles a las 4 de la tarde.",
+    "entities_dict": {
+      "title": "clase de piano",
+      "start_rel_date": "miércoles",
+      "start_abs_time_new": "4 de la tarde"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Qué eventos hay el 17 del 11?",
+    "entities_dict": {
+      "start_abs_date": "17 del 11"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Borrar la tarea de 'hacer la compra' que vence en media hora.",
+    "entities_dict": {
+      "title": "hacer la compra",
+      "end_rel_time": "media hora"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Crea una llamada de 20 minutos con el proveedor a las 11:45 AM.",
+    "entities_dict": {
+      "title": "llamada con el proveedor",
+      "duration": "20 minutos",
+      "start_abs_time": "11:45 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Qué tengo que hacer el martes por la noche?",
+    "entities_dict": {
+      "start_rel_date": "martes",
+      "start_rel_time": "por la noche"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Modifica la hora de finalización del taller para las 18:00.",
+    "entities_dict": {
+      "title": "taller",
+      "end_abs_time_new": "18:00"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Quiero ver mi agenda de aquí a un mes.",
+    "entities_dict": {
+      "start_rel_date": "de aquí a un mes"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuándo estoy disponible el último viernes del mes?",
+    "entities_dict": {
+      "start_abs_date": "último viernes del mes"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Elimina la conferencia de la mañana del 25 de abril.",
+    "entities_dict": {
+      "title": "conferencia",
+      "start_abs_date": "25 de abril",
+      "start_rel_time": "mañana"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Agrega una cita para dentro de tres días.",
+    "entities_dict": {
+      "title": "cita",
+      "start_rel_date": "dentro de tres días"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Mueve el evento del 'viaje en tren' para el día 14.",
+    "entities_dict": {
+      "title": "viaje en tren",
+      "start_abs_date_new": "día 14"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Tengo algo programado para el mediodía?",
+    "entities_dict": {
+      "start_rel_time": "mediodía"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuándo estoy libre mañana?",
+    "entities_dict": {
+      "start_rel_date": "mañana"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Programa un evento recurrente cada primer lunes de mes.",
+    "entities_dict": {
+      "recurrence_rule": "cada primer lunes de mes"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra el evento del 30 de marzo que dura tres cuartos de hora.",
+    "entities_dict": {
+      "start_abs_date": "30 de marzo",
+      "duration": "tres cuartos de hora"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Modifica la presentación para que termine a las 17:50.",
+    "entities_dict": {
+      "title": "presentación",
+      "end_abs_time_new": "17:50"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Qué reuniones hay el lunes siguiente?",
+    "entities_dict": {
+      "title": "reuniones",
+      "start_rel_date": "lunes siguiente"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea una alerta de pago de facturas para el 28 de este mes.",
+    "entities_dict": {
+      "title": "alerta de pago de facturas",
+      "start_abs_date": "28",
+      "start_rel_date": "este mes"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Elimina la actividad de 'estudio' que empieza a las 10 y media.",
+    "entities_dict": {
+      "title": "estudio",
+      "start_abs_time": "10 y media"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Muestra mis eventos del año 2026.",
+    "entities_dict": {
+      "start_abs_date": "año 2026"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Cambia el evento de 'peluquería' para el martes a las 10:00.",
+    "entities_dict": {
+      "title": "peluquería",
+      "start_rel_date_new": "martes",
+      "start_abs_time_new": "10:00"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Cuál es mi horario para el próximo trimestre?",
+    "entities_dict": {
+      "start_rel_date": "próximo trimestre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Cuándo tengo un hueco de dos horas la semana que viene?",
+    "entities_dict": {
+      "duration": "dos horas",
+      "start_rel_date": "semana que viene"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Agendar una reunión para el 25/10/2025.",
+    "entities_dict": {
+      "title": "reunión",
+      "start_abs_date": "25/10/2025"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra el evento de 'revisión dental' que es el día 7.",
+    "entities_dict": {
+      "title": "revisión dental",
+      "start_abs_date": "día 7"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "¿Qué tengo en mi calendario pasado mañana en la tarde?",
+    "entities_dict": {
+      "start_rel_time": "esta tarde",
+      "start_rel_date": "pasado mañana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Mueve el partido de fútbol para las 19:45.",
+    "entities_dict": {
+      "title": "partido de fútbol",
+      "start_abs_time_new": "19:45"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Hay algo programado entre el 3 y el 6 de mayo?",
+    "entities_dict": {
+      "start_abs_date": "3",
+      "end_abs_date": "6 de mayo"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea un evento de 'clase de baile' hoy de 8 PM a 9:15 PM.",
+    "entities_dict": {
+      "title": "clase de baile",
+      "start_rel_date": "hoy",
+      "start_abs_time": "8 PM",
+      "end_abs_time": "9:15 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Qué tengo agendado para las 9 AM mañana?",
+    "entities_dict": {
+      "start_abs_time": "9 AM",
+      "start_rel_date": "mañana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Elimina el evento que comienza a las 23:00 el día 5.",
+    "entities_dict": {
+      "start_abs_time": "23:00",
+      "start_abs_date": "día 5"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Modifica la reunión del sindicato de mañana para el jueves.",
+    "entities_dict": {
+      "title": "reunión de sindicato",
+      "start_rel_date": "mañana",
+      "start_rel_date_new": "jueves"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Tengo libre la tarde del 29 de febrero?",
+    "entities_dict": {
+      "start_rel_time": "tarde",
+      "start_abs_date": "29 de febrero"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Crea una entrada para 'recordatorio de cumpleaños' en dos meses a las 8 AM.",
+    "entities_dict": {
+      "title": "recordatorio de cumpleaños",
+      "start_rel_date": "en dos meses",
+      "start_abs_time": "8 AM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Hay algún evento a las 9 AM para el 15/04?",
+    "entities_dict": {
+      "start_abs_date": "15/04",
+      "start_abs_time": "9 AM"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Borrar la tarea 'limpiar la casa' que es por la mañana este domingo.",
+    "entities_dict": {
+      "title": "limpiar la casa",
+      "start_rel_time": "por la mañana",
+      "start_rel_date": "este domingo"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cambia el evento que termina a las 10 PM el próximo sábado.",
+    "entities_dict": {
+      "end_abs_time": "10 PM",
+      "end_abs_date": "próximo sábado"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Programa una sesión de estudio de 45 minutos mañana por la mañana.",
+    "entities_dict": {
+      "title": "sesión de estudio",
+      "duration": "45 minutos",
+      "start_rel_date": "mañana",
+      "start_rel_time": "por la mañana"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Qué tengo en el calendario entre las 14:00 y la hora de cenar?",
+    "entities_dict": {
+      "start_abs_time": "18:00",
+      "end_rel_time": "hora de cenar"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Elimina el evento de 'viaje' que empieza a las 6 y cuarto.",
+    "entities_dict": {
+      "title": "viaje",
+      "start_abs_time": "6 y cuarto"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "¿Tengo un hueco de una hora y media entre 13:00 y 16:00?",
+    "entities_dict": {
+      "duration": "una hora y media",
+      "start_abs_time": "13:00",
+      "end_abs_time": "16:00"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Mueve la reunión del cliente al lunes a las 10 AM.",
+    "entities_dict": {
+      "title": "reunión del cliente",
+      "start_rel_date_new": "lunes",
+      "start_abs_time_new": "10 AM"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Agenda una 'clase de idiomas' de 18:00 a 20:30.",
+    "entities_dict": {
+      "title": "clase de idiomas",
+      "start_abs_time": "18:00",
+      "end_abs_time": "20:30"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra la cita de 'fisioterapia' del 10 de octubre por la tarde.",
+    "entities_dict": {
+      "title": "fisioterapia",
+      "start_abs_date": "10 de octubre",
+      "start_rel_time": "por la tarde"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "¿Qué hay en mi agenda para el penúltimo mes del año?",
+    "entities_dict": {
+      "start_abs_date": "penúltimo mes del año"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Modifica la hora de inicio de la cena para dentro de una semana a las 20:00.",
+    "entities_dict": {
+      "title": "cena",
+      "start_rel_date_new": "dentro de una semana",
+      "start_abs_time_new": "20:00"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Tengo algo programado para el 4 de julio?",
+    "entities_dict": {
+      "start_abs_date": "4 de julio"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea un evento que dure dos horas y media a partir de pasado mañana.",
+    "entities_dict": {
+      "duration": "dos horas y media",
+      "start_rel_date": "pasado mañana"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Cuándo estoy libre el mes que viene por las mañanas?",
+    "entities_dict": {
+      "start_rel_date": "mes que viene",
+      "start_rel_time": "por las mañanas"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Elimina la reunión que es a las 16:45 mañana.",
+    "entities_dict": {
+      "title": "reunión",
+      "start_abs_time": "16:45",
+      "start_rel_date": "mañana"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Mueve la cita de 'peluquería' de hoy a las 11 en punto de pasado mañana.",
+    "entities_dict": {
+      "title": "peluquería",
+      "start_rel_date": "hoy",
+      "start_abs_time_new": "11 en punto",
+      "start_rel_date_new": "pasado mañana"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Qué tengo que hacer en mi agenda el martes entre 13:00 y la noche?",
+    "entities_dict": {
+        "start_abs_date": "martes",
+      "start_abs_time": "13 hrs",
+      "end_rel_time": "la noche"
+
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Programa una videollamada para dentro de una quincena a las 15:00.",
+    "entities_dict": {
+      "title": "videollamada",
+      "start_rel_date": "dentro de 15 días",
+      "start_abs_time": "15:00"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra el evento que termina a medianoche.",
+    "entities_dict": {
+      "end_abs_time": "medianoche"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "¿Tengo algo reservado el lunes de la próxima semana?",
+    "entities_dict": {
+        "start_abs_date": "el lunes",
+      "start_rel_date": "próxima semana"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "¿Hay algo agendado para el 19 de septiembre?",
+    "entities_dict": {
+      "start_abs_date": "19 de septiembre"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea una cita con el doctor de 30 minutos este viernes a las 5 PM.",
+    "entities_dict": {
+      "title": "cita con el doctor",
+      "duration": "30 minutos",
+      "start_abs_date": "este viernes",
+      "start_abs_time": "5 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Tengo libre toda la semana entrante?",
+    "entities_dict": {
+      "start_rel_date": "semana entrante"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Elimina la clase de 'yoga' que empieza a las 6:30.",
+    "entities_dict": {
+      "title": "yoga",
+      "start_abs_time": "6:30"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Actualiza el evento de mañana a las 17:50, ahora será a las 18:00 en punto.",
+    "entities_dict": {
+        "start_rel_date": "mañana",
+      "start_abs_time": "17:50",
+      "start_abs_time_new": "18:00"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "El evento de 'cita médica' que dura 30 minutos hazlo de una hora",
+    "entities_dict": {
+      "title": "cita médica",
+      "duration": "30 minutos",
+      "duration_new": "una hora"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Modifica la fecha de la presentación para el primer martes del mes por la tarde.",
+    "entities_dict": {
+      "title": "presentación",
+      "start_abs_date_new": "primer martes del mes",
+      "start_rel_time_new": "por la tarde"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "Agendar una sesión de fotos de una hora y 20 minutos para las 6 PM el domingo.",
+    "entities_dict": {
+      "title": "sesión de fotos",
+      "duration": "una hora y 20 minutos",
+      "start_rel_date": "domingo",
+      "start_abs_time": "6 PM"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "Borra el evento que termina a las 11:00 AM de pasado mañana.",
+    "entities_dict": {
+      "end_abs_time": "11:00 AM",
+      "end_rel_date": "pasado mañana"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Muestra mi horario del martes de la semana entrante.",
+    "entities_dict": {
+      "start_abs_date": "martes",
+      "start_rel_date": "semana entrante"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Mueve el almuerzo de trabajo para las 13 en punto.",
+    "entities_dict": {
+      "title": "almuerzo de trabajo",
+      "start_abs_time_new": "13 en punto"
+    },
+    "intent": "update_event"
+  },
+  {
+    "text": "¿Tengo eventos entre las 8 y las 10 de la noche?",
+    "entities_dict": {
+      "start_abs_time": "8",
+      "end_abs_time": "10 de la noche"
+    },
+    "intent": "read_event"
+  },
+  {
+    "text": "Crea una tarea para 'revisión del proyecto' que vence en 48 horas.",
+    "entities_dict": {
+      "title": "revisión del proyecto",
+      "duration": "48 horas"
+    },
+    "intent": "create_event"
+  },
+  {
+    "text": "¿Cuándo estoy libre en la próxima semana el jueves?",
+    "entities_dict": {
+      "start_rel_date": "próxima semana",
+      "start_abs_date": "jueves"
+    },
+    "intent": "read_free_time"
+  },
+  {
+    "text": "Elimina el evento que es de 10:00 a 11:30.",
+    "entities_dict": {
+      "start_abs_time": "10:00",
+      "end_abs_time": "11:30"
+    },
+    "intent": "delete_event"
+  },
+  {
+    "text": "Cambia la hora de inicio del partido para las 21:00.",
+    "entities_dict": {
+      "title": "partido",
+      "start_abs_time_new": "21:00"
+    },
+    "intent": "update_event"
   }
 ]
