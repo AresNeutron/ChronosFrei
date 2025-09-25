@@ -1,0 +1,25 @@
+// fecha relativa
+mañana
+pasado mañana
+
+"dentro de " || "en" || "de aquí a" +
+"una quincena", "una semana", "un mes", "x días"
+
+"la semana", "el mes", "la quincena" 
++ "entrante" || "siguiente" || "que viene" || "más arriba"
+
+"próximo/a" + 
+"mes", "quincena", "semana", "x días", "fin de semana"
+
+
+
+// hora relativa
+ahora
+por la tarde
+por la mañana
+por la noche
+hora del almuerzo
+hora de la cena
+
+"dentro de " || "en" || "de aquí a" +
+"x ["minutos", "horas"]"
