@@ -25,16 +25,26 @@
       "description_new",
       "duration",
       "duration_new",
-      "end_datetime",
-      "end_datetime_new",
+      "end_abs_date",
+      "end_abs_date_new",
+      "end_abs_time",
+      "end_abs_time_new",
+      "end_rel_date",
+      "end_rel_time",
       "is_recurring_filter",
       "is_recurring_filter_new",
       "location",
       "location_new",
       "recurrence_rule",
       "recurrence_rule_new",
-      "start_datetime",
-      "start_datetime_new",
+      "start_abs_date",
+      "start_abs_date_new",
+      "start_abs_time",
+      "start_abs_time_new",
+      "start_rel_date",
+      "start_rel_date_new",
+      "start_rel_time",
+      "start_rel_time_new",
       "title",
       "title_new"
     ],
@@ -60,124 +70,144 @@
 
   ],
   "performance":{
-    "ents_f":0.8488888889,
-    "ents_p":0.8488888889,
-    "ents_r":0.8488888889,
+    "ents_f":0.8034934498,
+    "ents_p":0.7965367965,
+    "ents_r":0.8105726872,
     "ents_per_type":{
       "title":{
-        "p":0.8714285714,
-        "r":0.8970588235,
-        "f":0.884057971
-      },
-      "duration":{
-        "p":0.8965517241,
-        "r":0.962962963,
-        "f":0.9285714286
-      },
-      "start_datetime":{
-        "p":0.847826087,
-        "r":0.847826087,
-        "f":0.847826087
-      },
-      "end_datetime":{
-        "p":0.7142857143,
-        "r":0.8333333333,
-        "f":0.7692307692
-      },
-      "start_datetime_new":{
-        "p":0.9090909091,
-        "r":1.0,
-        "f":0.9523809524
-      },
-      "end_datetime_new":{
-        "p":0.8,
-        "r":0.5,
-        "f":0.6153846154
-      },
-      "is_recurring_filter":{
-        "p":0.8,
-        "r":1.0,
-        "f":0.8888888889
-      },
-      "location":{
-        "p":0.7037037037,
-        "r":0.7307692308,
-        "f":0.7169811321
+        "p":0.88,
+        "r":0.9295774648,
+        "f":0.904109589
       },
       "location_new":{
-        "p":1.0,
-        "r":0.6666666667,
-        "f":0.8
-      },
-      "duration_new":{
-        "p":1.0,
+        "p":0.7142857143,
         "r":0.7142857143,
-        "f":0.8333333333
+        "f":0.7142857143
       },
-      "title_new":{
+      "start_abs_date":{
+        "p":0.9583333333,
+        "r":0.7931034483,
+        "f":0.8679245283
+      },
+      "start_rel_date":{
+        "p":0.6153846154,
+        "r":0.6666666667,
+        "f":0.64
+      },
+      "start_rel_time":{
+        "p":0.5,
+        "r":0.5,
+        "f":0.5
+      },
+      "duration":{
+        "p":1.0,
+        "r":0.9523809524,
+        "f":0.9756097561
+      },
+      "location":{
+        "p":0.6666666667,
+        "r":0.6875,
+        "f":0.6769230769
+      },
+      "recurrence_rule":{
+        "p":0.8888888889,
+        "r":0.8888888889,
+        "f":0.8888888889
+      },
+      "description":{
+        "p":0.6666666667,
+        "r":0.6666666667,
+        "f":0.6666666667
+      },
+      "end_abs_time_new":{
+        "p":0.25,
+        "r":1.0,
+        "f":0.4
+      },
+      "end_abs_time":{
+        "p":1.0,
+        "r":0.7272727273,
+        "f":0.8421052632
+      },
+      "is_recurring_filter":{
+        "p":0.3333333333,
+        "r":0.5,
+        "f":0.4
+      },
+      "description_new":{
+        "p":1.0,
+        "r":0.3333333333,
+        "f":0.5
+      },
+      "start_abs_date_new":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "recurrence_rule_new":{
-        "p":1.0,
+      "start_abs_time_new":{
+        "p":0.4545454545,
         "r":1.0,
-        "f":1.0
+        "f":0.625
       },
-      "is_recurring_filter_new":{
+      "start_abs_time":{
+        "p":0.7777777778,
+        "r":0.5833333333,
+        "f":0.6666666667
+      },
+      "end_abs_date_new":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "description":{
+      "duration_new":{
         "p":1.0,
-        "r":0.5,
-        "f":0.6666666667
+        "r":1.0,
+        "f":1.0
       },
-      "recurrence_rule":{
+      "end_rel_date":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "cats_score":0.9894949495,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.9896907216,
+    "cats_micro_r":0.9896907216,
+    "cats_micro_f":0.9896907216,
+    "cats_macro_p":0.9882352941,
+    "cats_macro_r":0.9913043478,
+    "cats_macro_f":0.9894949495,
+    "cats_macro_auc":0.9998824912,
+    "cats_f_per_type":{
+      "create_event":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "delete_event":{
+        "p":0.9411764706,
+        "r":1.0,
+        "f":0.9696969697
+      },
+      "read_event":{
+        "p":1.0,
+        "r":0.9565217391,
+        "f":0.9777777778
+      },
+      "read_free_time":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "update_event":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       }
     },
-    "cats_score":0.964469298,
-    "cats_score_desc":"macro F",
-    "cats_micro_p":0.9690721649,
-    "cats_micro_r":0.9690721649,
-    "cats_micro_f":0.9690721649,
-    "cats_macro_p":0.960778032,
-    "cats_macro_r":0.9711111111,
-    "cats_macro_f":0.964469298,
-    "cats_macro_auc":0.9995780591,
-    "cats_f_per_type":{
-      "create_event":{
-        "p":1.0,
-        "r":0.9666666667,
-        "f":0.9830508475
-      },
-      "delete_event":{
-        "p":0.9,
-        "r":1.0,
-        "f":0.9473684211
-      },
-      "read_event":{
-        "p":1.0,
-        "r":0.8888888889,
-        "f":0.9411764706
-      },
-      "read_free_time":{
-        "p":0.9473684211,
-        "r":1.0,
-        "f":0.972972973
-      },
-      "update_event":{
-        "p":0.9565217391,
-        "r":1.0,
-        "f":0.9777777778
-      }
-    },
-    "tok2vec_loss":317.9440324725,
-    "ner_loss":166.9308776855,
-    "textcat_loss":0.0013436608
+    "tok2vec_loss":860.021900748,
+    "ner_loss":164.2785186768,
+    "textcat_loss":0.0029680723
   }
 }
