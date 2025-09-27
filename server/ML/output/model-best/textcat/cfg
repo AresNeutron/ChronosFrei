@@ -3,8 +3,7 @@
     "create_event",
     "delete_event",
     "read_event",
-    "read_free_time",
-    "update_event"
+    "read_free_time"
   ],
   "threshold":0.0,
   "positive_label":null

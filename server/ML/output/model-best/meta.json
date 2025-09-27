@@ -21,39 +21,14 @@
 
     ],
     "ner":[
-      "description",
-      "description_new",
-      "duration",
-      "duration_new",
-      "end_abs_date",
-      "end_abs_date_new",
-      "end_abs_time",
-      "end_abs_time_new",
-      "end_rel_date",
-      "end_rel_time",
-      "is_recurring_filter",
-      "is_recurring_filter_new",
-      "location",
-      "location_new",
-      "recurrence_rule",
-      "recurrence_rule_new",
-      "start_abs_date",
-      "start_abs_date_new",
-      "start_abs_time",
-      "start_abs_time_new",
-      "start_rel_date",
-      "start_rel_date_new",
-      "start_rel_time",
-      "start_rel_time_new",
-      "title",
-      "title_new"
+      "end_datetime",
+      "start_datetime"
     ],
     "textcat":[
       "create_event",
       "delete_event",
       "read_event",
-      "read_free_time",
-      "update_event"
+      "read_free_time"
     ]
   },
   "pipeline":[
@@ -70,110 +45,30 @@
 
   ],
   "performance":{
-    "ents_f":0.8227571116,
-    "ents_p":0.8173913043,
-    "ents_r":0.8281938326,
+    "ents_f":0.8251748252,
+    "ents_p":0.8550724638,
+    "ents_r":0.7972972973,
     "ents_per_type":{
-      "title":{
-        "p":0.8513513514,
-        "r":0.8873239437,
-        "f":0.8689655172
+      "start_datetime":{
+        "p":0.8596491228,
+        "r":0.8166666667,
+        "f":0.8376068376
       },
-      "location_new":{
-        "p":0.625,
+      "end_datetime":{
+        "p":0.8333333333,
         "r":0.7142857143,
-        "f":0.6666666667
-      },
-      "start_abs_date":{
-        "p":0.9230769231,
-        "r":0.8275862069,
-        "f":0.8727272727
-      },
-      "start_rel_date":{
-        "p":0.6666666667,
-        "r":0.6666666667,
-        "f":0.6666666667
-      },
-      "start_rel_time":{
-        "p":0.5,
-        "r":0.5,
-        "f":0.5
-      },
-      "duration":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "location":{
-        "p":0.7096774194,
-        "r":0.6875,
-        "f":0.6984126984
-      },
-      "recurrence_rule":{
-        "p":0.8888888889,
-        "r":0.8888888889,
-        "f":0.8888888889
-      },
-      "description":{
-        "p":1.0,
-        "r":0.6666666667,
-        "f":0.8
-      },
-      "end_abs_time":{
-        "p":1.0,
-        "r":0.9090909091,
-        "f":0.9523809524
-      },
-      "is_recurring_filter":{
-        "p":0.3333333333,
-        "r":0.5,
-        "f":0.4
-      },
-      "description_new":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "start_abs_date_new":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "start_abs_time_new":{
-        "p":0.5,
-        "r":1.0,
-        "f":0.6666666667
-      },
-      "end_abs_time_new":{
-        "p":0.5,
-        "r":1.0,
-        "f":0.6666666667
-      },
-      "start_abs_time":{
-        "p":0.8888888889,
-        "r":0.6666666667,
-        "f":0.7619047619
-      },
-      "duration_new":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "end_rel_date":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
+        "f":0.7692307692
       }
     },
-    "cats_score":0.9894949495,
+    "cats_score":0.9879240943,
     "cats_score_desc":"macro F",
-    "cats_micro_p":0.9896907216,
-    "cats_micro_r":0.9896907216,
-    "cats_micro_f":0.9896907216,
-    "cats_macro_p":0.9882352941,
-    "cats_macro_r":0.9913043478,
-    "cats_macro_f":0.9894949495,
-    "cats_macro_auc":0.9998824912,
+    "cats_micro_p":0.9885057471,
+    "cats_micro_r":0.9885057471,
+    "cats_micro_f":0.9885057471,
+    "cats_macro_p":0.9868421053,
+    "cats_macro_r":0.9895833333,
+    "cats_macro_f":0.9879240943,
+    "cats_macro_auc":0.9994680239,
     "cats_f_per_type":{
       "create_event":{
         "p":1.0,
@@ -181,28 +76,23 @@
         "f":1.0
       },
       "delete_event":{
-        "p":0.9411764706,
+        "p":0.9473684211,
         "r":1.0,
-        "f":0.9696969697
+        "f":0.972972973
       },
       "read_event":{
         "p":1.0,
-        "r":0.9565217391,
-        "f":0.9777777778
+        "r":0.9583333333,
+        "f":0.9787234043
       },
       "read_free_time":{
         "p":1.0,
         "r":1.0,
         "f":1.0
-      },
-      "update_event":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
       }
     },
-    "tok2vec_loss":535.9417977421,
-    "ner_loss":167.9520721436,
-    "textcat_loss":0.0105443583
+    "tok2vec_loss":51.9974094998,
+    "ner_loss":5.7417411804,
+    "textcat_loss":0.0132437442
   }
 }
