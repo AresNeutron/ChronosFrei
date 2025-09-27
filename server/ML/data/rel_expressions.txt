@@ -15,11 +15,11 @@ pasado mañana
 
 // hora relativa
 ahora
-por la tarde
-por la mañana
-por la noche
 hora del almuerzo
 hora de la cena
 
+"por la" || "en la" +
+"mañana", "tarde", "noche"
+
 "dentro de " || "en" || "de aquí a" +
-"x ["minutos", "horas"]"
+"x ["minutos", "horas", "media hora" "un cuarto de hora"]"
