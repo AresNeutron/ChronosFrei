@@ -1,0 +1,6 @@
+Unidad de Tiempo	Expresión (Ejemplos de entrenamiento)	Clase de spaCy (Etiqueta)	Lógica de Mapeo en Python
+Minuto (Variable)	"en 5 minutos", "dentro de 45 minutos"	TD_MINUTO	Extraer valor (N) → timedelta(minutes=N)
+Hora (Variable)	"en 3 horas", "dentro de una hora"	TD_HORA	Extraer valor (N) → timedelta(hours=N)
+Día (Variable)	"en 10 días", "dentro de 2 días"	TD_DIA	Extraer valor (N) → timedelta(days=N)
+Semana (Variable)	"en 3 semanas", "dentro de un par de semanas"	TD_SEMANA	Extraer valor (N) → timedelta(weeks=N)
+Mes (Variable)	"en 2 meses", "dentro de un mes"	TD_MES	Extraer valor (N) → Usar dateutil.relativedelta para months=N (Explicado abajo)
