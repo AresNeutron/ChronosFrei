@@ -1,0 +1,23 @@
+Etiqueta spaCy (Clase),Expresiones de Entrenamiento (Entidad extraída),Tipo de Cálculo,Lógica de Python (timedelta o relativedelta)
+TD_FECHA_FIJA,"el 12 de marzo", "el 1 de enero",Fijo (Fecha Específica),Requiere lógica de parsing simple de fechas, no timedelta
+TD_MINUTO,"en 5 minutos, en media hora, dentro de 45 minutos",Variable,timedelta(minutes=N)
+TD_HORA,"en 3 horas, dentro de una hora, en dos horas",Variable,timedelta(hours=N)
+TD_DIA,"en 10 días, dentro de 7 días, en 21 días",Variable,timedelta(days=N)
+TD_SEMANA,"en 3 semanas, dentro de un par de semanas",Variable,timedelta(weeks=N)
+TD_MES,"en 2 meses, dentro de un mes, en 6 meses",Variable,relativedelta(months=N)
+TD_DIA_1,"mañana, al día siguiente",Fijo (1 Día),timedelta(days=1)
+TD_DIA_2,"pasado mañana, dentro de dos días",Fijo (2 Días),timedelta(days=2)
+TD_SEM_2,"en una quincena, en quince días",Fijo (2 Semanas),timedelta(weeks=2)
+TD_HORA_MANANA,"por la mañana,a primera hora",Fijo (8:00),"relativedelta(hour=8)"
+TD_HORA_TARDE,"por la tarde",Fijo (15:00),"relativedelta(hour=15)"
+TD_HORA_NOCHE,"por la noche,a última hora,a la hora de dormir",Fijo (00:00),"relativedelta(hour=00)"
+TD_HORA_MEDIODIA,"al mediodía",Fijo (12:00),"relativedelta(hour=12)"
+TD_HORA_ALMUERZO,"hora del almuerzo,a la hora de comer",Fijo (13:00),"relativedelta(hour=13)"
+TD_HORA_CENA,"hora de la cena",Fijo (20:00),"relativedelta(hour=20)"
+TD_HORA_MADRUGADA,"a la madrugada",Fijo (5:00),"relativedelta(hour=5)"
+TD_HORA_ATARDECER,"al atardecer",Fijo (19:00),"relativedelta(hour=19)"
+TD_FIN_SEM,"el fin de semana", "este fin de semana",Fijo (Ej. Siguiente Viernes 18:00),Lógica de fecha/hora (e.g., siguiente viernes a las 18:00)
+TD_DIA_SEM, "este lunes", "lunes", 
+TD_DIA_MES	"el 12 del mes", "día 5 de este mes"	Variable	relativedelta(day=N)
+TD_FIN_MES	"a fin de mes", "el último día del mes"	Fijo	Lógica de fecha para el último día del mes actual/siguiente.
+TD_TRIMESTRE	"en un trimestre", "dentro de 3 meses"	Variable	relativedelta(months=N*3)
