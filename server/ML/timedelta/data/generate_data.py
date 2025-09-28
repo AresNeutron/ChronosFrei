@@ -1,9 +1,12 @@
 import json
 import random
 
-# Categories from estus.csv
+# TODO: fix this script to populate dataset with examples of all categories
+# read 'categories.csv' for info
 categories = [
     "TD_FECHA_FIJA",
+    "TD_HOY",
+    "TD_AHORA",
     "TD_MINUTO",
     "TD_HORA",
     "TD_DIA",

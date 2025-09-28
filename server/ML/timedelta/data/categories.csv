@@ -1,5 +1,7 @@
 Etiqueta spaCy (Clase),Expresiones de Entrenamiento (Entidad extraída),Tipo de Cálculo,Lógica de Python (timedelta o relativedelta)
 TD_FECHA_FIJA,"el 12 de marzo", "el 1 de enero",Fijo (Fecha Específica),Requiere lógica de parsing simple de fechas, no timedelta
+TD_AHORA 🆕	"ahora mismo", "ya", "en este momento", "inmediatamente"	Cero (Tiempo/Fecha Actual)	Devolver datetime.now()
+TD_HOY 🆕	"hoy", "este día"	Fijo (Día Actual)	Devolver datetime.now() a las 00:00:00
 TD_MINUTO,"en 5 minutos, en media hora, dentro de 45 minutos",Variable,timedelta(minutes=N)
 TD_HORA,"en 3 horas, dentro de una hora, en dos horas",Variable,timedelta(hours=N)
 TD_DIA,"en 10 días, dentro de 7 días, en 21 días",Variable,timedelta(days=N)
