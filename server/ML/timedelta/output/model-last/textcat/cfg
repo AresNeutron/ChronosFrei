@@ -1,0 +1,28 @@
+{
+  "labels":[
+    "TD_DIA_MES",
+    "TD_DIA",
+    "TD_FIN_MES",
+    "TD_HORA_MANANA",
+    "TD_DIA_2",
+    "TD_HORA",
+    "TD_SEM_2",
+    "TD_HORA_MADRUGADA",
+    "TD_HORA_MEDIODIA",
+    "TD_HORA_NOCHE",
+    "TD_HORA_TARDE",
+    "TD_DIA_1",
+    "TD_MES",
+    "TD_DIA_SEM",
+    "TD_HORA_ALMUERZO",
+    "TD_FIN_SEM",
+    "TD_MINUTO",
+    "TD_HORA_CENA",
+    "TD_FECHA_FIJA",
+    "TD_TRIMESTRE",
+    "TD_SEMANA",
+    "TD_HORA_ATARDECER"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
